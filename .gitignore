@@ -1,8 +1,4 @@
-# Ignore Everything
-/*
+INFINITE_RUNNER/Temp/UnityLockfile
+*.bakert
 
-# Except for these:
-!/.git
-!/.gitignore
-!/INFINITE_RUNNER/Assets
-!/INFINITE_RUNNER/ProjectSettings
+INFINITE_RUNNER/Library
