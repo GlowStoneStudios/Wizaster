@@ -7,12 +7,12 @@ public class PlayerBehaviour : MonoBehaviour
 	[Header("Movement Behaviour")]
 	public float speed;
 	public float playerGravity;
+	public Transform selfTrans;
 
 	public bool canMove { get; private set; }
 
 	float actualSpeed, actualPlayerGravity;
 	bool grounded;
-	Transform selfTrans;
 
 	public static PlayerBehaviour instance;
 
