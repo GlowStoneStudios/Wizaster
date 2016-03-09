@@ -7,15 +7,32 @@ public class GameController : MonoBehaviour
 	[Header ("Game Basics")]
 	public int timeToStart;
 
-	public static GameController instance;
+	public GameObject[] chunks; //aqui van los prefab de los chunks
+	public int levelLength = 100; //largo del nivel en chunks.
+	public float chunkSize = 30; //tamaño de los chunks, en unidades
 
-	PlayerBehaviour playerCharacterScript;
+	float curPlaceToSpawnChunks = 0;
+
+	public static GameController instance;
 	bool startClock, levelStarted;
 
 	/* Aplicacion al motor */
 	void Awake ()
 	{
 		instance = this;
+
+		if (chunks.Length > 0) 
+		{
+			for (int i = 0; i < levelLength; i++) {
+				int randomChunk = Random.Range (0, chunks.Length);
+				Vector3 posToSpawn = Vector3.forward * curPlaceToSpawnChunks;
+				GameObject tempChunk = Instantiate (chunks [randomChunk], posToSpawn, Quaternion.identity) as GameObject;
+
+				tempChunk.transform.SetParent (GameObject.Find ("Chunks").transform);
+				curPlaceToSpawnChunks += chunkSize;
+			}
+		}
+
 	}
 
 	void Start () 
