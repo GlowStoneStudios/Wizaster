@@ -45,6 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\_Code\Gameplay\CameraBehaviour.cs" />
      <Compile Include="Assets\_Code\Gameplay\GameController.cs" />
      <Compile Include="Assets\_Code\Gameplay\PlayerBehaviour.cs" />
      <Compile Include="Assets\_Code\HUD\ReadyGo.cs" />

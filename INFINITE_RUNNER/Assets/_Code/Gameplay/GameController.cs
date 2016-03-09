@@ -7,15 +7,19 @@ public class GameController : MonoBehaviour
 	[Header ("Game Basics")]
 	public int timeToStart;
 
+	public static GameController instance;
+
 	PlayerBehaviour playerCharacterScript;
 	bool startClock, levelStarted;
 
 	/* Aplicacion al motor */
+	void Awake ()
+	{
+		instance = this;
+	}
+
 	void Start () 
 	{
-		// Mem Cache
-		playerCharacterScript = GameObject.FindGameObjectWithTag ("Player").GetComponent<PlayerBehaviour>();
-
 		// Prevension
 		startClock = true;
 	}
@@ -35,7 +39,7 @@ public class GameController : MonoBehaviour
 			if (Time.timeSinceLevelLoad > seconds)
 			{
 				//Debug.Log ("Level Started!");
-				playerCharacterScript.PlayerGo ();
+				PlayerBehaviour.instance.PlayerGo ();
 				levelStarted = true;
 			}
 		}

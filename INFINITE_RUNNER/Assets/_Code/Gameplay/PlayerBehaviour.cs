@@ -14,7 +14,14 @@ public class PlayerBehaviour : MonoBehaviour
 	bool grounded;
 	Transform selfTrans;
 
+	public static PlayerBehaviour instance;
+
 	/* Aplicacion al motor */
+	void Awake ()
+	{
+		instance = this;
+	}
+
 	void Start ()
 	{
 		// Mem Cache
