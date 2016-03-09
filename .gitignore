@@ -1,0 +1,8 @@
+# Ignore Everything
+/*
+
+# Except for these:
+!/.git
+!/.gitignore
+!/INFINITE_RUNNER/Assets
+!/INFINITE_RUNNER/ProjectSettings
