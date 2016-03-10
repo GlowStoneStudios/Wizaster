@@ -6,7 +6,7 @@ public class PlayerBehaviour : MonoBehaviour
 	/* Atributos */
 	[Header("Movement Behaviour")]
 	public float speed;
-	public float playerGravity;
+	public float playerGravity;					// Sacar la gravedad para usar el motor de fisicas
 	public Transform selfTrans;
 
 	[Header ("Score by distance")]

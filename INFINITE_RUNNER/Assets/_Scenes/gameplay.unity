@@ -402,9 +402,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cda6073547cb17443beab29cf5e83535, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 10
   playerGravity: 0
   selfTrans: {fileID: 799290810}
+  scoreFreq: 0
 --- !u!1 &889584377
 GameObject:
   m_ObjectHideFlags: 0
@@ -730,8 +731,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1414540513}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.5, z: 0}
-  m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
+  m_LocalPosition: {x: 0, y: 1.05, z: 0}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_Children:
   - {fileID: 1385875561}
   - {fileID: 1462136861}
@@ -774,7 +775,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: f0de44c90e5c1234c903b93f7fa6bc55, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f0de44c90e5c1234c903b93f7fa6bc55, type: 3}
@@ -811,6 +812,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToStart: 3
+  mainScore: 0
   chunks:
   - {fileID: 182930, guid: adf6e2b7f51e0204d82d88b8ce940ee9, type: 2}
   - {fileID: 182930, guid: 230ef2e28f772d049a0b4f30eb874b3a, type: 2}

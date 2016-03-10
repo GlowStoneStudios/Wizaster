@@ -270,20 +270,20 @@
  <Reference Include="ShaderForge">
  <HintPath>C:/Users/CD/Documents/GitHub/i_runner/INFINITE_RUNNER/Assets/_ThirdParty/ShaderForge/Editor/ShaderForge.dll</HintPath>
  </Reference>
- <Reference Include="UnityEditor.Graphs">
- <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ <Reference Include="CommandLine">
+ <HintPath>C:/Users/CD/Documents/GitHub/i_runner/INFINITE_RUNNER/Assets/_ThirdParty/UVersionControl/Editor/CommandLine.dll</HintPath>
+ </Reference>
+ <Reference Include="Common">
+ <HintPath>C:/Users/CD/Documents/GitHub/i_runner/INFINITE_RUNNER/Assets/_ThirdParty/UVersionControl/Editor/Common.dll</HintPath>
  </Reference>
  <Reference Include="SVNBackend">
  <HintPath>C:/Users/CD/Documents/GitHub/i_runner/INFINITE_RUNNER/Assets/_ThirdParty/UVersionControl/Editor/SVNBackend.dll</HintPath>
  </Reference>
- <Reference Include="CommandLine">
- <HintPath>C:/Users/CD/Documents/GitHub/i_runner/INFINITE_RUNNER/Assets/_ThirdParty/UVersionControl/Editor/CommandLine.dll</HintPath>
- </Reference>
  <Reference Include="UnityVersionControl">
  <HintPath>C:/Users/CD/Documents/GitHub/i_runner/INFINITE_RUNNER/Assets/_ThirdParty/UVersionControl/Editor/UnityVersionControl.dll</HintPath>
  </Reference>
- <Reference Include="Common">
- <HintPath>C:/Users/CD/Documents/GitHub/i_runner/INFINITE_RUNNER/Assets/_ThirdParty/UVersionControl/Editor/Common.dll</HintPath>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

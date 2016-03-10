@@ -42,6 +42,7 @@ public class CameraBehaviour : MonoBehaviour
 
 	void Update()
 	{
+		// Shake
 		if (CameraShake) {
 			if (shaker.localPosition.x > maxX) {
 				Xdir = -1;
@@ -63,7 +64,6 @@ public class CameraBehaviour : MonoBehaviour
 			Vector3 tempPos = new Vector3 (tempX, tempY, Random.Range (-1f, 1f));
 
 			shaker.localPosition = Vector3.Lerp (shaker.localPosition, tempPos, Time.deltaTime * ShakeMagnitude);
-
 		} 
 		else 
 		{
