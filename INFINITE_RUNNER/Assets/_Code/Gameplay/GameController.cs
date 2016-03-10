@@ -6,7 +6,8 @@ public class GameController : MonoBehaviour
 	/* Atributos */
 	[Header ("Game Basics")]
 	public int timeToStart;
-
+	public int mainScore;
+	[Header ("Level Spawn")]
 	public GameObject[] chunks; //aqui van los prefab de los chunks
 	public int levelLength = 100; //largo del nivel en chunks.
 	public float chunkSize = 30; //tamaño de los chunks, en unidades
