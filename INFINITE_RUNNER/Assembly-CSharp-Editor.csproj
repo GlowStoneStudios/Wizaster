@@ -199,6 +199,7 @@
      <None Include="Assets\_ThirdParty\ShaderForge\Editor\InternalResources\GPU Rendering\SFN_Noise\SFN_Noise.shader" />
      <None Include="Assets\_ThirdParty\ShaderForge\Editor\InternalResources\Shader Presets\PresetBasic.shader" />
      <None Include="Assets\_ThirdParty\ShaderForge\Editor\InternalResources\GPU Rendering\SFN_DDX\SFN_DDX.shader" />
+     <None Include="Assets\_ThirdParty\UVersionControl\README.txt" />
      <None Include="Assets\_ThirdParty\ShaderForge\Editor\InternalResources\GPU Rendering\SFN_Tex2d\SFN_Tex2d_MIP.shader" />
      <None Include="Assets\_ThirdParty\ShaderForge\Editor\InternalResources\GPU Rendering\SFN_Sqrt\SFN_Sqrt.shader" />
      <None Include="Assets\_ThirdParty\ShaderForge\Editor\InternalResources\GPU Rendering\SFN_Depth\SFN_Depth.shader" />
@@ -271,6 +272,18 @@
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="SVNBackend">
+ <HintPath>C:/Users/CD/Documents/GitHub/i_runner/INFINITE_RUNNER/Assets/_ThirdParty/UVersionControl/Editor/SVNBackend.dll</HintPath>
+ </Reference>
+ <Reference Include="CommandLine">
+ <HintPath>C:/Users/CD/Documents/GitHub/i_runner/INFINITE_RUNNER/Assets/_ThirdParty/UVersionControl/Editor/CommandLine.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityVersionControl">
+ <HintPath>C:/Users/CD/Documents/GitHub/i_runner/INFINITE_RUNNER/Assets/_ThirdParty/UVersionControl/Editor/UnityVersionControl.dll</HintPath>
+ </Reference>
+ <Reference Include="Common">
+ <HintPath>C:/Users/CD/Documents/GitHub/i_runner/INFINITE_RUNNER/Assets/_ThirdParty/UVersionControl/Editor/Common.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

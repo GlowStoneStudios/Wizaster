@@ -9,9 +9,12 @@ public class PlayerBehaviour : MonoBehaviour
 	public float playerGravity;
 	public Transform selfTrans;
 
+	[Header ("Score by distance")]
+	public int scoreFreq;
+
 	public bool canMove { get; private set; }
 
-	float actualSpeed, actualPlayerGravity;
+	float actualSpeed, actualPlayerGravity, nextPoint;
 	bool grounded;
 
 	public static PlayerBehaviour instance;
@@ -19,6 +22,7 @@ public class PlayerBehaviour : MonoBehaviour
 	/* Aplicacion al motor */
 	void Awake ()
 	{
+		// Mem Cache
 		instance = this;
 	}
 
@@ -32,6 +36,7 @@ public class PlayerBehaviour : MonoBehaviour
 		if (playerGravity == 0.0f) playerGravity = 9.8f; 
 		actualPlayerGravity = playerGravity;
 		actualSpeed = speed;
+		if (scoreFreq == 0) scoreFreq = 1;
 
 		grounded = true;
 		//Debug.Log ("Velocidad = " + actualSpeed + "\nGravedad = " + actualPlayerGravity);
@@ -55,12 +60,20 @@ public class PlayerBehaviour : MonoBehaviour
 
 			// Se desplaza en Z hacia adelante, y leemos la gravedad (para saltos o caidas que vayan a haber)
 			selfTrans.Translate (0, actualPlayerGravity, actualSpeed * Time.deltaTime);
+
+			/* Puntos por distancia */
+			if (Time.timeSinceLevelLoad > nextPoint)
+			{
+				nextPoint = Time.timeSinceLevelLoad + 1;
+				GameController.instance.mainScore += scoreFreq;
+			}
 		}
 	}
 
 	/* Metodos de la clase */
 	public void PlayerGo ()
 	{
+		nextPoint = Time.timeSinceLevelLoad + 1;
 		canMove = true;
 	}
 
@@ -80,4 +93,4 @@ public class PlayerBehaviour : MonoBehaviour
 			grounded = false;
 		}
 	}
-}
+}	

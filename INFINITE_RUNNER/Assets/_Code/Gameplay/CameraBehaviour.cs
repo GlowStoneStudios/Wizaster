@@ -9,7 +9,7 @@ public class CameraBehaviour : MonoBehaviour
 
 	Transform selfTrans;
 	Transform shaker;
-
+	[Header ("Camera Shake")]
 	public bool CameraShake;
 	public Vector2 ShakeRange = new Vector2(0.2f,0.2f);
 	public float ShakeSpeed = 2f, ShakeMagnitude = 1f;
@@ -22,14 +22,12 @@ public class CameraBehaviour : MonoBehaviour
 	/* Aplicacion al motor */
 	void Awake ()
 	{
-		instance = this;
-		// Prevension
-		if (speed == 0.0f) speed = 2.0f;
-
 		// Mem Cache
+		instance = this;
 		selfTrans = this.transform;
 		shaker = Camera.main.transform.parent;
 
+		// Prevension
 		minX = shaker.localPosition.x - ShakeRange.x;
 		maxX = shaker.localPosition.x + ShakeRange.x;
 
@@ -38,6 +36,8 @@ public class CameraBehaviour : MonoBehaviour
 
 		tempX = shaker.localPosition.x;
 		tempY = shaker.localPosition.y;
+
+		if (speed == 0.0f) speed = 2.0f;
 	}
 
 	void Update()
@@ -75,7 +75,17 @@ public class CameraBehaviour : MonoBehaviour
 	{
 		// Desplazamiento camara
 		selfTrans.position = Vector3.Lerp (selfTrans.position, PlayerBehaviour.instance.selfTrans.position, speed * Time.deltaTime);
+	}
 
-
+	/* Metodos de la clase */
+	public void DoShake (float duration)
+	{
+		// Duracion para el shake, y poder llamarlo desde distintos objetos.
+		duration -= Time.deltaTime;
+		if (duration > 0) {
+			CameraShake = true;
+		} else {
+			CameraShake = false;
+		}
 	}
 }

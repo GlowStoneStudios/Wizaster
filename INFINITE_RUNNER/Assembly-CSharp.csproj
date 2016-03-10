@@ -48,6 +48,7 @@
      <Compile Include="Assets\_Code\Gameplay\CameraBehaviour.cs" />
      <Compile Include="Assets\_Code\Gameplay\GameController.cs" />
      <Compile Include="Assets\_Code\Gameplay\PlayerBehaviour.cs" />
+     <Compile Include="Assets\_Code\HUD\MenuController.cs" />
      <Compile Include="Assets\_Code\HUD\ReadyGo.cs" />
      <Compile Include="Assets\_ThirdParty\ShaderForge\Example Assets\Scripts\EditorLabel.cs" />
      <Compile Include="Assets\_ThirdParty\ShaderForge\Example Assets\Scripts\EnableCameraDepthInForward.cs" />
@@ -204,6 +205,7 @@
      <None Include="Assets\_ThirdParty\ShaderForge\Editor\InternalResources\GPU Rendering\SFN_Noise\SFN_Noise.shader" />
      <None Include="Assets\_ThirdParty\ShaderForge\Editor\InternalResources\Shader Presets\PresetBasic.shader" />
      <None Include="Assets\_ThirdParty\ShaderForge\Editor\InternalResources\GPU Rendering\SFN_DDX\SFN_DDX.shader" />
+     <None Include="Assets\_ThirdParty\UVersionControl\README.txt" />
      <None Include="Assets\_ThirdParty\ShaderForge\Editor\InternalResources\GPU Rendering\SFN_Tex2d\SFN_Tex2d_MIP.shader" />
      <None Include="Assets\_ThirdParty\ShaderForge\Editor\InternalResources\GPU Rendering\SFN_Sqrt\SFN_Sqrt.shader" />
      <None Include="Assets\_ThirdParty\ShaderForge\Editor\InternalResources\GPU Rendering\SFN_Depth\SFN_Depth.shader" />
