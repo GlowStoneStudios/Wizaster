@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {
@@ -7,6 +8,9 @@ public class GameController : MonoBehaviour
 	[Header ("Game Basics")]
 	public int timeToStart;
 	public int mainScore;
+
+	public Slider staminaBar;
+
 	[Header ("Level Spawn")]
 	public GameObject[] chunks; //aqui van los prefab de los chunks
 	public int levelLength = 100; //largo del nivel en chunks.
@@ -15,7 +19,10 @@ public class GameController : MonoBehaviour
 	float curPlaceToSpawnChunks = 0;
 
 	public static GameController instance;
-	bool startClock, levelStarted;
+	bool startClock;
+	public bool levelStarted { get; private set; }
+
+	public float TravelDistance = 0;
 
 	/* Aplicacion al motor */
 	void Awake ()
@@ -46,6 +53,9 @@ public class GameController : MonoBehaviour
 	{
 		// Llamamos al timer
 		if (!levelStarted) InitialCounter (startClock, timeToStart);
+
+		TravelDistance = PlayerBehaviour.instance.selfTrans.position.z;
+		staminaBar.value = PlayerBehaviour.instance.stamina;
 	}
 
 	/* Metodos de la clase */

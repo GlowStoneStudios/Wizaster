@@ -5,14 +5,16 @@ public class CameraBehaviour : MonoBehaviour
 {
 	/* Atributos */
 	[Header ("Movement")]
-	public float speed;
+	public float followSpeed = 6f;
 
 	Transform selfTrans;
 	Transform shaker;
 	[Header ("Camera Shake")]
 	public bool CameraShake;
 	public Vector2 ShakeRange = new Vector2(0.2f,0.2f);
-	public float ShakeSpeed = 2f, ShakeMagnitude = 1f;
+	public float ShakeSpeed = 20f; //magnitud del temblor cuando el fin del mundo esta a 0,0,0 del personaje
+
+
 
 	float minX, maxX, minY, maxY, Ydir = 1f,Xdir = 1f;
 	float tempX = 0f, tempY = 0f;
@@ -37,7 +39,7 @@ public class CameraBehaviour : MonoBehaviour
 		tempX = shaker.localPosition.x;
 		tempY = shaker.localPosition.y;
 
-		if (speed == 0.0f) speed = 2.0f;
+		if (followSpeed == 0.0f) followSpeed = 2.0f;
 	}
 
 	void Update()
@@ -58,12 +60,13 @@ public class CameraBehaviour : MonoBehaviour
 				Ydir = 1;
 			}
 
-			tempX += Time.deltaTime * speed * Xdir;
-			tempY += Time.deltaTime * speed * Ydir;
+			tempX += Time.deltaTime * ShakeSpeed * Xdir;
+			tempY += Time.deltaTime * ShakeSpeed * Ydir;
 
 			Vector3 tempPos = new Vector3 (tempX, tempY, Random.Range (-1f, 1f));
 
-			shaker.localPosition = Vector3.Lerp (shaker.localPosition, tempPos, Time.deltaTime * ShakeMagnitude);
+			shaker.localPosition = Vector3.Lerp (shaker.localPosition, tempPos, Time.deltaTime * ShakeSpeed );
+		 
 		} 
 		else 
 		{
@@ -74,7 +77,7 @@ public class CameraBehaviour : MonoBehaviour
 	void LateUpdate ()
 	{
 		// Desplazamiento camara
-		selfTrans.position = Vector3.Lerp (selfTrans.position, PlayerBehaviour.instance.selfTrans.position, speed * Time.deltaTime);
+		selfTrans.position = Vector3.Lerp (selfTrans.position, PlayerBehaviour.instance.selfTrans.position, followSpeed * Time.deltaTime);
 	}
 
 	/* Metodos de la clase */
@@ -88,4 +91,15 @@ public class CameraBehaviour : MonoBehaviour
 			CameraShake = false;
 		}
 	}
+
+	public void ProximityShake(float farRange, float curPos, float maxShakeIntensity)
+	{
+		
+		float speedForce = ExtensionMethods.Remap (curPos,0f,farRange,0f,maxShakeIntensity);
+
+		ShakeSpeed = (maxShakeIntensity - speedForce);
+		//print (ShakeSpeed);
+	}
+
+
 }

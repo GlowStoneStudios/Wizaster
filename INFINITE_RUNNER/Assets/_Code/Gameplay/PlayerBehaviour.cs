@@ -5,9 +5,15 @@ public class PlayerBehaviour : MonoBehaviour
 {
 	/* Atributos */
 	[Header("Movement Behaviour")]
-	public float speed;
+	public float moveSpeed = 10f;
+	public float jumpPower = 100f;
 	public float playerGravity;					// Sacar la gravedad para usar el motor de fisicas
-	public Transform selfTrans;
+	public Transform selfTrans { get; private set; }
+
+	[Header ("Role stuff")]
+	public bool isAlive = true;
+	public float stamina = 100f;
+
 
 	[Header ("Score by distance")]
 	public int scoreFreq;
@@ -32,10 +38,10 @@ public class PlayerBehaviour : MonoBehaviour
 		selfTrans = this.transform;
 
 		// Prevension
-		if (speed == 0.0f) speed = 2.0f;
+		if (moveSpeed == 0.0f) moveSpeed = 2.0f;
 		if (playerGravity == 0.0f) playerGravity = 9.8f; 
 		actualPlayerGravity = playerGravity;
-		actualSpeed = speed;
+		actualSpeed = moveSpeed;
 		if (scoreFreq == 0) scoreFreq = 1;
 
 		grounded = true;
@@ -45,21 +51,27 @@ public class PlayerBehaviour : MonoBehaviour
 	void Update ()
 	{
 		// Cuando el personaje se pueda mover
+
+		if (isAlive && GameController.instance.levelStarted) {
+			canMove = true;
+		} else {
+			canMove = false;
+		}
 		if (canMove)
 		{
 			/* Condiciones de movimiento */
+
 			// Gravedad
-			if (grounded)
-			{
-				actualPlayerGravity = 0.0f;
-			} 
-			else 
-			{
-				actualPlayerGravity = playerGravity;
+
+			moveSpeed += 0.033f * Time.deltaTime; 
+			if (stamina > 0.1f) {
+				stamina -= Time.deltaTime * 0.75f;
 			}
 
+
 			// Se desplaza en Z hacia adelante, y leemos la gravedad (para saltos o caidas que vayan a haber)
-			selfTrans.Translate (0, actualPlayerGravity, actualSpeed * Time.deltaTime);
+			//selfTrans.Translate (0, actualPlayerGravity, actualSpeed * Time.deltaTime);
+			selfTrans.Translate (Vector3.forward * moveSpeed * Time.deltaTime);
 
 			/* Puntos por distancia */
 			if (Time.timeSinceLevelLoad > nextPoint)
