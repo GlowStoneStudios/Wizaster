@@ -25,6 +25,11 @@ public class PlayerBehaviour : MonoBehaviour
 
 	public static PlayerBehaviour instance;
 
+    [Header ("Info")]
+    public string groundObjectTag;
+    public Transform curParent;
+    RaycastHit hit;
+
 	/* Aplicacion al motor */
 	void Awake ()
 	{
@@ -50,6 +55,27 @@ public class PlayerBehaviour : MonoBehaviour
 	
 	void Update ()
 	{
+        if (Physics.Raycast(selfTrans.position, -Vector3.up, out hit, 0.5f))
+        {
+            groundObjectTag = hit.transform.tag;
+
+            if (hit.transform.tag == "Platform")
+            {
+                if (curParent != hit.transform)
+                {
+                    selfTrans.SetParent(hit.transform);
+                    curParent = selfTrans.parent;
+                }
+            }
+            else
+            {
+                if (curParent != null)
+                {
+                    selfTrans.parent = null;
+                    curParent = null;
+                }
+            }
+        }
 		// Cuando el personaje se pueda mover
 
 		if (isAlive && GameController.instance.levelStarted) {
@@ -71,7 +97,7 @@ public class PlayerBehaviour : MonoBehaviour
 
 			// Se desplaza en Z hacia adelante, y leemos la gravedad (para saltos o caidas que vayan a haber)
 			//selfTrans.Translate (0, actualPlayerGravity, actualSpeed * Time.deltaTime);
-			selfTrans.Translate (Vector3.forward * moveSpeed * Time.deltaTime);
+            selfTrans.Translate (Vector3.forward * moveSpeed * Time.deltaTime, Space.World);
 
 			/* Puntos por distancia */
 			if (Time.timeSinceLevelLoad > nextPoint)
@@ -94,7 +120,7 @@ public class PlayerBehaviour : MonoBehaviour
 	{
 		if (other.tag == "Default")
 		{
-			grounded = true;
+		//	grounded = true;
 		}
 	}
 
@@ -102,7 +128,7 @@ public class PlayerBehaviour : MonoBehaviour
 	{
 		if (other.tag == "Default")
 		{
-			grounded = false;
+		//	grounded = false;
 		}
 	}
 }	

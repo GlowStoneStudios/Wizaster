@@ -11,6 +11,8 @@ public class GameController : MonoBehaviour
 
 	public Slider staminaBar;
 
+    public float ObjectsDragForce = 4f;
+
 	[Header ("Level Spawn")]
 	public GameObject[] chunks; //aqui van los prefab de los chunks
 	public int levelLength = 100; //largo del nivel en chunks.

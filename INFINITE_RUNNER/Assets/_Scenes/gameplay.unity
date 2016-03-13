@@ -588,52 +588,8 @@ MonoBehaviour:
   isAlive: 1
   stamina: 100
   scoreFreq: 0
---- !u!1001 &802273746
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 445676, guid: adf6e2b7f51e0204d82d88b8ce940ee9, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 445676, guid: adf6e2b7f51e0204d82d88b8ce940ee9, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 445676, guid: adf6e2b7f51e0204d82d88b8ce940ee9, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 445676, guid: adf6e2b7f51e0204d82d88b8ce940ee9, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 445676, guid: adf6e2b7f51e0204d82d88b8ce940ee9, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 445676, guid: adf6e2b7f51e0204d82d88b8ce940ee9, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 445676, guid: adf6e2b7f51e0204d82d88b8ce940ee9, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 445676, guid: adf6e2b7f51e0204d82d88b8ce940ee9, type: 2}
-      propertyPath: m_RootOrder
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 182930, guid: adf6e2b7f51e0204d82d88b8ce940ee9, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: adf6e2b7f51e0204d82d88b8ce940ee9, type: 2}
-  m_IsPrefabParent: 0
+  groundObjectTag: 
+  curParent: {fileID: 0}
 --- !u!1 &889584377
 GameObject:
   m_ObjectHideFlags: 0
@@ -695,6 +651,52 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
+--- !u!1001 &906670478
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 445676, guid: adf6e2b7f51e0204d82d88b8ce940ee9, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 445676, guid: adf6e2b7f51e0204d82d88b8ce940ee9, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 445676, guid: adf6e2b7f51e0204d82d88b8ce940ee9, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 445676, guid: adf6e2b7f51e0204d82d88b8ce940ee9, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 445676, guid: adf6e2b7f51e0204d82d88b8ce940ee9, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 445676, guid: adf6e2b7f51e0204d82d88b8ce940ee9, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 445676, guid: adf6e2b7f51e0204d82d88b8ce940ee9, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 445676, guid: adf6e2b7f51e0204d82d88b8ce940ee9, type: 2}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 182930, guid: adf6e2b7f51e0204d82d88b8ce940ee9, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: adf6e2b7f51e0204d82d88b8ce940ee9, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &978273713
 GameObject:
   m_ObjectHideFlags: 0
@@ -1202,6 +1204,7 @@ MonoBehaviour:
   timeToStart: 3
   mainScore: 0
   staminaBar: {fileID: 1374568272}
+  ObjectsDragForce: 9
   chunks:
   - {fileID: 182930, guid: adf6e2b7f51e0204d82d88b8ce940ee9, type: 2}
   - {fileID: 182930, guid: 230ef2e28f772d049a0b4f30eb874b3a, type: 2}
