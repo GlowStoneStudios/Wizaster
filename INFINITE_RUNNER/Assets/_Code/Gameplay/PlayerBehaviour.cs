@@ -61,11 +61,13 @@ public class PlayerBehaviour : MonoBehaviour
 
             if (hit.transform.tag == "Platform")
             {
-                if (curParent != hit.transform)
-                {
-                    selfTrans.SetParent(hit.transform);
-                    curParent = selfTrans.parent;
-                }
+				if (hit.transform.GetComponent<MovableObject> ().playerChild) 
+				{
+					if (curParent != hit.transform) {
+						selfTrans.SetParent (hit.transform);
+						curParent = selfTrans.parent;
+					}
+				}
             }
             else
             {
