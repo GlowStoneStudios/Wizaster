@@ -2,3 +2,5 @@ INFINITE_RUNNER/Temp/UnityLockfile
 *.bakert
 
 INFINITE_RUNNER/Library
+*.csproj
+INFINITE_RUNNER/Library/assetDatabase3

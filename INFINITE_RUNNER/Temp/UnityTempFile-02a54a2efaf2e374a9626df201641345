@@ -2,14 +2,12 @@
 -target:library
 -nowarn:0169
 -out:Temp/Assembly-CSharp.dll
--r:"C:/Program Files/Unity533/Editor/Data/Managed/UnityEngine.dll"
--r:"C:/Program Files/Unity533/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
--r:"C:/Program Files/Unity533/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
--r:"C:/Program Files/Unity533/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
--r:"C:/Program Files/Unity533/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
--r:"C:/Program Files/Unity533/Editor/Data/Managed/UnityEditor.dll"
--r:"C:/Program Files/Unity533/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll"
--r:"C:/Program Files/Unity533/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll"
 -define:UNITY_5_3_3
 -define:UNITY_5_3
 -define:UNITY_5
@@ -74,8 +72,6 @@
 -define:UNITY_EDITOR
 -define:UNITY_EDITOR_64
 -define:UNITY_EDITOR_WIN
--define:UNITY_TEAM_LICENSE
--define:UNITY_PRO_LICENSE
 Assets/_Code/ExtensionMethods.cs
 Assets/_Code/Gameplay/CameraBehaviour.cs
 Assets/_Code/Gameplay/Enemy_endworld.cs
