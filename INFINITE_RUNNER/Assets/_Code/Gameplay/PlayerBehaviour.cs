@@ -5,7 +5,15 @@ public class PlayerBehaviour : MonoBehaviour
 {
 	/* Atributos */
 	[Header("Movement Behaviour")]
-	public float moveSpeed = 10f;
+	public float normalSpeed = 10f; 
+	public float slowSpeed,rushSpeed;
+	[Space()]
+	public float rushRate = 1.66f; 
+	public float slowRate = 0.7f;
+
+	public enum runningMode{Normal, Slowed, Rush}
+	public runningMode runMode;
+
 	public float jumpPower = 100f;
 	public float playerGravity;					// Sacar la gravedad para usar el motor de fisicas
 	public Transform selfTrans { get; private set; }
@@ -20,7 +28,9 @@ public class PlayerBehaviour : MonoBehaviour
 
 	public bool canMove { get; private set; }
 
-	float actualSpeed, actualPlayerGravity, nextPoint;
+	public float actualSpeed;
+
+	float actualPlayerGravity, nextPoint;
 	bool grounded;
 
 	public static PlayerBehaviour instance;
@@ -43,10 +53,10 @@ public class PlayerBehaviour : MonoBehaviour
 		selfTrans = this.transform;
 
 		// Prevension
-		if (moveSpeed == 0.0f) moveSpeed = 2.0f;
+
 		if (playerGravity == 0.0f) playerGravity = 9.8f; 
 		actualPlayerGravity = playerGravity;
-		actualSpeed = moveSpeed;
+		actualSpeed = normalSpeed;
 		if (scoreFreq == 0) scoreFreq = 1;
 
 		grounded = true;
@@ -55,6 +65,26 @@ public class PlayerBehaviour : MonoBehaviour
 	
 	void Update ()
 	{
+		switch (runMode) 
+		{
+
+			case runningMode.Normal:
+				actualSpeed = normalSpeed;
+				break;
+
+			case runningMode.Slowed:
+				actualSpeed = slowSpeed;
+				break;
+
+			case runningMode.Rush:
+				actualSpeed = rushSpeed;
+				break;
+
+		}
+
+		rushSpeed = normalSpeed * rushRate;
+		slowSpeed = normalSpeed * slowRate;
+		
         if (Physics.Raycast(selfTrans.position, -Vector3.up, out hit, 0.5f))
         {
             groundObjectTag = hit.transform.tag;
@@ -91,7 +121,7 @@ public class PlayerBehaviour : MonoBehaviour
 
 			// Gravedad
 
-			moveSpeed += 0.033f * Time.deltaTime; 
+			normalSpeed += 0.033f * Time.deltaTime; 
 			if (stamina > 0.1f) {
 				stamina -= Time.deltaTime * 0.75f;
 			}
@@ -99,7 +129,7 @@ public class PlayerBehaviour : MonoBehaviour
 
 			// Se desplaza en Z hacia adelante, y leemos la gravedad (para saltos o caidas que vayan a haber)
 			//selfTrans.Translate (0, actualPlayerGravity, actualSpeed * Time.deltaTime);
-            selfTrans.Translate (Vector3.forward * moveSpeed * Time.deltaTime, Space.World);
+			selfTrans.Translate (Vector3.forward * actualSpeed * Time.deltaTime, Space.World);
 
 			/* Puntos por distancia */
 			if (Time.timeSinceLevelLoad > nextPoint)
@@ -118,17 +148,18 @@ public class PlayerBehaviour : MonoBehaviour
 	}
 
 	/* Triggers */
-	void OnTriggerEnter2D (Collider2D other)
+	void OnTriggerEnter (Collider o)
 	{
-		if (other.tag == "Default")
+		if (o.tag == "Coin")
 		{
-		//	grounded = true;
+			//GameController.instance.AddScore (GameController.instance.coinValue);
+			o.gameObject.SetActive(false);
 		}
 	}
 
-	void OnTriggerExit2D (Collider2D other)
+	void OnTriggerExit (Collider o)
 	{
-		if (other.tag == "Default")
+		if (o.tag == "Default")
 		{
 		//	grounded = false;
 		}

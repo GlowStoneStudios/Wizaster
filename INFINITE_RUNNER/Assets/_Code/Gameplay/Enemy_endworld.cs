@@ -11,7 +11,7 @@ public class Enemy_endworld : MonoBehaviour {
 		cached = this.transform;
 	}
 	void Start(){
-		speed = PlayerBehaviour.instance.moveSpeed;
+		speed = PlayerBehaviour.instance.normalSpeed;
 	}
 	// Update is called once per frame
 	void Update () {
