@@ -4,18 +4,22 @@ using System.Collections;
 public class PlayerBehaviour : MonoBehaviour 
 {
 	/* Atributos */
-	[Header("Movement Behaviour")]
+	public static PlayerBehaviour instance;
+
+	[Header ("Movement Behaviour")]
 	public float normalSpeed = 10f; 
-	public float slowSpeed,rushSpeed;
-	[Space()]
+	public float slowSpeed, rushSpeed;
+	Rigidbody selfRb;
+
+	[Header ("Space")]
 	public float rushRate = 1.66f; 
 	public float slowRate = 0.7f;
 
 	public enum runningMode{Normal, Slowed, Rush}
 	public runningMode runMode;
 
-	public float jumpPower = 100f;
-	public float playerGravity;					// Sacar la gravedad para usar el motor de fisicas
+	public Vector3 jumpPower = new Vector3 (0, 100.0f, 10.0f);
+	public float playerGravity;										// Sacar la gravedad para usar el motor de fisicas
 	public Transform selfTrans { get; private set; }
 
 	[Header ("Role stuff")]
@@ -25,15 +29,10 @@ public class PlayerBehaviour : MonoBehaviour
 
 	[Header ("Score by distance")]
 	public int scoreFreq;
-
 	public bool canMove { get; private set; }
-
 	public float actualSpeed;
-
 	float actualPlayerGravity, nextPoint;
 	bool grounded;
-
-	public static PlayerBehaviour instance;
 
     [Header ("Info")]
     public string groundObjectTag;
@@ -143,12 +142,14 @@ public class PlayerBehaviour : MonoBehaviour
 	}
 
 	/* Metodos de la clase */
-	public void PlayerGo ()
-	{
+	public void PlayerGo ()	{
 		nextPoint = Time.timeSinceLevelLoad + 1;
 		canMove = true;
 	}
 
+	public void DoJump () {
+		selfRb.AddForce (jumpPower, ForceMode.Impulse);
+	}
 	/* Triggers */
 	void OnTriggerEnter (Collider o)
 	{
@@ -161,12 +162,15 @@ public class PlayerBehaviour : MonoBehaviour
         // Powers -----------------------------------------------------------------------------------------------
         if (o.tag == "Powers") {
             PowerUpsDowns script = o.gameObject.GetComponent<PowerUpsDowns> ();
-            if (script.PowerUpType != PowerUpsDowns.powerUp.NONE) {
-                // Si es power up...    
-                GameController.instance.PowerUp (script.PowerUpType.ToString(), script.powerUpDuration);
-            } else {
-                // Sino...
-                GameController.instance.PowerDown (script.PowerDownType.ToString(), script.powerDownDuration);
+			if (script.PowerUpType != PowerUpsDowns.powerUp.NONE) {
+				// Si se escogio un power up ...
+				GameController.instance.PowerUp (script.PowerUpType.ToString (), script.powerUpDuration);
+			} else if (script.PowerDownType != PowerUpsDowns.powerDown.NONE) {
+				// O un power down ...
+				GameController.instance.PowerDown (script.PowerDownType.ToString(), script.powerDownDuration);
+			} else {
+				// Sino no pasa nada.
+				return;
             }
         }
 
@@ -181,4 +185,4 @@ public class PlayerBehaviour : MonoBehaviour
             GameController.instance.AddScore (50);
         }
 	}
-}	
+}
