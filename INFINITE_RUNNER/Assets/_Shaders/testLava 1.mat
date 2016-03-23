@@ -6,8 +6,8 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: testLava
-  m_Shader: {fileID: 4800000, guid: 1fafafd3a5f5afc4fb213dc9f6ea8466, type: 3}
+  m_Name: testLava 1
+  m_Shader: {fileID: 4800000, guid: 46b60057eda3d6241bd2e175a3dbc589, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
   m_CustomRenderQueue: 3000
@@ -26,7 +26,7 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 0}
+          m_Texture: {fileID: 2800000, guid: 43a01833daadce541b59cbeedccf8314, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -87,6 +87,13 @@ Material:
           m_Offset: {x: 0, y: 0}
       data:
         first:
+          name: _Diffuse
+        second:
+          m_Texture: {fileID: 2800000, guid: ccaed10ae4949a24197e0dc42ec0b28f, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
           name: _ReflectionTex
         second:
           m_Texture: {fileID: 0}
@@ -131,7 +138,7 @@ Material:
         first:
           name: _Normal
         second:
-          m_Texture: {fileID: 2800000, guid: 43a01833daadce541b59cbeedccf8314, type: 3}
+          m_Texture: {fileID: 2800000, guid: a8438093ce320234c87e031b79606bc5, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -225,11 +232,67 @@ Material:
           m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _node_266
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _node_2556
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _node_5436
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _node_1794
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Flowmap
+        second:
+          m_Texture: {fileID: 2800000, guid: 5e567094f7568c746bdd5a6b92c37c47, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Noise
+        second:
+          m_Texture: {fileID: 2800000, guid: 5e567094f7568c746bdd5a6b92c37c47, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _node_9276
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _node_6105
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
     m_Floats:
       data:
         first:
           name: _Scale
-        second: 0.66
+        second: 0.5
       data:
         first:
           name: _SrcBlend
@@ -389,7 +452,7 @@ Material:
       data:
         first:
           name: _Angle
-        second: 0.3
+        second: 0.382
       data:
         first:
           name: _AIntensity
@@ -422,6 +485,10 @@ Material:
         first:
           name: _UseCubemap
         second: 0
+      data:
+        first:
+          name: _BorderBlend
+        second: 0.7
       data:
         first:
           name: _Parallax
@@ -466,6 +533,30 @@ Material:
         first:
           name: _EdgeBlend
         second: -0.02
+      data:
+        first:
+          name: _FlowPower
+        second: 0.5
+      data:
+        first:
+          name: _FlowSpeed
+        second: 0.7
+      data:
+        first:
+          name: _Tiling
+        second: 1
+      data:
+        first:
+          name: _PanX
+        second: 0
+      data:
+        first:
+          name: _PanY
+        second: 0
+      data:
+        first:
+          name: _FlowChangeSpeed
+        second: 1
     m_Colors:
       data:
         first:

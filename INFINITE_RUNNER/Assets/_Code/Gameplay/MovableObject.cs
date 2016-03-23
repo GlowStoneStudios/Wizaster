@@ -19,7 +19,7 @@ public class MovableObject : MonoBehaviour {
 	Vector3 MoveOffset = new Vector3(-11f,-9f,9f);
 
 
-	Transform test;
+//	Transform test;
 	Vector3 minPos, maxPos;
 
 	// Use this for initialization
@@ -29,7 +29,7 @@ public class MovableObject : MonoBehaviour {
     }
 	void Start () {
         
-		test = GameObject.Find ("TEST").transform;
+	//	test = GameObject.Find ("TEST").transform;
 
         switch (RandomPosition)
         {
@@ -74,7 +74,7 @@ public class MovableObject : MonoBehaviour {
         Vector3 curScreenPoint = new Vector3(Input.mousePosition.x, Input.mousePosition.y, cached.position.y + 27f);
         Vector3 curPosition = Camera.main.ScreenToWorldPoint(curScreenPoint);
 
-		test.position = curPosition;
+	//	test.position = curPosition;
 
         switch (DragType)
         {

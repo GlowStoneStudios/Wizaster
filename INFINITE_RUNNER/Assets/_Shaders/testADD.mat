@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: testADD
-  m_Shader: {fileID: 200, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: 74c89534006711446bf15b9e432735eb, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
   m_CustomRenderQueue: 3000
@@ -136,6 +136,13 @@ Material:
           m_Offset: {x: 0, y: 0}
       data:
         first:
+          name: _Texture
+        second:
+          m_Texture: {fileID: 2800000, guid: 440d3414de7c34748972a517d368efe2, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
           name: _ParallaxMap
         second:
           m_Texture: {fileID: 0}
@@ -223,13 +230,6 @@ Material:
           name: _node_7041
         second:
           m_Texture: {fileID: 0}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
-          name: _Texture
-        second:
-          m_Texture: {fileID: 2800000, guid: d1ecc8e5ed7d3cf4281f1149a0a338b9, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
     m_Floats:
@@ -379,6 +379,38 @@ Material:
         second: 0.17
       data:
         first:
+          name: _Fresnel
+        second: 2
+      data:
+        first:
+          name: _BorderBlendColor
+        second: 1
+      data:
+        first:
+          name: _BorderIntensity
+        second: 3
+      data:
+        first:
+          name: _Glowintensity
+        second: 3
+      data:
+        first:
+          name: _AIntensity
+        second: 6
+      data:
+        first:
+          name: _Scale_copy
+        second: 0.42
+      data:
+        first:
+          name: _WaveSpeed_copy
+        second: 0.33
+      data:
+        first:
+          name: _NormalIntensity_copy
+        second: 1.538
+      data:
+        first:
           name: _FoamBlend
         second: 6
       data:
@@ -393,6 +425,14 @@ Material:
         first:
           name: _UseCubemap
         second: 0
+      data:
+        first:
+          name: _BorderBlend
+        second: 2
+      data:
+        first:
+          name: _ColorIntensity
+        second: 2
       data:
         first:
           name: _Parallax
@@ -427,14 +467,6 @@ Material:
         second: 0
       data:
         first:
-          name: _ColorIntensity
-        second: 2
-      data:
-        first:
-          name: _Fresnel
-        second: 2
-      data:
-        first:
           name: _Blend
         second: 1
       data:
@@ -449,38 +481,6 @@ Material:
         first:
           name: _InvFade
         second: 1.99
-      data:
-        first:
-          name: _BorderBlendColor
-        second: 1
-      data:
-        first:
-          name: _BorderIntensity
-        second: 3
-      data:
-        first:
-          name: _Glowintensity
-        second: 3
-      data:
-        first:
-          name: _AIntensity
-        second: 6
-      data:
-        first:
-          name: _Scale_copy
-        second: 0.42
-      data:
-        first:
-          name: _WaveSpeed_copy
-        second: 0.33
-      data:
-        first:
-          name: _NormalIntensity_copy
-        second: 1.538
-      data:
-        first:
-          name: _BorderBlend
-        second: 38.07
     m_Colors:
       data:
         first:
@@ -489,7 +489,7 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: 1, g: 1, b: 1, a: 1}
+        second: {r: 0.60294116, g: 0.4503102, b: 0.17733562, a: 1}
       data:
         first:
           name: _TintColor
@@ -512,16 +512,16 @@ Material:
         second: {r: 1, g: 0.08275862, b: 0, a: 1}
       data:
         first:
-          name: _FoamColor
-        second: {r: 0.22794116, g: 0.10846855, b: 0, a: 1}
-      data:
-        first:
           name: _BorderColor
         second: {r: 1, g: 0.93103445, b: 0, a: 1}
       data:
         first:
           name: _Glowcolor
         second: {r: 0.5588235, g: 0.3121704, b: 0, a: 1}
+      data:
+        first:
+          name: _OverallGlow
+        second: {r: 0.20588237, g: 0, b: 0, a: 1}
       data:
         first:
           name: _ColorA
@@ -544,5 +544,5 @@ Material:
         second: {r: 0.83823526, g: 0.6603015, b: 0.27735728, a: 1}
       data:
         first:
-          name: _OverallGlow
-        second: {r: 0.20588237, g: 0, b: 0, a: 1}
+          name: _FoamColor
+        second: {r: 0.22794116, g: 0.10846855, b: 0, a: 1}
