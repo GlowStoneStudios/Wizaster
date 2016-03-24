@@ -77,7 +77,7 @@ public class CameraBehaviour : MonoBehaviour
 	void LateUpdate ()
 	{
 		// Desplazamiento camara
-		selfTrans.position = Vector3.Lerp (selfTrans.position, PlayerBehaviour.instance.selfTrans.position, followSpeed * Time.deltaTime);
+		if (PlayerBehaviour.instance != null) selfTrans.position = Vector3.Lerp (selfTrans.position, PlayerBehaviour.instance.selfTrans.position, followSpeed * Time.deltaTime);
 	}
 
 	/* Metodos de la clase */
