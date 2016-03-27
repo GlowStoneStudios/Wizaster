@@ -3,7 +3,7 @@ using System.Collections;
 
 public class MovableObject : MonoBehaviour {
 
-	public enum moveType{None, MoveXAxis,MoveYAxis,MoveZAxis,RotateXAxis, RotateYAxis,RotateZAxis }
+	public enum moveType{None, MoveXAxis,MoveYAxis,MoveZAxis }
     public moveType DragType;
 
     public enum randomPosType{None,X,Y,Z}
@@ -12,9 +12,9 @@ public class MovableObject : MonoBehaviour {
     public Vector3 randomPosRange;
 	public bool playerChild = false;
 
-	public Vector3 MoveLimit, RotationLimit;
+    public Vector3 MoveLimit, RotationLimitMin, RotationLimitMax;
 
-    Vector3 startPos;
+    Vector3 startPos, startRot;
     Transform cached;
 	Vector3 MoveOffset = new Vector3(-11f,-9f,9f);
 
@@ -51,7 +51,7 @@ public class MovableObject : MonoBehaviour {
                 cached.position = new Vector3(cached.position.x,cached.position.y, rndZ);
                 break;
         }
-
+        startRot = cached.localEulerAngles;
 		startPos = cached.position;
 
 		minPos = new Vector3 (startPos.x - MoveLimit.x,startPos.y - MoveLimit.y,startPos.z - MoveLimit.z);
@@ -60,14 +60,7 @@ public class MovableObject : MonoBehaviour {
    
 	}
 	
-	// Update is called once per frame
-	void LateUpdate () {
-		if (DragType == moveType.RotateXAxis) 
-		{
-			cached.localEulerAngles = new Vector3 (cached.localEulerAngles.x,90f,0);
-		//	print("asdas");
-		}
-	}
+
 
     void OnMouseDrag()
     {
@@ -114,14 +107,9 @@ public class MovableObject : MonoBehaviour {
                 cached.position = Vector3.Lerp(cached.position, tempPosZ, Time.deltaTime * GameController.instance.ObjectsDragForce);
                 break;
 
-			case moveType.RotateXAxis:
 
-				Vector3 tempLook = curPosition + (Vector3.up * -6f);
-				Quaternion newRotation = Quaternion.LookRotation (tempLook, Vector3.forward);
-
-				cached.rotation = Quaternion.Slerp (cached.rotation, newRotation, Time.deltaTime * GameController.instance.ObjectsDragForce);
-
-				break;
         }
     }
+
+
 }

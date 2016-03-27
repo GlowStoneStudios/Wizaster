@@ -20,7 +20,7 @@ public class ItemSpawner : MonoBehaviour {
 			SpawnItem (i);
 		}
 
-		print (spawners.Length);
+	//	print (spawners.Length);
 
 	}
 
