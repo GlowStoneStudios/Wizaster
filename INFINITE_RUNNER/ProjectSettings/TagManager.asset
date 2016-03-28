@@ -12,6 +12,7 @@ TagManager:
   - Ground
   - Item
   - Killer
+  - Wall
   layers:
   - Default
   - TransparentFX

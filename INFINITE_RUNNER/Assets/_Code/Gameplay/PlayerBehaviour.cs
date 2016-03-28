@@ -88,6 +88,7 @@ public class PlayerBehaviour : MonoBehaviour
         {
             groundObjectTag = hit.transform.tag;
 
+            /*
             if (hit.transform.tag == "Platform")
             {
 				if (hit.transform.GetComponent<MovableObject> ().playerChild) 
@@ -106,6 +107,7 @@ public class PlayerBehaviour : MonoBehaviour
                     curParent = null;
                 }
             }
+            */
         }
 
 		// Cuando el personaje se pueda mover

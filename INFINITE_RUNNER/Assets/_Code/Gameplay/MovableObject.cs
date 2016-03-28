@@ -12,11 +12,13 @@ public class MovableObject : MonoBehaviour {
     public Vector3 randomPosRange;
 	public bool playerChild = false;
 
-    public Vector3 MoveLimit, RotationLimitMin, RotationLimitMax;
+    public Vector3 MoveLimitMin,MoveLimitMax;
+
+ 
 
     Vector3 startPos, startRot;
     Transform cached;
-	Vector3 MoveOffset = new Vector3(-11f,-9f,9f);
+	Vector3 MoveOffset = new Vector3(-11f,-1f,9f);
 
 
 //	Transform test;
@@ -54,8 +56,8 @@ public class MovableObject : MonoBehaviour {
         startRot = cached.localEulerAngles;
 		startPos = cached.position;
 
-		minPos = new Vector3 (startPos.x - MoveLimit.x,startPos.y - MoveLimit.y,startPos.z - MoveLimit.z);
-		maxPos = new Vector3 (startPos.x + MoveLimit.x,startPos.y + MoveLimit.y,startPos.z + MoveLimit.z);
+        minPos = new Vector3 (startPos.x - MoveLimitMin.x,startPos.y - MoveLimitMin.y,startPos.z - MoveLimitMin.z);
+        maxPos = new Vector3 (startPos.x + MoveLimitMax.x,startPos.y + MoveLimitMax.y,startPos.z + MoveLimitMax.z);
 		//print (startPos + " // "+cached.name);
    
 	}
@@ -64,52 +66,88 @@ public class MovableObject : MonoBehaviour {
 
     void OnMouseDrag()
     {
-        Vector3 curScreenPoint = new Vector3(Input.mousePosition.x, Input.mousePosition.y, cached.position.y + 27f);
-        Vector3 curPosition = Camera.main.ScreenToWorldPoint(curScreenPoint);
+        Transform testt = GameObject.Find("TEST").transform;
 
-	//	test.position = curPosition;
-
+        Vector3 curPosition = new Vector3();
+      
         switch (DragType)
         {
-		case moveType.MoveXAxis:
+            case moveType.MoveXAxis:
 
-			Vector3 tempPosX = new Vector3 (curPosition.x + MoveOffset.x, startPos.y, startPos.z);
+                Plane planeX=new Plane(Vector3.up,new Vector3(0, 2, 0));
+                Ray rayX=Camera.main.ScreenPointToRay(Input.mousePosition);
+                float distanceX;
 
-			if (MoveLimit.x != 0) 
-			{
-				tempPosX.x = Mathf.Clamp (tempPosX.x,minPos.x,maxPos.x);
-			}
+                if(planeX.Raycast(rayX, out distanceX)) {
+                    curPosition=rayX.GetPoint(distanceX);
+                    testt.position = curPosition;
 
-                cached.position = Vector3.Lerp(cached.position, tempPosX, Time.deltaTime * GameController.instance.ObjectsDragForce);
+                    Vector3 tempX = new Vector3(
+                        Mathf.Clamp(curPosition.x,MoveLimitMin.x,MoveLimitMax.x),
+                        startPos.y,
+                        startPos.z);
+
+                    cached.position = Vector3.Lerp(cached.position, tempX, Time.deltaTime * GameController.instance.ObjectsDragForce);
+                }
                 break;
 
             case moveType.MoveYAxis:
 
-			Vector3 tempPosY = new Vector3(startPos.x,curPosition.y +MoveOffset.y, startPos.z);
+                Plane planeY=new Plane(Vector3.right,new Vector3(0, 2, 0));
+                Ray rayY=Camera.main.ScreenPointToRay(Input.mousePosition);
+                float distanceY;
 
-			if (MoveLimit.y != 0) 
-			{
-				tempPosY.y = Mathf.Clamp (tempPosY.y,minPos.y,maxPos.y);
-			}
+                if(planeY.Raycast(rayY, out distanceY)) {
+                    curPosition=rayY.GetPoint(distanceY);
+                    testt.position = curPosition;
 
-                cached.position = Vector3.Lerp(cached.position, tempPosY, Time.deltaTime * GameController.instance.ObjectsDragForce);
+                    Vector3 tempY = new Vector3(
+                        startPos.x,
+                        Mathf.Clamp(curPosition.y,MoveLimitMin.y,MoveLimitMax.y)
+                        ,startPos.z);
+                    
+                    cached.position = Vector3.Lerp(cached.position, tempY, Time.deltaTime * GameController.instance.ObjectsDragForce);
+                }
                 break;
 
             case moveType.MoveZAxis:
 
-			Vector3 tempPosZ = new Vector3(startPos.x, startPos.y, curPosition.z +MoveOffset.z);
+                Plane planeZ=new Plane(Vector3.right,new Vector3(0, 2, 0));
+                Ray rayZ=Camera.main.ScreenPointToRay(Input.mousePosition);
+                float distanceZ;
 
-			if (MoveLimit.z != 0) 
-			{
-				tempPosZ.x = Mathf.Clamp (tempPosZ.z,minPos.z,maxPos.z);
-			}
+                if(planeZ.Raycast(rayZ, out distanceZ)) {
+                    curPosition=rayZ.GetPoint(distanceZ);
+                    testt.position = curPosition;
 
-                cached.position = Vector3.Lerp(cached.position, tempPosZ, Time.deltaTime * GameController.instance.ObjectsDragForce);
+                    Vector3 tempZ = new Vector3(
+                        startPos.x,
+                        startPos.y,
+                        Mathf.Clamp(curPosition.z,MoveLimitMin.z,MoveLimitMax.z)
+                    );
+
+                    cached.position = Vector3.Lerp(cached.position, tempZ, Time.deltaTime * GameController.instance.ObjectsDragForce);
+                }
                 break;
-
-
         }
     }
-
+    void OnTriggerEnter(Collider col){
+        if (playerChild)
+        {
+            if (col.tag == "Player")
+            {
+                col.transform.SetParent(cached);
+            }
+        }
+    }
+    void OnTriggerExit(Collider col){
+        if (playerChild)
+        {
+            if (col.tag == "Player")
+            {
+                col.transform.parent = null;
+            }
+        }
+    }
 
 }

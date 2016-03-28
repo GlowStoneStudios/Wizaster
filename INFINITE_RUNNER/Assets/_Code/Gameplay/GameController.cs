@@ -24,9 +24,13 @@ public class GameController : MonoBehaviour
 
 	[Header ("Level Spawn")]
 	public GameObject[] chunks; //aqui van los prefab de los chunks
+    public GameObject[] bigChunks; //Aqui chunks TRIPLES
+
+    public float bigChunkSpawnRate = 5f;
+
 	public int levelLength = 100; //largo del nivel en chunks.
 	public float chunkSize = 30; //tamaño de los chunks, en unidades
-
+   
 	float curPlaceToSpawnChunks = 0;
 
 	public static GameController instance;
@@ -44,14 +48,29 @@ public class GameController : MonoBehaviour
 
 		if (chunks.Length > 0) 
 		{
-			for (int i = 0; i < levelLength; i++) {
-				int randomChunk = Random.Range (0, chunks.Length);
-				Vector3 posToSpawn = Vector3.forward * curPlaceToSpawnChunks;
-				GameObject tempChunk = Instantiate (chunks [randomChunk], posToSpawn, Quaternion.identity) as GameObject;
+            for (int i = 0; i < levelLength; i++)
+            {
 
-				tempChunk.transform.SetParent (GameObject.Find ("Chunks").transform);
-				curPlaceToSpawnChunks += chunkSize;
-			}
+                float rnd = Random.value * 100f;
+                if (rnd < bigChunkSpawnRate)
+                {
+                    int randomChunk = Random.Range(0, bigChunks.Length);
+                    Vector3 posToSpawn = Vector3.forward * curPlaceToSpawnChunks;
+                    GameObject tempChunk = Instantiate(bigChunks[randomChunk], posToSpawn, Quaternion.identity) as GameObject;
+
+                    tempChunk.transform.SetParent(GameObject.Find("Chunks").transform);
+                    curPlaceToSpawnChunks += (chunkSize * 3);
+                }
+                else
+                {
+                    int randomChunk = Random.Range(0, chunks.Length);
+                    Vector3 posToSpawn = Vector3.forward * curPlaceToSpawnChunks;
+                    GameObject tempChunk = Instantiate(chunks[randomChunk], posToSpawn, Quaternion.identity) as GameObject;
+
+                    tempChunk.transform.SetParent(GameObject.Find("Chunks").transform);
+                    curPlaceToSpawnChunks += chunkSize;
+                }
+            }
 		}
 
 	}

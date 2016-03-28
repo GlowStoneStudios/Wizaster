@@ -1706,8 +1706,8 @@ MonoBehaviour:
   RandomPosition: 1
   randomPosRange: {x: 12, y: 0, z: 0}
   playerChild: 0
-  MoveLimit: {x: 13, y: 0, z: 0}
-  RotationLimit: {x: 0, y: 0, z: 0}
+  MoveLimitMin: {x: -11.9, y: 0, z: 0}
+  MoveLimitMax: {x: 11.9, y: 0, z: 0}
 --- !u!114 &11478760
 MonoBehaviour:
   m_ObjectHideFlags: 1
