@@ -23,6 +23,7 @@ public class GameController : MonoBehaviour
     public float ObjectsDragForce = 4f;
 
 	[Header ("Level Spawn")]
+	public bool SpawnChunk = true;
 	public GameObject[] chunks; //aqui van los prefab de los chunks
     public GameObject[] bigChunks; //Aqui chunks TRIPLES
 
@@ -45,32 +46,28 @@ public class GameController : MonoBehaviour
 	void Awake ()
 	{
 		instance = this;
+		if (SpawnChunk) {
+			if (chunks.Length > 0) {
+				for (int i = 0; i < levelLength; i++) {
 
-		if (chunks.Length > 0) 
-		{
-            for (int i = 0; i < levelLength; i++)
-            {
+					float rnd = Random.value * 100f;
+					if (rnd < bigChunkSpawnRate) {
+						int randomChunk = Random.Range (0, bigChunks.Length);
+						Vector3 posToSpawn = Vector3.forward * curPlaceToSpawnChunks;
+						GameObject tempChunk = Instantiate (bigChunks [randomChunk], posToSpawn, Quaternion.identity) as GameObject;
 
-                float rnd = Random.value * 100f;
-                if (rnd < bigChunkSpawnRate)
-                {
-                    int randomChunk = Random.Range(0, bigChunks.Length);
-                    Vector3 posToSpawn = Vector3.forward * curPlaceToSpawnChunks;
-                    GameObject tempChunk = Instantiate(bigChunks[randomChunk], posToSpawn, Quaternion.identity) as GameObject;
+						tempChunk.transform.SetParent (GameObject.Find ("Chunks").transform);
+						curPlaceToSpawnChunks += (chunkSize * 3);
+					} else {
+						int randomChunk = Random.Range (0, chunks.Length);
+						Vector3 posToSpawn = Vector3.forward * curPlaceToSpawnChunks;
+						GameObject tempChunk = Instantiate (chunks [randomChunk], posToSpawn, Quaternion.identity) as GameObject;
 
-                    tempChunk.transform.SetParent(GameObject.Find("Chunks").transform);
-                    curPlaceToSpawnChunks += (chunkSize * 3);
-                }
-                else
-                {
-                    int randomChunk = Random.Range(0, chunks.Length);
-                    Vector3 posToSpawn = Vector3.forward * curPlaceToSpawnChunks;
-                    GameObject tempChunk = Instantiate(chunks[randomChunk], posToSpawn, Quaternion.identity) as GameObject;
-
-                    tempChunk.transform.SetParent(GameObject.Find("Chunks").transform);
-                    curPlaceToSpawnChunks += chunkSize;
-                }
-            }
+						tempChunk.transform.SetParent (GameObject.Find ("Chunks").transform);
+						curPlaceToSpawnChunks += chunkSize;
+					}
+				}
+			}
 		}
 
 	}

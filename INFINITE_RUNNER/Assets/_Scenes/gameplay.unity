@@ -808,6 +808,52 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 24d179b5a91146841973de30ac4c0148, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &880267703
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 493634, guid: 35b47fedca432b040a97a4c2a70a5923, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 493634, guid: 35b47fedca432b040a97a4c2a70a5923, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 493634, guid: 35b47fedca432b040a97a4c2a70a5923, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 493634, guid: 35b47fedca432b040a97a4c2a70a5923, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 493634, guid: 35b47fedca432b040a97a4c2a70a5923, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 493634, guid: 35b47fedca432b040a97a4c2a70a5923, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 493634, guid: 35b47fedca432b040a97a4c2a70a5923, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 493634, guid: 35b47fedca432b040a97a4c2a70a5923, type: 2}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 144018, guid: 35b47fedca432b040a97a4c2a70a5923, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 35b47fedca432b040a97a4c2a70a5923, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &889584377
 GameObject:
   m_ObjectHideFlags: 0
@@ -1442,12 +1488,14 @@ MonoBehaviour:
   canTele: 0
   staminaBar: {fileID: 1374568272}
   ObjectsDragForce: 9
+  SpawnChunk: 0
   chunks:
   - {fileID: 143846, guid: 4473cfa380ba32e44b5732f85c3ffeaa, type: 2}
   - {fileID: 117844, guid: fb10a7e0421ea9f4eb25cba699509916, type: 2}
   - {fileID: 117844, guid: 24d179b5a91146841973de30ac4c0148, type: 2}
   - {fileID: 121576, guid: a557bac0e174f6d47a97221f1f080494, type: 2}
   - {fileID: 154798, guid: a8fe17f988d21494b9abe1cf7ec5b0f7, type: 2}
+  - {fileID: 144018, guid: 35b47fedca432b040a97a4c2a70a5923, type: 2}
   bigChunks:
   - {fileID: 190064, guid: 61361d35d66a9d442880abe192b5dfda, type: 2}
   bigChunkSpawnRate: 5
