@@ -11,6 +11,7 @@ public class Credits : MonoBehaviour
 	[Header ("Fader")]
 	public string sceneToLoad;
 	public GUITexture black;
+	public float faderSpeed;
 
 	Transform selfTrans;
 	public bool creditsPassed { get; private set; }			// De lectura por si hay que hacer mas cosas tras los creditos.
@@ -32,6 +33,10 @@ public class Credits : MonoBehaviour
 		if (speed == 0.0f) {
 			speed = -5.0f;
 		}
+
+		if (faderSpeed == 0.0f) {
+			faderSpeed = 0.5f;
+		}
 	}
 
 	void Update () {
@@ -52,26 +57,16 @@ public class Credits : MonoBehaviour
 
 	/* Metodos de la clase */
 	void FadeOut (string levelToLoad) {
-		/*
-		 * - GUITexture c/ png negro
-		 * - Color.a += time.time * ganancia de opcidad 
-		 * - cuando este cerca o sobre el 90% cambiamos a 100 de una
-		 * - estando en 100 detenemos la operacion y cambiamos la escena.
-		 * 
-		*/
-
-		float opacityFreq = 0.1f;
-
-		if (Time.timeSinceLevelLoad > opacityFreq) {
-			opacityFreq = Time.timeSinceLevelLoad + 0.1f;
-			faderColor.w ++;
-			black.color = faderColor;
+		// Transicion
+		black.color = Color.Lerp (black.color, Color.black, faderSpeed * Time.deltaTime);
+		// Cambio de escena
+		if (black.color.a == 1.0f) {
+			UnityEngine.SceneManagement.SceneManager.LoadScene (levelToLoad);
 		}
-
 	}
 
 	/* Triggers */
-	/*void OnTriggerEnter (Collider other) {
+	void OnTriggerEnter (Collider other) {
 		PlayerBehaviour.instance.DoJump ();
-	}*/
+	}
 }
