@@ -4,7 +4,8 @@ using System.Collections;
 public class RotatingObject : MonoBehaviour {
 	public Vector3 RotationAxis;
 	public float curSpeed, TapRate = 0.66f;
-
+	public bool LimitValue; //si es true limita la velocidad a que no baje de 0.
+	public float SpeedGainRate = 1f;
 	Transform cached;
 	float startSpeed;
 	// Use this for initialization
@@ -17,19 +18,33 @@ public class RotatingObject : MonoBehaviour {
 		cached.Rotate ((RotationAxis * curSpeed));
 
 		if (curSpeed < startSpeed) {
-			curSpeed += Time.deltaTime;
+			curSpeed += Time.deltaTime * SpeedGainRate;
 		}
 	}
 	// Update is called once per frame
 	void OnMouseDown () {
+		if (LimitValue) 
+		{
+			if (curSpeed > 0f) 
+			{
+				curSpeed -= TapRate;
+			} 
+			else 
+			{
+				curSpeed = 0f;
+			}
+		} 
+		else {
 
-		if (curSpeed > -15f) {
+			if (curSpeed > -15f) 
+			{
+				curSpeed -= TapRate;
 
-			curSpeed -= TapRate;
-
-		} else {
-			curSpeed = -15;
+			} 
+			else 
+			{
+				curSpeed = -15;
+			}
 		}
-
 	}
 }
