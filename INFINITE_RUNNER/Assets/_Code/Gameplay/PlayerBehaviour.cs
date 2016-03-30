@@ -39,6 +39,9 @@ public class PlayerBehaviour : MonoBehaviour
     public Transform curParent;
     RaycastHit hit;
 
+	[Header ("Animations")]
+	public Animator animPlayer;
+
 	/* Aplicacion al motor */
 	void Awake ()
 	{

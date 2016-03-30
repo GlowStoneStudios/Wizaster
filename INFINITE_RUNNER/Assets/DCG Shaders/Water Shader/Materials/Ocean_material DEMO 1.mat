@@ -287,14 +287,6 @@ Material:
         second: 0
       data:
         first:
-          name: _Gloss
-        second: 0.534
-      data:
-        first:
-          name: _RefractionIntensity
-        second: 0.41
-      data:
-        first:
           name: _Parallax
         second: 0.02
       data:
@@ -327,16 +319,24 @@ Material:
         second: 0
       data:
         first:
-          name: _Specular
-        second: 5
+          name: _Gloss
+        second: 0.534
+      data:
+        first:
+          name: _WaveSpeed
+        second: 0.205
       data:
         first:
           name: _NormalIntensity
         second: 0.744
       data:
         first:
-          name: _UseReflection
-        second: 1
+          name: _Fresnel
+        second: 0
+      data:
+        first:
+          name: _Specular
+        second: 5
       data:
         first:
           name: _ReflectionFresnel
@@ -345,6 +345,14 @@ Material:
         first:
           name: _ReflectionIntensity
         second: 0.769
+      data:
+        first:
+          name: _UseReflection
+        second: 1
+      data:
+        first:
+          name: _RefractionIntensity
+        second: 0.41
       data:
         first:
           name: _WaterDensity
@@ -431,20 +439,16 @@ Material:
         second: 0.5
       data:
         first:
+          name: _ColorIntensity
+        second: 0
+      data:
+        first:
           name: _TessellationLevel
         second: 8
       data:
         first:
           name: _FoamIntensity
         second: 1
-      data:
-        first:
-          name: _ColorIntensity
-        second: 0
-      data:
-        first:
-          name: _WaveSpeed
-        second: 0.205
       data:
         first:
           name: _DepthBlend
@@ -533,10 +537,6 @@ Material:
         first:
           name: _TesselationLevel
         second: 8
-      data:
-        first:
-          name: _Fresnel
-        second: 0
       data:
         first:
           name: _RefractionDistortion
@@ -672,16 +672,16 @@ Material:
         second: {r: 1, g: 1, b: 1, a: 1}
       data:
         first:
-          name: _WaterColor
-        second: {r: 0, g: 0.4601992, b: 0.55147594, a: 1}
+          name: _ShallowColor
+        second: {r: 0, g: 0.47932065, b: 0.5000113, a: 0.478}
       data:
         first:
           name: _ReflectionColor
         second: {r: 0.6836073, g: 0.7968859, b: 0.85294116, a: 1}
       data:
         first:
-          name: _ShallowColor
-        second: {r: 0, g: 0.47932065, b: 0.5000113, a: 0.478}
+          name: _WaterColor
+        second: {r: 0, g: 0.4601992, b: 0.55147594, a: 1}
       data:
         first:
           name: _DeepColor
