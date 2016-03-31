@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: OPAQUE
-  m_Shader: {fileID: 4800000, guid: 14607077f1d24fe4d8c89f461b63f46e, type: 3}
+  m_Shader: {fileID: 4800000, guid: 1279292248012384db5ef9da9783c052, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
   m_CustomRenderQueue: 2000
@@ -107,6 +107,10 @@ Material:
         second: 0.5
       data:
         first:
+          name: _Metallic
+        second: 0
+      data:
+        first:
           name: _Parallax
         second: 0.02
       data:
@@ -139,10 +143,6 @@ Material:
         second: 0
       data:
         first:
-          name: _Metallic
-        second: 0
-      data:
-        first:
           name: _Gloss
         second: 0
       data:
@@ -153,6 +153,10 @@ Material:
         first:
           name: _LightPower
         second: 0.109
+      data:
+        first:
+          name: _SpecularIntensity
+        second: 0.5
     m_Colors:
       data:
         first:

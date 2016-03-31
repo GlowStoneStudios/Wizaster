@@ -9,13 +9,14 @@ public class PlayerBehaviour : MonoBehaviour
 	[Header ("Movement Behaviour")]
 	public float normalSpeed = 10f; 
 	public float slowSpeed, rushSpeed;
+	public Vector3 dashForce;
 	Rigidbody selfRb;
 
 	[Header ("Space")]
 	public float rushRate = 1.66f; 
 	public float slowRate = 0.7f;
 
-	public enum runningMode{Normal, Slowed, Rush}
+	public enum runningMode{ Normal, Slowed, Rush }
 	public runningMode runMode;
 
 	public Vector3 jumpPower = new Vector3 (0, 100.0f, 10.0f);
@@ -53,6 +54,7 @@ public class PlayerBehaviour : MonoBehaviour
 	{
 		// Mem Cache
 		selfTrans = this.transform;
+		selfRb = GetComponent<Rigidbody> ();
 
 		// Prevension
 
@@ -114,7 +116,6 @@ public class PlayerBehaviour : MonoBehaviour
         }
 
 		// Cuando el personaje se pueda mover
-
 		if (isAlive && GameController.instance.levelStarted) {
 			canMove = true;
 		} else {
@@ -155,6 +156,33 @@ public class PlayerBehaviour : MonoBehaviour
 	public void DoJump () {
 		selfRb.AddForce (jumpPower, ForceMode.Impulse);
 	}
+
+	/* Animations */
+	public void Animations (bool isTrigger, string animName, bool isPlaying, float slipType) {
+		 // Modo de uso:
+		 // Primero se le indica a la funcion si la animacion que se gatillara sera trigger o no.
+		 // En el string animName, deben ir los parametros del Animator Controller que cambian las animaciones.
+		 // En el caso de que sean parametros boleanos, se le asigna el valor respectivo al bool isPlaying
+		 // Si es un parametro de trigger, isPlaying se deja falso.
+		if (isTrigger) {
+			animPlayer.SetTrigger (animName);
+		} else {
+			if (animName == "slip") {
+				animPlayer.SetFloat ("slipType", slipType);
+			}
+			animPlayer.SetBool (animName, isPlaying);
+		}
+			
+		// La idea es gatillar las animaciones externamente ya que pareciera ser mas facil detectar cuando ingresarlas Oó..............
+	}
+
+	void OnMouseDown () {
+		if (canMove) {
+			selfRb.AddForce (dashForce, ForceMode.Force);
+			stamina--;
+		}
+	}
+
 	/* Triggers */
 	void OnTriggerEnter (Collider o)
 	{
