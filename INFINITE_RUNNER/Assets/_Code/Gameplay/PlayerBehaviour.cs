@@ -178,8 +178,10 @@ public class PlayerBehaviour : MonoBehaviour
 
 	void OnMouseDown () {
 		if (canMove) {
-			selfRb.AddForce (dashForce, ForceMode.Force);
-			stamina--;
+			if (stamina > 3.0f) {
+				selfRb.AddForce (dashForce, ForceMode.Force);
+				stamina--;
+			}
 		}
 	}
 
@@ -209,6 +211,33 @@ public class PlayerBehaviour : MonoBehaviour
 
         // ------------------------------------------------------------------------------------------------------
 
+		// Muerte -----------------------------------------------------------------------------------------------
+		if (o.tag == "Killer" || o.tag == "Endworld") {
+			if (!isAlive) {
+				return;
+			} else {
+				isAlive = false;
+				canMove = false;
+				selfRb.isKinematic = true;
+				animPlayer.SetTrigger ("dies");
+				AudioManager.instance.PlayAudio (0, 1.0f);
+			}
+		}
+	}
+
+	void OnTriggerStay (Collider other) {
+		// Muerte -----------------------------------------------------------------------------------------------
+		if (other.tag == "Killer" || other.tag == "Endworld") {
+			if (!isAlive) {
+				return;
+			} else {
+				isAlive = false;
+				canMove = false;
+				selfRb.isKinematic = true;
+				animPlayer.SetTrigger ("dies");
+				AudioManager.instance.PlayAudio (0, 1.0f);
+			}
+		}
 	}
 
 	void OnTriggerExit (Collider o)
