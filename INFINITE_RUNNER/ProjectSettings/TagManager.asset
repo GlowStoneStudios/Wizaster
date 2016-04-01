@@ -13,6 +13,7 @@ TagManager:
   - Item
   - Killer
   - Wall
+  - Ring
   layers:
   - Default
   - TransparentFX
