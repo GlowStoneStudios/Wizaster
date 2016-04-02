@@ -5,7 +5,7 @@ using System.Collections;
 public class MenuController : MonoBehaviour
 {
 	/* Atributos */
-	public string levelToLoad;
+	public string gameplay, credits;
 	public Text score;
 
 	/* Aplicacion al motor */
@@ -24,15 +24,13 @@ public class MenuController : MonoBehaviour
 	public void ButtonPlay ()
 	{
 		// Cargar escena
-		UnityEngine.SceneManagement.SceneManager.LoadScene (levelToLoad);
+		UnityEngine.SceneManagement.SceneManager.LoadScene (gameplay);
 	}
 
-	public void ButtonShop ()
+	public void ButtonCredits ()
 	{
-	}
-
-	public void ButtonPremium ()
-	{
+		// Cargar escena
+		UnityEngine.SceneManagement.SceneManager.LoadScene (credits);
 	}
 
 	public void ButtonExit ()
