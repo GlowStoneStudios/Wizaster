@@ -46,24 +46,35 @@ public class GameController : MonoBehaviour
 	void Awake ()
 	{
 		instance = this;
+
 		if (SpawnChunk) {
 			if (chunks.Length > 0) {
 				for (int i = 0; i < levelLength; i++) {
 
 					float rnd = Random.value * 100f;
-					if (rnd < bigChunkSpawnRate) {
+
+					if (rnd < bigChunkSpawnRate) 
+                    {
 						int randomChunk = Random.Range (0, bigChunks.Length);
 						Vector3 posToSpawn = Vector3.forward * curPlaceToSpawnChunks;
 						GameObject tempChunk = Instantiate (bigChunks [randomChunk], posToSpawn, Quaternion.identity) as GameObject;
 
 						tempChunk.transform.SetParent (GameObject.Find ("Chunks").transform);
+
+                    //    print("Big chunk" + tempChunk.name +" spawned at: "+ curPlaceToSpawnChunks + "  in Z pos. ");
+
 						curPlaceToSpawnChunks += (chunkSize * 3);
-					} else {
+
+					} 
+                    else 
+                    {
 						int randomChunk = Random.Range (0, chunks.Length);
 						Vector3 posToSpawn = Vector3.forward * curPlaceToSpawnChunks;
 						GameObject tempChunk = Instantiate (chunks [randomChunk], posToSpawn, Quaternion.identity) as GameObject;
 
 						tempChunk.transform.SetParent (GameObject.Find ("Chunks").transform);
+
+                   //     print("Normal chunk" + tempChunk.name +" spawned at: "+ curPlaceToSpawnChunks + "  in Z pos. ");
 						curPlaceToSpawnChunks += chunkSize;
 					}
 				}

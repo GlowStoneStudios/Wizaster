@@ -1,0 +1,3993 @@
+fileFormatVersion: 2
+guid: 202b21723fa73e540995b6a692b10b83
+timeCreated: 1459565394
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Bone
+    100004: Bone.002
+    100006: Bone.003
+    100008: Bone.004
+    100010: Bone.005
+    100012: Bone.005_end
+    100014: Bone.006
+    100016: Bone.007
+    100018: Bone.007_end
+    100020: Bone.008
+    100022: Bone.013
+    100024: Bone.017
+    100026: Bone.017_end
+    100028: Bone.018
+    100030: Bone.018_end
+    100032: cabeza
+    100034: Camera
+    100036: capa_bottom
+    100038: capa_bottom_end
+    100040: capa_top
+    100042: dedos_der
+    100044: dedos_der.001
+    100046: dedos_der.001_end
+    100048: dedos_der.002
+    100050: dedos_der.003
+    100052: dedos_der.004
+    100054: dedos_der.005
+    100056: dedos_der.005_end
+    100058: dedos_der.006
+    100060: dedos_der.006_end
+    100062: dedos_der.007
+    100064: dedos_der.007_end
+    100066: dedos_izk
+    100068: dedos_izk.001
+    100070: dedos_izk.001_end
+    100072: dedos_izk.002
+    100074: dedos_izk.003
+    100076: dedos_izk.004
+    100078: dedos_izk.005
+    100080: dedos_izk.005_end
+    100082: dedos_izk.006
+    100084: dedos_izk.006_end
+    100086: dedos_izk.007
+    100088: dedos_izk.007_end
+    100090: gorro_abajo
+    100092: gorro_mid
+    100094: gorro_top
+    100096: gorro_top_end
+    100098: //RootNode
+    100100: palma_der
+    100102: pectoral
+    100104: pectoral_end
+    100106: Sphere
+    100108: Sun
+    100110: Sun.001
+    400000: Armature
+    400002: Bone
+    400004: Bone.002
+    400006: Bone.003
+    400008: Bone.004
+    400010: Bone.005
+    400012: Bone.005_end
+    400014: Bone.006
+    400016: Bone.007
+    400018: Bone.007_end
+    400020: Bone.008
+    400022: Bone.013
+    400024: Bone.017
+    400026: Bone.017_end
+    400028: Bone.018
+    400030: Bone.018_end
+    400032: cabeza
+    400034: Camera
+    400036: capa_bottom
+    400038: capa_bottom_end
+    400040: capa_top
+    400042: dedos_der
+    400044: dedos_der.001
+    400046: dedos_der.001_end
+    400048: dedos_der.002
+    400050: dedos_der.003
+    400052: dedos_der.004
+    400054: dedos_der.005
+    400056: dedos_der.005_end
+    400058: dedos_der.006
+    400060: dedos_der.006_end
+    400062: dedos_der.007
+    400064: dedos_der.007_end
+    400066: dedos_izk
+    400068: dedos_izk.001
+    400070: dedos_izk.001_end
+    400072: dedos_izk.002
+    400074: dedos_izk.003
+    400076: dedos_izk.004
+    400078: dedos_izk.005
+    400080: dedos_izk.005_end
+    400082: dedos_izk.006
+    400084: dedos_izk.006_end
+    400086: dedos_izk.007
+    400088: dedos_izk.007_end
+    400090: gorro_abajo
+    400092: gorro_mid
+    400094: gorro_top
+    400096: gorro_top_end
+    400098: //RootNode
+    400100: palma_der
+    400102: pectoral
+    400104: pectoral_end
+    400106: Sphere
+    400108: Sun
+    400110: Sun.001
+    4300000: Sphere
+    7400000: Run
+    7400002: pre_magia
+    7400004: magia
+    7400006: jump air
+    7400008: Land
+    7400010: Dead_Crash
+    7400012: Dead_Fall
+    7400014: Slip
+    7400016: Hurt
+    7400018: Death_Drown
+    7400020: Fall
+    7400022: Slip_turnarround
+    7400024: Burn
+    7400026: Armature|Burn
+    7400028: Armature|Dead_Crash
+    7400030: Armature|Dead_Fall
+    7400032: Armature|Death_Drown
+    7400034: Armature|Fall
+    7400036: Armature|Hurt
+    7400038: Armature|jump air
+    7400040: Armature|Land
+    7400042: Armature|magia
+    7400044: Armature|pre_magia
+    7400046: Armature|Run
+    7400048: Armature|Slip
+    7400050: Armature|Slip_turnarround
+    7400052: Armature|Still
+    9500000: //RootNode
+    13700000: Sphere
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Run
+      takeName: Run
+      firstFrame: 1
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001/dedos_izk.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005/dedos_izk.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006/dedos_izk.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007/dedos_izk.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top/gorro_top_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017/Bone.017_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018/Bone.018_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom/capa_bottom_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001/dedos_der.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005/dedos_der.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006/dedos_der.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007/dedos_der.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral/pectoral_end
+        weight: 1
+      - path: Armature/Bone.003
+        weight: 1
+      - path: Armature/Bone.003/Bone.004
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.003/Bone.006
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Sphere
+        weight: 1
+      - path: Sun
+        weight: 1
+      - path: Sun.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: pre_magia
+      takeName: pre_magia
+      firstFrame: 0
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001/dedos_izk.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005/dedos_izk.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006/dedos_izk.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007/dedos_izk.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top/gorro_top_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017/Bone.017_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018/Bone.018_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom/capa_bottom_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001/dedos_der.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005/dedos_der.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006/dedos_der.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007/dedos_der.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral/pectoral_end
+        weight: 1
+      - path: Armature/Bone.003
+        weight: 1
+      - path: Armature/Bone.003/Bone.004
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.003/Bone.006
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Sphere
+        weight: 1
+      - path: Sun
+        weight: 1
+      - path: Sun.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: magia
+      takeName: magia
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001/dedos_izk.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005/dedos_izk.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006/dedos_izk.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007/dedos_izk.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top/gorro_top_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017/Bone.017_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018/Bone.018_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom/capa_bottom_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001/dedos_der.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005/dedos_der.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006/dedos_der.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007/dedos_der.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral/pectoral_end
+        weight: 1
+      - path: Armature/Bone.003
+        weight: 1
+      - path: Armature/Bone.003/Bone.004
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.003/Bone.006
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Sphere
+        weight: 1
+      - path: Sun
+        weight: 1
+      - path: Sun.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: jump air
+      takeName: jump air
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001/dedos_izk.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005/dedos_izk.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006/dedos_izk.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007/dedos_izk.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top/gorro_top_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017/Bone.017_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018/Bone.018_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom/capa_bottom_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001/dedos_der.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005/dedos_der.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006/dedos_der.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007/dedos_der.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral/pectoral_end
+        weight: 1
+      - path: Armature/Bone.003
+        weight: 1
+      - path: Armature/Bone.003/Bone.004
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.003/Bone.006
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Sphere
+        weight: 1
+      - path: Sun
+        weight: 1
+      - path: Sun.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Land
+      takeName: Land
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001/dedos_izk.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005/dedos_izk.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006/dedos_izk.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007/dedos_izk.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top/gorro_top_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017/Bone.017_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018/Bone.018_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom/capa_bottom_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001/dedos_der.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005/dedos_der.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006/dedos_der.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007/dedos_der.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral/pectoral_end
+        weight: 1
+      - path: Armature/Bone.003
+        weight: 1
+      - path: Armature/Bone.003/Bone.004
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.003/Bone.006
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Sphere
+        weight: 1
+      - path: Sun
+        weight: 1
+      - path: Sun.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Dead_Crash
+      takeName: Dead_Crash
+      firstFrame: 0
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001/dedos_izk.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005/dedos_izk.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006/dedos_izk.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007/dedos_izk.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top/gorro_top_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017/Bone.017_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018/Bone.018_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom/capa_bottom_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001/dedos_der.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005/dedos_der.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006/dedos_der.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007/dedos_der.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral/pectoral_end
+        weight: 1
+      - path: Armature/Bone.003
+        weight: 1
+      - path: Armature/Bone.003/Bone.004
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.003/Bone.006
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Sphere
+        weight: 1
+      - path: Sun
+        weight: 1
+      - path: Sun.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Dead_Fall
+      takeName: Dead_Fall
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001/dedos_izk.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005/dedos_izk.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006/dedos_izk.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007/dedos_izk.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top/gorro_top_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017/Bone.017_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018/Bone.018_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom/capa_bottom_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001/dedos_der.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005/dedos_der.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006/dedos_der.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007/dedos_der.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral/pectoral_end
+        weight: 1
+      - path: Armature/Bone.003
+        weight: 1
+      - path: Armature/Bone.003/Bone.004
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.003/Bone.006
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Sphere
+        weight: 1
+      - path: Sun
+        weight: 1
+      - path: Sun.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Slip
+      takeName: Slip
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001/dedos_izk.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005/dedos_izk.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006/dedos_izk.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007/dedos_izk.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top/gorro_top_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017/Bone.017_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018/Bone.018_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom/capa_bottom_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001/dedos_der.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005/dedos_der.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006/dedos_der.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007/dedos_der.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral/pectoral_end
+        weight: 1
+      - path: Armature/Bone.003
+        weight: 1
+      - path: Armature/Bone.003/Bone.004
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.003/Bone.006
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Sphere
+        weight: 1
+      - path: Sun
+        weight: 1
+      - path: Sun.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Hurt
+      takeName: Hurt
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001/dedos_izk.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005/dedos_izk.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006/dedos_izk.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007/dedos_izk.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top/gorro_top_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017/Bone.017_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018/Bone.018_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom/capa_bottom_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001/dedos_der.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005/dedos_der.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006/dedos_der.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007/dedos_der.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral/pectoral_end
+        weight: 1
+      - path: Armature/Bone.003
+        weight: 1
+      - path: Armature/Bone.003/Bone.004
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.003/Bone.006
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Sphere
+        weight: 1
+      - path: Sun
+        weight: 1
+      - path: Sun.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Death_Drown
+      takeName: Death_Drown
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001/dedos_izk.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005/dedos_izk.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006/dedos_izk.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007/dedos_izk.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top/gorro_top_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017/Bone.017_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018/Bone.018_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom/capa_bottom_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001/dedos_der.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005/dedos_der.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006/dedos_der.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007/dedos_der.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral/pectoral_end
+        weight: 1
+      - path: Armature/Bone.003
+        weight: 1
+      - path: Armature/Bone.003/Bone.004
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.003/Bone.006
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Sphere
+        weight: 1
+      - path: Sun
+        weight: 1
+      - path: Sun.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Fall
+      takeName: Fall
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001/dedos_izk.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005/dedos_izk.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006/dedos_izk.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007/dedos_izk.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top/gorro_top_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017/Bone.017_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018/Bone.018_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom/capa_bottom_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001/dedos_der.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005/dedos_der.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006/dedos_der.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007/dedos_der.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral/pectoral_end
+        weight: 1
+      - path: Armature/Bone.003
+        weight: 1
+      - path: Armature/Bone.003/Bone.004
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.003/Bone.006
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Sphere
+        weight: 1
+      - path: Sun
+        weight: 1
+      - path: Sun.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Slip_turnarround
+      takeName: Slip_turnarround
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001/dedos_izk.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005/dedos_izk.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006/dedos_izk.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007/dedos_izk.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top/gorro_top_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017/Bone.017_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018/Bone.018_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom/capa_bottom_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001/dedos_der.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005/dedos_der.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006/dedos_der.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007/dedos_der.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral/pectoral_end
+        weight: 1
+      - path: Armature/Bone.003
+        weight: 1
+      - path: Armature/Bone.003/Bone.004
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.003/Bone.006
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Sphere
+        weight: 1
+      - path: Sun
+        weight: 1
+      - path: Sun.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Burn
+      takeName: Burn
+      firstFrame: 0
+      lastFrame: 8
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001/dedos_izk.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005/dedos_izk.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006/dedos_izk.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007/dedos_izk.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top/gorro_top_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017/Bone.017_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018/Bone.018_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom/capa_bottom_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001/dedos_der.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005/dedos_der.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006/dedos_der.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007/dedos_der.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral/pectoral_end
+        weight: 1
+      - path: Armature/Bone.003
+        weight: 1
+      - path: Armature/Bone.003/Bone.004
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.003/Bone.006
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Sphere
+        weight: 1
+      - path: Sun
+        weight: 1
+      - path: Sun.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Burn
+      takeName: Armature|Burn
+      firstFrame: 0
+      lastFrame: 8
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001/dedos_izk.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005/dedos_izk.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006/dedos_izk.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007/dedos_izk.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top/gorro_top_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017/Bone.017_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018/Bone.018_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom/capa_bottom_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001/dedos_der.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005/dedos_der.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006/dedos_der.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007/dedos_der.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral/pectoral_end
+        weight: 1
+      - path: Armature/Bone.003
+        weight: 1
+      - path: Armature/Bone.003/Bone.004
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.003/Bone.006
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Sphere
+        weight: 1
+      - path: Sun
+        weight: 1
+      - path: Sun.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Dead_Crash
+      takeName: Armature|Dead_Crash
+      firstFrame: 0
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001/dedos_izk.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005/dedos_izk.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006/dedos_izk.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007/dedos_izk.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top/gorro_top_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017/Bone.017_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018/Bone.018_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom/capa_bottom_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001/dedos_der.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005/dedos_der.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006/dedos_der.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007/dedos_der.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral/pectoral_end
+        weight: 1
+      - path: Armature/Bone.003
+        weight: 1
+      - path: Armature/Bone.003/Bone.004
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.003/Bone.006
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Sphere
+        weight: 1
+      - path: Sun
+        weight: 1
+      - path: Sun.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Dead_Fall
+      takeName: Armature|Dead_Fall
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001/dedos_izk.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005/dedos_izk.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006/dedos_izk.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007/dedos_izk.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top/gorro_top_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017/Bone.017_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018/Bone.018_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom/capa_bottom_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001/dedos_der.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005/dedos_der.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006/dedos_der.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007/dedos_der.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral/pectoral_end
+        weight: 1
+      - path: Armature/Bone.003
+        weight: 1
+      - path: Armature/Bone.003/Bone.004
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.003/Bone.006
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Sphere
+        weight: 1
+      - path: Sun
+        weight: 1
+      - path: Sun.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Death_Drown
+      takeName: Armature|Death_Drown
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001/dedos_izk.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005/dedos_izk.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006/dedos_izk.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007/dedos_izk.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top/gorro_top_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017/Bone.017_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018/Bone.018_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom/capa_bottom_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001/dedos_der.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005/dedos_der.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006/dedos_der.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007/dedos_der.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral/pectoral_end
+        weight: 1
+      - path: Armature/Bone.003
+        weight: 1
+      - path: Armature/Bone.003/Bone.004
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.003/Bone.006
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Sphere
+        weight: 1
+      - path: Sun
+        weight: 1
+      - path: Sun.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Fall
+      takeName: Armature|Fall
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001/dedos_izk.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005/dedos_izk.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006/dedos_izk.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007/dedos_izk.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top/gorro_top_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017/Bone.017_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018/Bone.018_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom/capa_bottom_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001/dedos_der.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005/dedos_der.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006/dedos_der.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007/dedos_der.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral/pectoral_end
+        weight: 1
+      - path: Armature/Bone.003
+        weight: 1
+      - path: Armature/Bone.003/Bone.004
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.003/Bone.006
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Sphere
+        weight: 1
+      - path: Sun
+        weight: 1
+      - path: Sun.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Hurt
+      takeName: Armature|Hurt
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001/dedos_izk.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005/dedos_izk.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006/dedos_izk.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007/dedos_izk.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top/gorro_top_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017/Bone.017_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018/Bone.018_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom/capa_bottom_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001/dedos_der.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005/dedos_der.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006/dedos_der.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007/dedos_der.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral/pectoral_end
+        weight: 1
+      - path: Armature/Bone.003
+        weight: 1
+      - path: Armature/Bone.003/Bone.004
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.003/Bone.006
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Sphere
+        weight: 1
+      - path: Sun
+        weight: 1
+      - path: Sun.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|jump air
+      takeName: Armature|jump air
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001/dedos_izk.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005/dedos_izk.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006/dedos_izk.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007/dedos_izk.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top/gorro_top_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017/Bone.017_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018/Bone.018_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom/capa_bottom_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001/dedos_der.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005/dedos_der.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006/dedos_der.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007/dedos_der.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral/pectoral_end
+        weight: 1
+      - path: Armature/Bone.003
+        weight: 1
+      - path: Armature/Bone.003/Bone.004
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.003/Bone.006
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Sphere
+        weight: 1
+      - path: Sun
+        weight: 1
+      - path: Sun.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Land
+      takeName: Armature|Land
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001/dedos_izk.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005/dedos_izk.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006/dedos_izk.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007/dedos_izk.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top/gorro_top_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017/Bone.017_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018/Bone.018_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom/capa_bottom_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001/dedos_der.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005/dedos_der.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006/dedos_der.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007/dedos_der.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral/pectoral_end
+        weight: 1
+      - path: Armature/Bone.003
+        weight: 1
+      - path: Armature/Bone.003/Bone.004
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.003/Bone.006
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Sphere
+        weight: 1
+      - path: Sun
+        weight: 1
+      - path: Sun.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|magia
+      takeName: Armature|magia
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001/dedos_izk.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005/dedos_izk.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006/dedos_izk.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007/dedos_izk.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top/gorro_top_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017/Bone.017_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018/Bone.018_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom/capa_bottom_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001/dedos_der.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005/dedos_der.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006/dedos_der.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007/dedos_der.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral/pectoral_end
+        weight: 1
+      - path: Armature/Bone.003
+        weight: 1
+      - path: Armature/Bone.003/Bone.004
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.003/Bone.006
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Sphere
+        weight: 1
+      - path: Sun
+        weight: 1
+      - path: Sun.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|pre_magia
+      takeName: Armature|pre_magia
+      firstFrame: 0
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001/dedos_izk.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005/dedos_izk.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006/dedos_izk.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007/dedos_izk.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top/gorro_top_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017/Bone.017_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018/Bone.018_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom/capa_bottom_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001/dedos_der.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005/dedos_der.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006/dedos_der.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007/dedos_der.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral/pectoral_end
+        weight: 1
+      - path: Armature/Bone.003
+        weight: 1
+      - path: Armature/Bone.003/Bone.004
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.003/Bone.006
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Sphere
+        weight: 1
+      - path: Sun
+        weight: 1
+      - path: Sun.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Run
+      takeName: Armature|Run
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001/dedos_izk.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005/dedos_izk.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006/dedos_izk.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007/dedos_izk.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top/gorro_top_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017/Bone.017_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018/Bone.018_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom/capa_bottom_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001/dedos_der.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005/dedos_der.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006/dedos_der.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007/dedos_der.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral/pectoral_end
+        weight: 1
+      - path: Armature/Bone.003
+        weight: 1
+      - path: Armature/Bone.003/Bone.004
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.003/Bone.006
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Sphere
+        weight: 1
+      - path: Sun
+        weight: 1
+      - path: Sun.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Slip
+      takeName: Armature|Slip
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001/dedos_izk.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005/dedos_izk.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006/dedos_izk.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007/dedos_izk.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top/gorro_top_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017/Bone.017_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018/Bone.018_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom/capa_bottom_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001/dedos_der.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005/dedos_der.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006/dedos_der.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007/dedos_der.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral/pectoral_end
+        weight: 1
+      - path: Armature/Bone.003
+        weight: 1
+      - path: Armature/Bone.003/Bone.004
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.003/Bone.006
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Sphere
+        weight: 1
+      - path: Sun
+        weight: 1
+      - path: Sun.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Slip_turnarround
+      takeName: Armature|Slip_turnarround
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001/dedos_izk.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005/dedos_izk.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006/dedos_izk.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007/dedos_izk.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top/gorro_top_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017/Bone.017_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018/Bone.018_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom/capa_bottom_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001/dedos_der.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005/dedos_der.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006/dedos_der.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007/dedos_der.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral/pectoral_end
+        weight: 1
+      - path: Armature/Bone.003
+        weight: 1
+      - path: Armature/Bone.003/Bone.004
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.003/Bone.006
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Sphere
+        weight: 1
+      - path: Sun
+        weight: 1
+      - path: Sun.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Still
+      takeName: Armature|Still
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.001/dedos_izk.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.002/dedos_izk.005/dedos_izk.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.003/dedos_izk.006/dedos_izk.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.008/dedos_izk/dedos_izk.004/dedos_izk.007/dedos_izk.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.013/gorro_abajo/gorro_mid/gorro_top/gorro_top_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.017/Bone.017_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018
+        weight: 1
+      - path: Armature/Bone/Bone.002/cabeza/Bone.018/Bone.018_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom
+        weight: 1
+      - path: Armature/Bone/Bone.002/capa_top/capa_bottom/capa_bottom_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.001/dedos_der.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.002/dedos_der.005/dedos_der.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.003/dedos_der.006/dedos_der.006_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007
+        weight: 1
+      - path: Armature/Bone/Bone.002/palma_der/dedos_der/dedos_der.004/dedos_der.007/dedos_der.007_end
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral
+        weight: 1
+      - path: Armature/Bone/Bone.002/pectoral/pectoral_end
+        weight: 1
+      - path: Armature/Bone.003
+        weight: 1
+      - path: Armature/Bone.003/Bone.004
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005
+        weight: 1
+      - path: Armature/Bone.003/Bone.004/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone.003/Bone.006
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007
+        weight: 1
+      - path: Armature/Bone.003/Bone.006/Bone.007/Bone.007_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Sphere
+        weight: 1
+      - path: Sun
+        weight: 1
+      - path: Sun.001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.2
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

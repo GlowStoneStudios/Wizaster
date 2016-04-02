@@ -544,8 +544,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 140066}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -8, z: 0}
-  m_LocalScale: {x: 4.653278, y: 4.653275, z: 4.653275}
+  m_LocalPosition: {x: 0, y: 3.33, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 446108}
   m_RootOrder: 1
@@ -1534,7 +1534,7 @@ MonoBehaviour:
   isTouching: 0
   direction: -1
   speed: 2
-  limits: {x: -8, y: 5}
+  limits: {x: -12, y: 3}
   SpeedGainRate: 0.66
 --- !u!114 &11409956
 MonoBehaviour:

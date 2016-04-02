@@ -1,16 +1,28 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class AudioManager : MonoBehaviour {
+public class AudioManager : MonoBehaviour
+{
+	/* Atributos */
+	[Header ("Tracks")]
+	public AudioClip[] sfx;
+	public AudioClip[] bgm;
 
-	public static AudioManager instance;
-	// Use this for initialization
-	void Awake () {
+	static public AudioManager instance;
+
+	AudioSource audioPlayer;
+
+	/* Aplicacion al motor */
+	void Awake ()
+	{
 		instance = this;
+		audioPlayer = GetComponent <AudioSource> ();
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+
+	/* Metodos de la clase */
+	public void PlayAudio (int i, float vol)
+	{
+		// i = clips , vol = volumen
+		audioPlayer.PlayOneShot (sfx[i], vol);
 	}
 }

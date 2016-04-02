@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+[ExecuteInEditMode]
 public class ActionTrigger : MonoBehaviour {
 
 	public enum actionType{None, Displacement}
@@ -10,6 +11,8 @@ public class ActionTrigger : MonoBehaviour {
 	Transform cached;
 	bool actionDone;
 
+    public bool SaveCurrentPos;
+
 	// Use this for initialization
 	void Awake () {
 		cached = this.transform;
@@ -17,7 +20,11 @@ public class ActionTrigger : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+        if (SaveCurrentPos)
+        {
+            SaveCurrentPos = false;
+            displacementTarget = cached.localPosition;
+        }
 		if (actionDone) {
 			switch (Type) {
 
