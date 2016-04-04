@@ -493,6 +493,58 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 444, y: 136}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &310413629
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 310413630}
+  - 65: {fileID: 310413631}
+  - 114: {fileID: 310413632}
+  m_Layer: 0
+  m_Name: Magnet
+  m_TagString: Untagged
+  m_Icon: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &310413630
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 310413629}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 20
+--- !u!65 &310413631
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 310413629}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 25, y: 10, z: 25}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &310413632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 310413629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9f48e7456e869e4bb7f79a7699b1d17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &458915930
 Prefab:
   m_ObjectHideFlags: 0
@@ -1519,9 +1571,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1438933372}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 7011356fc11fe294dac762ef27281b5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  button: {fileID: 1438933376}
+  text: {fileID: 821270162}
 --- !u!114 &1438933375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1818,7 +1872,7 @@ MonoBehaviour:
   TutorialScene: 0
   magnet: 0
   canTele: 0
-  staminaBar: {fileID: 0}
+  staminaBar: {fileID: 1901143080}
   ObjectsDragForce: 9
   SpawnChunk: 1
   chunks:

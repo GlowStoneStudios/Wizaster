@@ -8,6 +8,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/menu.unity
   - enabled: 1
+    path: Assets/_Scenes/loader.unity
+  - enabled: 1
     path: Assets/_Scenes/gameplay.unity
   - enabled: 1
     path: Assets/_Scenes/credits.unity

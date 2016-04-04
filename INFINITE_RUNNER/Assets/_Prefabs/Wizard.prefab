@@ -131,6 +131,7 @@ GameObject:
   - 114: {fileID: 11434078}
   - 54: {fileID: 5445368}
   - 136: {fileID: 13650412}
+  - 65: {fileID: 6592374}
   m_Layer: 0
   m_Name: Wizard
   m_TagString: Player
@@ -1714,6 +1715,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!65 &6592374
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 116192}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4, y: 2, z: 0.5}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!95 &9570902
 Animator:
   serializedVersion: 3
@@ -1745,7 +1758,7 @@ MonoBehaviour:
   normalSpeed: 10
   slowSpeed: 0
   rushSpeed: 0
-  dashForce: {x: 0, y: 0, z: 0}
+  dashForce: {x: 0, y: 0, z: 5}
   rushRate: 1.66
   slowRate: 0.7
   runMode: 0
