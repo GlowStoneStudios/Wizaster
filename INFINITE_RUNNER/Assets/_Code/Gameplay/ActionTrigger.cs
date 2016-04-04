@@ -4,22 +4,26 @@ using System.Collections;
 [ExecuteInEditMode]
 public class ActionTrigger : MonoBehaviour {
 
-	public enum actionType{None, Displacement}
+	public enum actionType{None, Displacement, ActivatePhysics}
 	public actionType Type;
 
 	public Vector3 displacementTarget;
 	Transform cached;
 	bool actionDone;
-
+	Rigidbody rigd;
     public bool SaveCurrentPos;
-
+	public Vector3 minVec, maxVec;
 	// Use this for initialization
 	void Awake () {
 		cached = this.transform;
+		if(Type == actionType.ActivatePhysics){
+			rigd = GetComponent<Rigidbody> ();
+		}
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update () 
+	{
         if (SaveCurrentPos)
         {
             SaveCurrentPos = false;
@@ -31,6 +35,7 @@ public class ActionTrigger : MonoBehaviour {
 			case actionType.Displacement:
 				cached.localPosition = Vector3.Lerp (cached.localPosition, displacementTarget, Time.deltaTime * GameController.instance.ObjectsDragForce);
 				break;
+
 			}
 		}
 	}
@@ -38,6 +43,18 @@ public class ActionTrigger : MonoBehaviour {
 	void OnMouseDown(){
 		if (!actionDone) {
 			actionDone = true;
+		}
+		if (Type == actionType.ActivatePhysics) {
+			if (rigd.isKinematic) {
+				rigd.isKinematic = false;
+			}
+
+			Vector3 tempVec = new Vector3 (
+				Random.Range(minVec.x,maxVec.x),
+				Random.Range(minVec.y,maxVec.y),
+				Random.Range(minVec.z,maxVec.z)
+			);
+			rigd.AddForce (tempVec * 100f);
 		}
 	}
 }

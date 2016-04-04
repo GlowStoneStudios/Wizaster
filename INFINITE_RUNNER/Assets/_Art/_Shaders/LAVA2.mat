@@ -6,11 +6,11 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: LAVA1
-  m_Shader: {fileID: 4800000, guid: 46b60057eda3d6241bd2e175a3dbc589, type: 3}
+  m_Name: LAVA2
+  m_Shader: {fileID: 4800000, guid: 9913009055823674fa7cdd86de38a8ad, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
-  m_CustomRenderQueue: 3000
+  m_CustomRenderQueue: 2000
   stringTagMap: {}
   m_SavedProperties:
     serializedVersion: 2
@@ -89,7 +89,7 @@ Material:
         first:
           name: _Diffuse
         second:
-          m_Texture: {fileID: 2800000, guid: ccaed10ae4949a24197e0dc42ec0b28f, type: 3}
+          m_Texture: {fileID: 2800000, guid: 3ff040a9fa1aa154b94142261a740cfd, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -145,7 +145,7 @@ Material:
         first:
           name: _Flowmap
         second:
-          m_Texture: {fileID: 2800000, guid: 5e567094f7568c746bdd5a6b92c37c47, type: 3}
+          m_Texture: {fileID: 2800000, guid: 5d58dab261dd88346a69bf766289f8eb, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -292,7 +292,7 @@ Material:
       data:
         first:
           name: _Scale
-        second: 0.6
+        second: 1
       data:
         first:
           name: _SrcBlend
@@ -452,15 +452,15 @@ Material:
       data:
         first:
           name: _Angle
-        second: 0.382
+        second: 0.388
       data:
         first:
           name: _FlowPower
-        second: 0.6
+        second: 2
       data:
         first:
           name: _FlowSpeed
-        second: 1.3
+        second: 6
       data:
         first:
           name: _BorderBlend
@@ -468,7 +468,7 @@ Material:
       data:
         first:
           name: _FlowChangeSpeed
-        second: 1.98
+        second: 1.72
       data:
         first:
           name: _FoamBlend
@@ -557,6 +557,10 @@ Material:
         first:
           name: _NormalIntensity_copy
         second: 1.538
+      data:
+        first:
+          name: _Flowpower
+        second: 1
     m_Colors:
       data:
         first:

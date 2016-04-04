@@ -123,11 +123,19 @@ Material:
       data:
         first:
           name: _ReflectionIntensity
-        second: 0.659
+        second: 0.533
+      data:
+        first:
+          name: _ReflectionBlur
+        second: 3
       data:
         first:
           name: _ColorIntensity
-        second: 0.918
+        second: 1
+      data:
+        first:
+          name: _ReflectionDesaturate
+        second: 0.76
       data:
         first:
           name: _Parallax
@@ -168,14 +176,6 @@ Material:
         first:
           name: _LightPower
         second: 0.109
-      data:
-        first:
-          name: _ReflectionBlur
-        second: 3
-      data:
-        first:
-          name: _ReflectionDesaturate
-        second: 0.558
     m_Colors:
       data:
         first:
