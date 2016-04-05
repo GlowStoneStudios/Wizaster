@@ -14,6 +14,8 @@ public class CreditsPlayer : MonoBehaviour
 
 	public float rayDist;
 
+	[Header("Animation")]
+	public Animator playerAnim;
 
 	/* Aplicacion al motor */
 	void Start () {
@@ -36,11 +38,7 @@ public class CreditsPlayer : MonoBehaviour
 			jumpForce = 200.0f;
 		}
 	}
-
-	void Update () {
-		// CAMBIAR POS EN Y POR LERP!
-	}
-
+		
 	void FixedUpdate ()
 	{
 		RaycastHit hit;
@@ -56,6 +54,7 @@ public class CreditsPlayer : MonoBehaviour
 		if (Physics.Raycast (selfTrans.position, Vector3.down, out hit, 0.1f)) {
 			if (hit.transform.tag == "Ground") {
 				canJump = true;
+				playerAnim.SetBool ("onAir", false);
 				//Debug.Log (canJump);
 			}
 		}
@@ -65,6 +64,7 @@ public class CreditsPlayer : MonoBehaviour
 	public void DoJump () {
 		if (canJump) {
 			canJump = false;
+			playerAnim.SetBool ("onAir", true);
 			selfRb.AddForce ( Vector3.up * jumpForce, ForceMode.Force);
 		}
 	}
