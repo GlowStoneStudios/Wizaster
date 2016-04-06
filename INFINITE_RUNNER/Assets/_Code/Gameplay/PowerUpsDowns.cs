@@ -19,13 +19,4 @@ public class PowerUpsDowns : MonoBehaviour
 	}
 	public powerDown PowerDownType;
 	public int powerDownDuration;
-
-	/* Aplicacion al motor */
-	/*
-	void Awake ()
-	{
-		PowerDownType = powerDown.NOCASH;
-		Debug.Log (PowerDownType.ToString ());
-	}
-	*/
 }
