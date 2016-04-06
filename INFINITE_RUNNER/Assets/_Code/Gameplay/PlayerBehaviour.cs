@@ -223,6 +223,11 @@ public class PlayerBehaviour : MonoBehaviour
 				AudioManager.instance.PlayAudio (0, 1.0f);
 			}
 		}
+
+		if (o.tag == "Burn") {
+			DoBurn ();
+			print ("burning");
+		}
 	}
 
 	void OnTriggerStay (Collider other) {
@@ -238,6 +243,7 @@ public class PlayerBehaviour : MonoBehaviour
 				AudioManager.instance.PlayAudio (0, 1.0f);
 			}
 		}
+	
 	}
 
 	void OnTriggerExit (Collider o)
@@ -246,5 +252,19 @@ public class PlayerBehaviour : MonoBehaviour
         {
             GameController.instance.AddScore (50);
         }
+	}
+
+	void DoBurn()
+	{
+		selfRb.AddForce (jumpPower);	
+		//AudioManager.instance.PlayAudio (1,1f);
+		//activar plano de humo.
+		StartCoroutine(cancelSmoke());
+		stamina -= 5f;
+		GameController.instance.AddScore (50);
+	}
+	IEnumerator cancelSmoke(){
+		yield return new WaitForSeconds (1);
+		//desactivar plano de humo
 	}
 }

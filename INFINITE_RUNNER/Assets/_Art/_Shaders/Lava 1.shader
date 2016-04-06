@@ -17,6 +17,7 @@ Shader "GlowStone Studios/Lava2" {
         Tags {
             "RenderType"="Opaque"
         }
+        LOD 200
         Pass {
             Name "FORWARD"
             Tags {
