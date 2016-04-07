@@ -107,10 +107,6 @@ Material:
         second: 0.5
       data:
         first:
-          name: _Metallic
-        second: 0
-      data:
-        first:
           name: _Gloss
         second: 0
       data:
@@ -147,6 +143,10 @@ Material:
         second: 0
       data:
         first:
+          name: _Metallic
+        second: 0
+      data:
+        first:
           name: _SpecularPower
         second: 0.5
       data:
@@ -164,12 +164,12 @@ Material:
         second: {r: 1, g: 1, b: 1, a: 1}
       data:
         first:
-          name: _Tint
-        second: {r: 1, g: 1, b: 1, a: 1}
-      data:
-        first:
           name: _LightDirection
         second: {r: 0.5, g: 1, b: -0.5, a: 0}
+      data:
+        first:
+          name: _Tint
+        second: {r: 1, g: 1, b: 1, a: 1}
       data:
         first:
           name: _SpecularTint

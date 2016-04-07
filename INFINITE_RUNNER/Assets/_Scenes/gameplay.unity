@@ -20,11 +20,11 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientSkyColor: {r: 0.61764705, g: 0.5859504, b: 0.5177336, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 0
+  m_AmbientMode: 3
   m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
@@ -588,6 +588,10 @@ Prefab:
       propertyPath: m_LocalPosition.y
       value: -0.8
       objectReference: {fileID: 0}
+    - target: {fileID: 127546, guid: da4b2a13cb8042c4996c0e55ebf9360f, type: 2}
+      propertyPath: m_Name
+      value: Sombra
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: da4b2a13cb8042c4996c0e55ebf9360f, type: 2}
   m_IsPrefabParent: 0
@@ -606,6 +610,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec156c8f663be654a93ff06151737d54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rayDist: 100
+  posOffset: 0.1
+  rotOffset: 90
 --- !u!1001 &506547348
 Prefab:
   m_ObjectHideFlags: 0
@@ -648,6 +655,22 @@ Prefab:
     - target: {fileID: 154798, guid: a8fe17f988d21494b9abe1cf7ec5b0f7, type: 2}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11470616, guid: a8fe17f988d21494b9abe1cf7ec5b0f7, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 470476, guid: a8fe17f988d21494b9abe1cf7ec5b0f7, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 454676, guid: a8fe17f988d21494b9abe1cf7ec5b0f7, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11495060, guid: a8fe17f988d21494b9abe1cf7ec5b0f7, type: 2}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a8fe17f988d21494b9abe1cf7ec5b0f7, type: 2}
@@ -1911,6 +1934,49 @@ MonoBehaviour:
   levelLength: 1000
   chunkSize: 30
   TravelDistance: 0
+  transition:
+    key0:
+      serializedVersion: 2
+      rgba: 4294967295
+    key1:
+      serializedVersion: 2
+      rgba: 4294967295
+    key2:
+      serializedVersion: 2
+      rgba: 0
+    key3:
+      serializedVersion: 2
+      rgba: 0
+    key4:
+      serializedVersion: 2
+      rgba: 0
+    key5:
+      serializedVersion: 2
+      rgba: 0
+    key6:
+      serializedVersion: 2
+      rgba: 0
+    key7:
+      serializedVersion: 2
+      rgba: 0
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
 --- !u!4 &1727100905
 Transform:
   m_ObjectHideFlags: 0
@@ -2084,8 +2150,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc838b50fb9cf6349af88a3f843cd50c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PowerUpType: 0
-  powerUpDuration: 0
+  PowerUpType: 7
+  powerUpDuration: 5
   PowerDownType: 0
   powerDownDuration: 0
 --- !u!1 &1901143078

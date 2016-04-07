@@ -42,6 +42,9 @@ public class GameController : MonoBehaviour
 
 	public float TravelDistance = 0;
 
+	[Header ("Lightning")]
+	public Gradient transition;
+
 	/* Aplicacion al motor */
 	void Awake ()
 	{
@@ -81,6 +84,7 @@ public class GameController : MonoBehaviour
 			}
 		}
 
+		DayTime ();
 	}
 
 	void Start () 
@@ -273,5 +277,16 @@ public class GameController : MonoBehaviour
 		}
 	}
 
+
+	public void DayTime () {
+		var time = System.DateTime.Now;
+
+		float result = time.Hour + (ExtensionMethods.Remap (time.Minute, 0, 60.0f, 0, 0.99f));
+		float curTimeNormalizaed = ExtensionMethods.Remap (result, 0, 23.99f, 0, 1.0f);
+
+		curTimeNormalizaed = Mathf.Round (curTimeNormalizaed * 100.0f) / 100.0f;	// Reduccion de decimales
+
+		RenderSettings.ambientLight = transition.Evaluate (curTimeNormalizaed);
+	}
 
 }
