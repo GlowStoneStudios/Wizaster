@@ -1,0 +1,166 @@
+fileFormatVersion: 2
+guid: 1049ae98a4a9c3241a16c29a5766cd38
+timeCreated: 1460389636
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Arbol_quemado
+    100002: Arbolito
+    100004: Arbolito_quemado1
+    100006: Fungi_01
+    100008: Fungi_02
+    100010: fungi_03
+    100012: Funguis_peques
+    100014: Gallina
+    100016: pCube14
+    100018: pCube15
+    100020: pCube16
+    100022: pCube2
+    100024: pCylinder28
+    100026: pCylinder29
+    100028: pCylinder3
+    100030: pCylinder30
+    100032: pCylinder31
+    100034: pCylinder32
+    100036: pCylinder33
+    100038: pCylinder34
+    100040: pollito
+    100042: //RootNode
+    100044: transform24
+    100046: transform25
+    100048: transform26
+    100050: transform27
+    100052: transform28
+    100054: transform29
+    100056: Tronco
+    400000: Arbol_quemado
+    400002: Arbolito
+    400004: Arbolito_quemado1
+    400006: Fungi_01
+    400008: Fungi_02
+    400010: fungi_03
+    400012: Funguis_peques
+    400014: Gallina
+    400016: pCube14
+    400018: pCube15
+    400020: pCube16
+    400022: pCube2
+    400024: pCylinder28
+    400026: pCylinder29
+    400028: pCylinder3
+    400030: pCylinder30
+    400032: pCylinder31
+    400034: pCylinder32
+    400036: pCylinder33
+    400038: pCylinder34
+    400040: pollito
+    400042: //RootNode
+    400044: transform24
+    400046: transform25
+    400048: transform26
+    400050: transform27
+    400052: transform28
+    400054: transform29
+    400056: Tronco
+    2300000: Arbol_quemado
+    2300002: Arbolito
+    2300004: Arbolito_quemado1
+    2300006: Fungi_01
+    2300008: Fungi_02
+    2300010: fungi_03
+    2300012: Funguis_peques
+    2300014: Gallina
+    2300016: pCube2
+    2300018: pCylinder28
+    2300020: pollito
+    2300022: Tronco
+    3300000: Arbol_quemado
+    3300002: Arbolito
+    3300004: Arbolito_quemado1
+    3300006: Fungi_01
+    3300008: Fungi_02
+    3300010: fungi_03
+    3300012: Funguis_peques
+    3300014: Gallina
+    3300016: pCube2
+    3300018: pCylinder28
+    3300020: pollito
+    3300022: Tronco
+    4300000: Tronco
+    4300002: Arbolito
+    4300004: pCube2
+    4300006: Funguis_peques
+    4300008: Gallina
+    4300010: fungi_03
+    4300012: Fungi_01
+    4300014: pCylinder28
+    4300016: pollito
+    4300018: Fungi_02
+    4300020: Arbolito_quemado1
+    4300022: Arbol_quemado
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 66
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -38,6 +38,13 @@ Material:
           m_Offset: {x: 0, y: 0}
       data:
         first:
+          name: _Diffuse
+        second:
+          m_Texture: {fileID: 2800000, guid: ea509859e7e3aed4a9efb69aca3f053d, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
           name: _ParallaxMap
         second:
           m_Texture: {fileID: 0}
@@ -80,13 +87,6 @@ Material:
           m_Offset: {x: 0, y: 0}
       data:
         first:
-          name: _Diffuse
-        second:
-          m_Texture: {fileID: 2800000, guid: ea509859e7e3aed4a9efb69aca3f053d, type: 3}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
           name: _node_5888
         second:
           m_Texture: {fileID: 0}
@@ -105,6 +105,22 @@ Material:
         first:
           name: _Cutoff
         second: 0.5
+      data:
+        first:
+          name: _Metallic
+        second: 0
+      data:
+        first:
+          name: _Gloss
+        second: 0
+      data:
+        first:
+          name: _SpecularPower
+        second: 1
+      data:
+        first:
+          name: _Speed
+        second: 6
       data:
         first:
           name: _Parallax
@@ -139,24 +155,8 @@ Material:
         second: 0
       data:
         first:
-          name: _Metallic
-        second: 0
-      data:
-        first:
-          name: _Gloss
-        second: 0
-      data:
-        first:
-          name: _SpecularPower
-        second: 0.66
-      data:
-        first:
           name: _LightPower
         second: 0.109
-      data:
-        first:
-          name: _Speed
-        second: 6
     m_Colors:
       data:
         first:
@@ -166,6 +166,18 @@ Material:
         first:
           name: _Color
         second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _DiffuseTint
+        second: {r: 0.7794118, g: 0.37251297, b: 0.7400345, a: 1}
+      data:
+        first:
+          name: _ColorToAdd
+        second: {r: 0, g: 0.30988836, b: 0.46323532, a: 1}
+      data:
+        first:
+          name: _LightDirection
+        second: {r: 0.5, g: 1, b: -0.5, a: 0}
       data:
         first:
           name: _Tint
@@ -182,15 +194,3 @@ Material:
         first:
           name: _SunTint
         second: {r: 1, g: 0.9764706, b: 0.9411765, a: 1}
-      data:
-        first:
-          name: _LightDirection
-        second: {r: 0.5, g: 1, b: -0.5, a: 0}
-      data:
-        first:
-          name: _DiffuseTint
-        second: {r: 0.7794118, g: 0.37251297, b: 0.7400345, a: 1}
-      data:
-        first:
-          name: _ColorToAdd
-        second: {r: 0, g: 0.30988836, b: 0.46323532, a: 1}
