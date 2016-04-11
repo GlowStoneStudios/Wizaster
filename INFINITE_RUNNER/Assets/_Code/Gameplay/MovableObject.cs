@@ -30,9 +30,6 @@ public class MovableObject : MonoBehaviour {
         cached = this.transform;
     }
 	void Start () {
-        
-	//	test = GameObject.Find ("TEST").transform;
-
         switch (RandomPosition)
         {
             case randomPosType.X:
@@ -58,8 +55,6 @@ public class MovableObject : MonoBehaviour {
 
         minPos = new Vector3 (startPos.x - MoveLimitMin.x,startPos.y - MoveLimitMin.y,startPos.z - MoveLimitMin.z);
         maxPos = new Vector3 (startPos.x + MoveLimitMax.x,startPos.y + MoveLimitMax.y,startPos.z + MoveLimitMax.z);
-		//print (startPos + " // "+cached.name);
-   
 	}
 	
 
@@ -67,17 +62,13 @@ public class MovableObject : MonoBehaviour {
     void OnMouseDrag()
     {
         Transform testt = GameObject.Find("TEST").transform;
-
         Vector3 curPosition = new Vector3();
-      
         switch (DragType)
         {
             case moveType.MoveXAxis:
-
                 Plane planeX=new Plane(Vector3.up,new Vector3(0, 2, 0));
                 Ray rayX=Camera.main.ScreenPointToRay(Input.mousePosition);
                 float distanceX;
-
                 if(planeX.Raycast(rayX, out distanceX)) {
                     curPosition=rayX.GetPoint(distanceX);
                     testt.position = curPosition;
@@ -86,17 +77,13 @@ public class MovableObject : MonoBehaviour {
                         Mathf.Clamp(curPosition.x,MoveLimitMin.x,MoveLimitMax.x),
                         startPos.y,
                         startPos.z);
-
                     cached.position = Vector3.Lerp(cached.position, tempX, Time.deltaTime * GameController.instance.ObjectsDragForce);
                 }
                 break;
-
             case moveType.MoveYAxis:
-
                 Plane planeY=new Plane(Vector3.right,new Vector3(0, 2, 0));
                 Ray rayY=Camera.main.ScreenPointToRay(Input.mousePosition);
                 float distanceY;
-
                 if(planeY.Raycast(rayY, out distanceY)) {
                     curPosition=rayY.GetPoint(distanceY);
                     testt.position = curPosition;
@@ -109,13 +96,10 @@ public class MovableObject : MonoBehaviour {
                     cached.position = Vector3.Lerp(cached.position, tempY, Time.deltaTime * GameController.instance.ObjectsDragForce);
                 }
                 break;
-
             case moveType.MoveZAxis:
-
                 Plane planeZ=new Plane(Vector3.right,new Vector3(0, 2, 0));
                 Ray rayZ=Camera.main.ScreenPointToRay(Input.mousePosition);
                 float distanceZ;
-
                 if(planeZ.Raycast(rayZ, out distanceZ)) {
                     curPosition=rayZ.GetPoint(distanceZ);
                     testt.position = curPosition;
@@ -131,6 +115,7 @@ public class MovableObject : MonoBehaviour {
                 break;
         }
     }
+
     void OnTriggerEnter(Collider col){
         if (playerChild)
         {
@@ -140,6 +125,7 @@ public class MovableObject : MonoBehaviour {
             }
         }
     }
+
     void OnTriggerExit(Collider col){
         if (playerChild)
         {

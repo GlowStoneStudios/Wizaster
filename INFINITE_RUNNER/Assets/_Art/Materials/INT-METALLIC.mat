@@ -6,8 +6,8 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: mat1
-  m_Shader: {fileID: 4800000, guid: 14607077f1d24fe4d8c89f461b63f46e, type: 3}
+  m_Name: INT-METALLIC
+  m_Shader: {fileID: 4800000, guid: 24f038fb275fb674dab643169bf4d4b8, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
   m_CustomRenderQueue: 2000
@@ -15,6 +15,13 @@ Material:
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
+      data:
+        first:
+          name: _Reflection
+        second:
+          m_Texture: {fileID: 8900000, guid: 45047e4c0b4c3944d840282da159e871, type: 2}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
       data:
         first:
           name: _MainTex
@@ -85,6 +92,13 @@ Material:
           m_Texture: {fileID: 2800000, guid: ea509859e7e3aed4a9efb69aca3f053d, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _node_5888
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
     m_Floats:
       data:
         first:
@@ -136,12 +150,36 @@ Material:
         second: 0
       data:
         first:
+          name: _Gloss
+        second: 0
+      data:
+        first:
           name: _SpecularPower
+        second: 0.5
+      data:
+        first:
+          name: _LightPower
+        second: 0.109
+      data:
+        first:
+          name: _ReflectionIntensity
+        second: 0.533
+      data:
+        first:
+          name: _ColorIntensity
         second: 1
       data:
         first:
-          name: _SpecPower
-        second: 0.66
+          name: _ReflectionBlur
+        second: 3
+      data:
+        first:
+          name: _ReflectionDesaturate
+        second: 0.76
+      data:
+        first:
+          name: _Speed
+        second: 4
     m_Colors:
       data:
         first:
@@ -153,5 +191,25 @@ Material:
         second: {r: 1, g: 1, b: 1, a: 1}
       data:
         first:
-          name: _DiffuseTint
+          name: _Tint
         second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SpecularTint
+        second: {r: 0.7058823, g: 0.7058823, b: 0.7058823, a: 1}
+      data:
+        first:
+          name: _AmbientTint
+        second: {r: 0.24572882, g: 0.29917, b: 0.33088237, a: 1}
+      data:
+        first:
+          name: _SunTint
+        second: {r: 1, g: 0.9764706, b: 0.9411765, a: 1}
+      data:
+        first:
+          name: _LightDirection
+        second: {r: 0.5, g: 1, b: -0.5, a: 0}
+      data:
+        first:
+          name: _ColorToAdd
+        second: {r: 0, g: 0.30988836, b: 0.46323532, a: 1}
