@@ -13,6 +13,7 @@ public class ActionTrigger : MonoBehaviour {
 	Rigidbody rigd;
     public bool SaveCurrentPos;
 	public Vector3 minVec, maxVec;
+	public float Multiplier = 1f;
 	// Use this for initialization
 	void Awake () {
 		cached = this.transform;
@@ -54,7 +55,7 @@ public class ActionTrigger : MonoBehaviour {
 				Random.Range(minVec.y,maxVec.y),
 				Random.Range(minVec.z,maxVec.z)
 			);
-			rigd.AddForce (tempVec * 100f);
+			rigd.AddForce (tempVec * Multiplier * 100f);
 		}
 	}
 }

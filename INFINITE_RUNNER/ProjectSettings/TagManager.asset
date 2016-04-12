@@ -15,6 +15,7 @@ TagManager:
   - Wall
   - Ring
   - Burn
+  - Carreta
   layers:
   - Default
   - TransparentFX
