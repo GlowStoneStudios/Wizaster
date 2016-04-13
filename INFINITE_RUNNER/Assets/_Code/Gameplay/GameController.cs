@@ -106,7 +106,8 @@ public class GameController : MonoBehaviour
 
         if (!CreditsScene || !TutorialScene) {
             return;
-        } else 
+        } 
+		else 
         {
             ScoreSystem ();
         }
@@ -124,23 +125,22 @@ public class GameController : MonoBehaviour
         }
     }
 
-    public void AddScore (int points) 
+    public void AddScore (int points, Vector3 pos) 
     {
         mainScore += points;
         /*
          * 
          *      AGREGAR PARTICULAS Y AUDIO 
-         * 
+         *  instanciar objeto de puntaje en variable pos
          */
     }
 
 
     // ----------------------------------------------------
     // Powers ---------------------------------------------
-    public void PowerUp (string curPower, int time)
+	 IEnumerator PowerUpp (string curPower, int time)
     {
         // Se activa el tiempo
-        StartCoroutine (PowerTime (time));
         // Power ups
         switch (curPower) {
             case "GODMODE":         // Invencibilidad
@@ -189,18 +189,17 @@ public class GameController : MonoBehaviour
                 break;
 
             case "RUSH":
-                if (powerTime) {
-                    //PlayerBehaviour.instance.moveSpeed = PlayerBehaviour.instance.rushSpeed;
-                } else {
-                    //PlayerBehaviour.instance.moveSpeed = PlayerBehaviour.instance.normalSpeed;
-                }
+         
+					PlayerBehaviour.instance.runMode = PlayerBehaviour.runningMode.Rush;
+					yield return new WaitForSeconds (time);
+					PlayerBehaviour.instance.runMode = PlayerBehaviour.runningMode.Normal;	
+				
                 break;
         }
     }
 
-    public void PowerDown (string curPower, int time)
+	 IEnumerator PowerDownn (string curPower, int time)
     {
-        StartCoroutine (PowerTime (time));
         switch (curPower) {
             case "FASTBG":
                 if (powerTime) {
@@ -229,11 +228,11 @@ public class GameController : MonoBehaviour
                 break;
 
             case "SLOW":
-                if (powerTime) {
-                    //PlayerBehaviour.instance.moveSpeed = PlayerBehaviour.instance.slowSpeed;
-                } else {
-                    //PlayerBehaviour.instance.moveSpeed = PlayerBehaviour.instance.normalSpeed;
-                }
+			
+				PlayerBehaviour.instance.runMode = PlayerBehaviour.runningMode.Slowed;
+				yield return new WaitForSeconds (time);
+				PlayerBehaviour.instance.runMode = PlayerBehaviour.runningMode.Normal;	
+
                 break;
 
             case "NOCASH":
@@ -251,13 +250,12 @@ public class GameController : MonoBehaviour
                 break;
         }
     }
-
-    IEnumerator PowerTime (int time)
-    {
-        powerTime = true;
-        yield return new WaitForSeconds (time);
-        powerTime = false;
-    }
+	public void PowerUp(string p, int t){
+		StartCoroutine (PowerUpp (p, t));
+	}
+	public void PowerDown(string p, int t){
+		StartCoroutine (PowerDownn (p, t));
+	}
 
 
     // ----------------------------------------------------

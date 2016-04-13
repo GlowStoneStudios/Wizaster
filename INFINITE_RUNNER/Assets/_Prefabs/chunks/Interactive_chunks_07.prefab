@@ -4030,8 +4030,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RotationAxis: {x: 0, y: 0, z: 1}
-  curSpeed: 2
-  TapRate: 0.66
+  curSpeed: 6
+  TapRate: 1
   LimitValue: 0
   SpeedGainRate: 1
 --- !u!114 &11428138

@@ -25,6 +25,8 @@ public class PlayerBehaviour : MonoBehaviour
 
 	[Header ("Role stuff")]
 	public bool isAlive = true;
+	public bool RushByPowerUp = false;
+	public float staminaGainRate = 1f, staminaConsumeRate = 1f;
 	public float stamina = 100f;
 
 
@@ -88,31 +90,14 @@ public class PlayerBehaviour : MonoBehaviour
 
 		rushSpeed = normalSpeed * rushRate;
 		slowSpeed = normalSpeed * slowRate;
-		
+
+		if (stamina < 11f && !RushByPowerUp) {
+			runMode = runningMode.Slowed;
+		}
+
         if (Physics.Raycast(selfTrans.position, -Vector3.up, out hit, 0.5f))
         {
             groundObjectTag = hit.transform.tag;
-
-            /*
-            if (hit.transform.tag == "Platform")
-            {
-				if (hit.transform.GetComponent<MovableObject> ().playerChild) 
-				{
-					if (curParent != hit.transform) {
-						selfTrans.SetParent (hit.transform);
-						curParent = selfTrans.parent;
-					}
-				}
-            }
-            else
-            {
-                if (curParent != null)
-                {
-                    selfTrans.parent = null;
-                    curParent = null;
-                }
-            }
-            */
         }
 
 		// Cuando el personaje se pueda mover
@@ -130,7 +115,7 @@ public class PlayerBehaviour : MonoBehaviour
 
 			normalSpeed += 0.033f * Time.deltaTime; 
 			if (stamina > 0.1f) {
-				stamina -= Time.deltaTime * 0.75f;
+				stamina -= Time.deltaTime * 0.75f * staminaConsumeRate;
 			}
 
 
@@ -178,19 +163,23 @@ public class PlayerBehaviour : MonoBehaviour
 
 	void OnMouseDown () {
 		if (canMove) {
-			if (stamina > 3.0f) {
-				selfRb.AddForce (dashForce, ForceMode.Force);
-				stamina--;
-			}
+			addSpeedForce ();
 		}
 	}
 
+	void addSpeedForce(){
+		if (stamina > 10.0f) {
+			selfRb.AddForce (dashForce, ForceMode.Force);
+			stamina -= staminaConsumeRate;
+			//EFECTO AKI
+		}
+	}
 	/* Triggers */
 	void OnTriggerEnter (Collider o)
 	{
 		if (o.tag == "Coin")
 		{
-			//GameController.instance.AddScore (GameController.instance.coinValue);
+			GameController.instance.AddScore (GameController.instance.coinValue, o.transform.position);
 			o.gameObject.SetActive(false);
 		}
 
@@ -207,6 +196,9 @@ public class PlayerBehaviour : MonoBehaviour
 				// Sino no pasa nada.
 				return;
             }
+
+			o.gameObject.SetActive(false);
+			//EFECTO AKI
         }
 
         // ------------------------------------------------------------------------------------------------------
@@ -215,7 +207,9 @@ public class PlayerBehaviour : MonoBehaviour
 		if (o.tag == "Killer" || o.tag == "Endworld") {
 			if (!isAlive) {
 				return;
-			} else {
+			} 
+			else 
+			{
 				isAlive = false;
 				canMove = false;
 				selfRb.isKinematic = true;
@@ -226,7 +220,7 @@ public class PlayerBehaviour : MonoBehaviour
 
 		if (o.tag == "Burn") {
 			DoBurn ();
-			print ("burning");
+			//print ("burning");
 		}
 	}
 
@@ -250,7 +244,7 @@ public class PlayerBehaviour : MonoBehaviour
 	{
         if (o.tag == "Platform")
         {
-            GameController.instance.AddScore (50);
+			GameController.instance.AddScore (50, selfTrans.position);
         }
 	}
 
@@ -261,7 +255,7 @@ public class PlayerBehaviour : MonoBehaviour
 		//activar plano de humo.
 		StartCoroutine(cancelSmoke());
 		stamina -= 5f;
-		GameController.instance.AddScore (50);
+		GameController.instance.AddScore (50, selfTrans.position);
 	}
 	IEnumerator cancelSmoke(){
 		yield return new WaitForSeconds (1);
