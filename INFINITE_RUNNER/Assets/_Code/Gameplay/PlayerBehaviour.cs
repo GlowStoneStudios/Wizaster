@@ -219,8 +219,7 @@ public class PlayerBehaviour : MonoBehaviour
 		}
 
 		if (o.tag == "Burn") {
-			DoBurn ();
-			//print ("burning");
+			DoBurn (o.gameObject.transform.GetChild(0).gameObject);
 		}
 	}
 
@@ -248,17 +247,17 @@ public class PlayerBehaviour : MonoBehaviour
         }
 	}
 
-	void DoBurn()
+	void DoBurn(GameObject smoke)
 	{
 		selfRb.AddForce (jumpPower);	
 		//AudioManager.instance.PlayAudio (1,1f);
-		//activar plano de humo.
-		StartCoroutine(cancelSmoke());
+		smoke.SetActive (true);
+		StartCoroutine(cancelSmoke(smoke));
 		stamina -= 5f;
 		GameController.instance.AddScore (50, selfTrans.position);
 	}
-	IEnumerator cancelSmoke(){
+	IEnumerator cancelSmoke(GameObject smoke){
 		yield return new WaitForSeconds (1);
-		//desactivar plano de humo
+		smoke.SetActive (false);
 	}
 }

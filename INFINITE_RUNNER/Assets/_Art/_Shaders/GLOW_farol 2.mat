@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: glow3
+  m_Name: GLOW_farol 2
   m_Shader: {fileID: 200, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 0
@@ -232,13 +232,6 @@ Material:
           m_Texture: {fileID: 2800000, guid: 440d3414de7c34748972a517d368efe2, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
-      data:
-        first:
-          name: _MatCap
-        second:
-          m_Texture: {fileID: 2800000, guid: dd68d14741a09f1498f7c7343105bdfa, type: 3}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
     m_Floats:
       data:
         first:
@@ -295,7 +288,7 @@ Material:
       data:
         first:
           name: _InvFade
-        second: 3
+        second: 1.45
       data:
         first:
           name: _Gloss
@@ -488,10 +481,6 @@ Material:
         first:
           name: _ColorIntensity
         second: 2
-      data:
-        first:
-          name: _Softness
-        second: 0
     m_Colors:
       data:
         first:
@@ -504,7 +493,7 @@ Material:
       data:
         first:
           name: _TintColor
-        second: {r: 0, g: 0.26303232, b: 0.41911763, a: 1}
+        second: {r: 0.16727942, g: 0.4406948, b: 0.6691177, a: 1}
       data:
         first:
           name: _ShallowColor
@@ -557,7 +546,3 @@ Material:
         first:
           name: _Colorasd
         second: {r: 0.83823526, g: 0.6603015, b: 0.27735728, a: 1}
-      data:
-        first:
-          name: _Tint
-        second: {r: 0, g: 0.7103448, b: 1, a: 1}
