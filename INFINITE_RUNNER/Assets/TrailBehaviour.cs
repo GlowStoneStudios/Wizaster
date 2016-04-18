@@ -19,8 +19,8 @@ public class TrailBehaviour : MonoBehaviour
 
 	void Start () {
 		// Prevension
-		if (trailType > 4 || trailType < 0) {
-			trailType = Random.Range (1, 5);
+		if (trailType > 5 || trailType < 1) {
+			trailType = Random.Range (1,5);
 			trailType = (int) trailType;
 		}
 
@@ -29,10 +29,10 @@ public class TrailBehaviour : MonoBehaviour
 
 		// Sprite align
 		if (trailType == 2.0f || trailType == 3.0f) {
-			selfTrans.position = new Vector3 (-0.082f, -0.2f, -0.776f);
+			selfTrans.position = new Vector3 (-0.082f, 0.15f, -0.776f);
 			selfTrans.rotation = Quaternion.Euler (new Vector3 (90, 260, 0));
 		} else {
-			selfTrans.position = new Vector3 (0f, -0.2f, -0.7f);
+			selfTrans.position = new Vector3 (0f, 0.15f, -0.7f);
 			selfTrans.rotation = Quaternion.Euler (new Vector3 (90, 290, 0));
 		}
 
