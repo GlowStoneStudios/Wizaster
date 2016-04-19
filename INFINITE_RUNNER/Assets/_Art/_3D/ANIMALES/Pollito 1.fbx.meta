@@ -1,0 +1,808 @@
+fileFormatVersion: 2
+guid: 0166d67f4b384b5429de40b4258d4898
+timeCreated: 1461075708
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Cola
+    100004: cresta
+    100006: cuerpo
+    100008: muslo_L
+    100010: muslo_R
+    100012: Pico
+    100014: pie_L
+    100016: pie_R
+    100018: Pierna_L
+    100020: Pierna_R
+    100022: pollito
+    100024: //RootNode
+    100026: Rigg_TODO
+    100028: transform24
+    100030: transform25
+    100032: transform26
+    100034: transform27
+    100036: transform28
+    100038: transform29
+    400000: Armature
+    400002: Cola
+    400004: cresta
+    400006: cuerpo
+    400008: muslo_L
+    400010: muslo_R
+    400012: Pico
+    400014: pie_L
+    400016: pie_R
+    400018: Pierna_L
+    400020: Pierna_R
+    400022: pollito
+    400024: //RootNode
+    400026: Rigg_TODO
+    400028: transform24
+    400030: transform25
+    400032: transform26
+    400034: transform27
+    400036: transform28
+    400038: transform29
+    2300000: Rigg_TODO
+    3300000: Rigg_TODO
+    4300000: Rigg_TODO
+    4300002: pollito
+    7400000: Rigg_TODO|Rigg_TODOAction
+    7400002: Armature|ArmatureAction
+    7400004: Armature|Rigg_TODOAction
+    7400006: pollito|Rigg_TODOAction
+    7400008: transform29|Rigg_TODOAction
+    7400010: transform28|Rigg_TODOAction
+    7400012: transform27|Rigg_TODOAction
+    7400014: transform26|Rigg_TODOAction
+    7400016: transform25|Rigg_TODOAction
+    7400018: transform24|Rigg_TODOAction
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: pollito
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Rigg_TODO|Rigg_TODOAction
+      takeName: Rigg_TODO|Rigg_TODOAction
+      firstFrame: 0
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pollito
+        weight: 1
+      - path: Rigg_TODO
+        weight: 1
+      - path: Rigg_TODO/Armature
+        weight: 1
+      - path: Rigg_TODO/Armature/Cola
+        weight: 1
+      - path: Rigg_TODO/Armature/cresta
+        weight: 1
+      - path: Rigg_TODO/Armature/cuerpo
+        weight: 1
+      - path: Rigg_TODO/Armature/cuerpo/Pico
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_L
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_L/Pierna_L
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_L/Pierna_L/pie_L
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_R
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_R/Pierna_R
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_R/Pierna_R/pie_R
+        weight: 1
+      - path: transform24
+        weight: 1
+      - path: transform25
+        weight: 1
+      - path: transform26
+        weight: 1
+      - path: transform27
+        weight: 1
+      - path: transform28
+        weight: 1
+      - path: transform29
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|ArmatureAction
+      takeName: Armature|ArmatureAction
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pollito
+        weight: 1
+      - path: Rigg_TODO
+        weight: 1
+      - path: Rigg_TODO/Armature
+        weight: 1
+      - path: Rigg_TODO/Armature/Cola
+        weight: 1
+      - path: Rigg_TODO/Armature/cresta
+        weight: 1
+      - path: Rigg_TODO/Armature/cuerpo
+        weight: 1
+      - path: Rigg_TODO/Armature/cuerpo/Pico
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_L
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_L/Pierna_L
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_L/Pierna_L/pie_L
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_R
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_R/Pierna_R
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_R/Pierna_R/pie_R
+        weight: 1
+      - path: transform24
+        weight: 1
+      - path: transform25
+        weight: 1
+      - path: transform26
+        weight: 1
+      - path: transform27
+        weight: 1
+      - path: transform28
+        weight: 1
+      - path: transform29
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Rigg_TODOAction
+      takeName: Armature|Rigg_TODOAction
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pollito
+        weight: 1
+      - path: Rigg_TODO
+        weight: 1
+      - path: Rigg_TODO/Armature
+        weight: 1
+      - path: Rigg_TODO/Armature/Cola
+        weight: 1
+      - path: Rigg_TODO/Armature/cresta
+        weight: 1
+      - path: Rigg_TODO/Armature/cuerpo
+        weight: 1
+      - path: Rigg_TODO/Armature/cuerpo/Pico
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_L
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_L/Pierna_L
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_L/Pierna_L/pie_L
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_R
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_R/Pierna_R
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_R/Pierna_R/pie_R
+        weight: 1
+      - path: transform24
+        weight: 1
+      - path: transform25
+        weight: 1
+      - path: transform26
+        weight: 1
+      - path: transform27
+        weight: 1
+      - path: transform28
+        weight: 1
+      - path: transform29
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: pollito|Rigg_TODOAction
+      takeName: pollito|Rigg_TODOAction
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pollito
+        weight: 1
+      - path: Rigg_TODO
+        weight: 1
+      - path: Rigg_TODO/Armature
+        weight: 1
+      - path: Rigg_TODO/Armature/Cola
+        weight: 1
+      - path: Rigg_TODO/Armature/cresta
+        weight: 1
+      - path: Rigg_TODO/Armature/cuerpo
+        weight: 1
+      - path: Rigg_TODO/Armature/cuerpo/Pico
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_L
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_L/Pierna_L
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_L/Pierna_L/pie_L
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_R
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_R/Pierna_R
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_R/Pierna_R/pie_R
+        weight: 1
+      - path: transform24
+        weight: 1
+      - path: transform25
+        weight: 1
+      - path: transform26
+        weight: 1
+      - path: transform27
+        weight: 1
+      - path: transform28
+        weight: 1
+      - path: transform29
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: transform29|Rigg_TODOAction
+      takeName: transform29|Rigg_TODOAction
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pollito
+        weight: 1
+      - path: Rigg_TODO
+        weight: 1
+      - path: Rigg_TODO/Armature
+        weight: 1
+      - path: Rigg_TODO/Armature/Cola
+        weight: 1
+      - path: Rigg_TODO/Armature/cresta
+        weight: 1
+      - path: Rigg_TODO/Armature/cuerpo
+        weight: 1
+      - path: Rigg_TODO/Armature/cuerpo/Pico
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_L
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_L/Pierna_L
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_L/Pierna_L/pie_L
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_R
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_R/Pierna_R
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_R/Pierna_R/pie_R
+        weight: 1
+      - path: transform24
+        weight: 1
+      - path: transform25
+        weight: 1
+      - path: transform26
+        weight: 1
+      - path: transform27
+        weight: 1
+      - path: transform28
+        weight: 1
+      - path: transform29
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: transform28|Rigg_TODOAction
+      takeName: transform28|Rigg_TODOAction
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pollito
+        weight: 1
+      - path: Rigg_TODO
+        weight: 1
+      - path: Rigg_TODO/Armature
+        weight: 1
+      - path: Rigg_TODO/Armature/Cola
+        weight: 1
+      - path: Rigg_TODO/Armature/cresta
+        weight: 1
+      - path: Rigg_TODO/Armature/cuerpo
+        weight: 1
+      - path: Rigg_TODO/Armature/cuerpo/Pico
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_L
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_L/Pierna_L
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_L/Pierna_L/pie_L
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_R
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_R/Pierna_R
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_R/Pierna_R/pie_R
+        weight: 1
+      - path: transform24
+        weight: 1
+      - path: transform25
+        weight: 1
+      - path: transform26
+        weight: 1
+      - path: transform27
+        weight: 1
+      - path: transform28
+        weight: 1
+      - path: transform29
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: transform27|Rigg_TODOAction
+      takeName: transform27|Rigg_TODOAction
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pollito
+        weight: 1
+      - path: Rigg_TODO
+        weight: 1
+      - path: Rigg_TODO/Armature
+        weight: 1
+      - path: Rigg_TODO/Armature/Cola
+        weight: 1
+      - path: Rigg_TODO/Armature/cresta
+        weight: 1
+      - path: Rigg_TODO/Armature/cuerpo
+        weight: 1
+      - path: Rigg_TODO/Armature/cuerpo/Pico
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_L
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_L/Pierna_L
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_L/Pierna_L/pie_L
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_R
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_R/Pierna_R
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_R/Pierna_R/pie_R
+        weight: 1
+      - path: transform24
+        weight: 1
+      - path: transform25
+        weight: 1
+      - path: transform26
+        weight: 1
+      - path: transform27
+        weight: 1
+      - path: transform28
+        weight: 1
+      - path: transform29
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: transform26|Rigg_TODOAction
+      takeName: transform26|Rigg_TODOAction
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pollito
+        weight: 1
+      - path: Rigg_TODO
+        weight: 1
+      - path: Rigg_TODO/Armature
+        weight: 1
+      - path: Rigg_TODO/Armature/Cola
+        weight: 1
+      - path: Rigg_TODO/Armature/cresta
+        weight: 1
+      - path: Rigg_TODO/Armature/cuerpo
+        weight: 1
+      - path: Rigg_TODO/Armature/cuerpo/Pico
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_L
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_L/Pierna_L
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_L/Pierna_L/pie_L
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_R
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_R/Pierna_R
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_R/Pierna_R/pie_R
+        weight: 1
+      - path: transform24
+        weight: 1
+      - path: transform25
+        weight: 1
+      - path: transform26
+        weight: 1
+      - path: transform27
+        weight: 1
+      - path: transform28
+        weight: 1
+      - path: transform29
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: transform25|Rigg_TODOAction
+      takeName: transform25|Rigg_TODOAction
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pollito
+        weight: 1
+      - path: Rigg_TODO
+        weight: 1
+      - path: Rigg_TODO/Armature
+        weight: 1
+      - path: Rigg_TODO/Armature/Cola
+        weight: 1
+      - path: Rigg_TODO/Armature/cresta
+        weight: 1
+      - path: Rigg_TODO/Armature/cuerpo
+        weight: 1
+      - path: Rigg_TODO/Armature/cuerpo/Pico
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_L
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_L/Pierna_L
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_L/Pierna_L/pie_L
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_R
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_R/Pierna_R
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_R/Pierna_R/pie_R
+        weight: 1
+      - path: transform24
+        weight: 1
+      - path: transform25
+        weight: 1
+      - path: transform26
+        weight: 1
+      - path: transform27
+        weight: 1
+      - path: transform28
+        weight: 1
+      - path: transform29
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: transform24|Rigg_TODOAction
+      takeName: transform24|Rigg_TODOAction
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pollito
+        weight: 1
+      - path: Rigg_TODO
+        weight: 1
+      - path: Rigg_TODO/Armature
+        weight: 1
+      - path: Rigg_TODO/Armature/Cola
+        weight: 1
+      - path: Rigg_TODO/Armature/cresta
+        weight: 1
+      - path: Rigg_TODO/Armature/cuerpo
+        weight: 1
+      - path: Rigg_TODO/Armature/cuerpo/Pico
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_L
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_L/Pierna_L
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_L/Pierna_L/pie_L
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_R
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_R/Pierna_R
+        weight: 1
+      - path: Rigg_TODO/Armature/muslo_R/Pierna_R/pie_R
+        weight: 1
+      - path: transform24
+        weight: 1
+      - path: transform25
+        weight: 1
+      - path: transform26
+        weight: 1
+      - path: transform27
+        weight: 1
+      - path: transform28
+        weight: 1
+      - path: transform29
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

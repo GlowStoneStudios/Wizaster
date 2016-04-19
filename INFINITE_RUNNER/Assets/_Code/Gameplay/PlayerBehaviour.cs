@@ -28,6 +28,7 @@ public class PlayerBehaviour : MonoBehaviour
 	public bool RushByPowerUp = false;
 	public float staminaGainRate = 1f, staminaConsumeRate = 1f;
 	public float stamina = 100f;
+	public bool damaged;
 
 
 	[Header ("Score by distance")]
@@ -41,6 +42,7 @@ public class PlayerBehaviour : MonoBehaviour
     public string groundObjectTag;
     public Transform curParent;
     RaycastHit hit;
+
 
 	[Header ("Animations")]
 	public Animator animPlayer;
@@ -246,7 +248,25 @@ public class PlayerBehaviour : MonoBehaviour
 			GameController.instance.AddScore (50, selfTrans.position);
         }
 	}
+	void OnCollisionEnter(Collision collision)
+	{
+		if (collision.collider.tag == "Goat" || collision.collider.tag == "Chicken") {
+			if (!damaged) {
+				damaged = true;
+				StartCoroutine (damageReset ());
+				DoDamage ();
+			}
+		}
+	}
 
+	void DoDamage(){
+		
+		selfRb.AddForce (jumpPower * 0.5f);	
+		stamina -= 5f;
+		animPlayer.SetTrigger ("hurt");
+		AudioManager.instance.PlayAudio (0,1f);
+		//spawn Smoke
+	}
 	void DoBurn(GameObject smoke)
 	{
 		selfRb.AddForce (jumpPower);	
@@ -256,8 +276,12 @@ public class PlayerBehaviour : MonoBehaviour
 		stamina -= 5f;
 		GameController.instance.AddScore (50, selfTrans.position);
 	}
+	IEnumerator damageReset(){
+		yield return new WaitForSeconds (0.66f);
+		damaged = false;
+	}
 	IEnumerator cancelSmoke(GameObject smoke){
 		yield return new WaitForSeconds (1);
 		smoke.SetActive (false);
 	}
-}
+} 
