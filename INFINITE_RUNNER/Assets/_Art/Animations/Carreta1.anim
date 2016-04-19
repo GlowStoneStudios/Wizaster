@@ -78,6 +78,38 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     path: CARRETA01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -7.32, y: 1.45, z: 5.54}
+        inSlope: {x: 1.7399998, y: 2.1599994, z: -1.6799984}
+        outSlope: {x: 1.7399998, y: 2.1599994, z: -1.6799984}
+        tangentMode: 0
+      - time: 0.16666667
+        value: {x: -7.03, y: 1.81, z: 5.26}
+        inSlope: {x: 1.0200005, y: 1.3799998, z: -0.21000051}
+        outSlope: {x: 1.0200005, y: 1.3799998, z: -0.21000051}
+        tangentMode: 0
+      - time: 0.33333334
+        value: {x: -6.98, y: 1.91, z: 5.47}
+        inSlope: {x: 0.33300018, y: 0.12300001, z: -0.08100134}
+        outSlope: {x: 0.33300018, y: 0.12300001, z: -0.08100134}
+        tangentMode: 0
+      - time: 0.5
+        value: {x: -6.919, y: 1.851, z: 5.233}
+        inSlope: {x: -1.0200003, y: -1.3799996, z: 0.21000034}
+        outSlope: {x: -1.0200003, y: -1.3799996, z: 0.21000034}
+        tangentMode: 0
+      - time: 0.6666667
+        value: {x: -7.32, y: 1.45, z: 5.54}
+        inSlope: {x: -2.406, y: -2.4059992, z: 1.8420007}
+        outSlope: {x: -2.406, y: -2.4059992, z: 1.8420007}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Animales
   m_ScaleCurves:
   - curve:
       serializedVersion: 2
@@ -121,6 +153,12 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - path: 982591119
+      attribute: 1
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 102029962
       attribute: 1
       script: {fileID: 0}
       classID: 4
@@ -473,6 +511,111 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
     path: CARRETA01
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -7.32
+        inSlope: 1.7399998
+        outSlope: 1.7399998
+        tangentMode: 10
+      - time: 0.16666667
+        value: -7.03
+        inSlope: 1.0200005
+        outSlope: 1.0200005
+        tangentMode: 10
+      - time: 0.33333334
+        value: -6.98
+        inSlope: 0.33300018
+        outSlope: 0.33300018
+        tangentMode: 10
+      - time: 0.5
+        value: -6.919
+        inSlope: -1.0200003
+        outSlope: -1.0200003
+        tangentMode: 10
+      - time: 0.6666667
+        value: -7.32
+        inSlope: -2.406
+        outSlope: -2.406
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: Animales
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1.45
+        inSlope: 2.1599994
+        outSlope: 2.1599994
+        tangentMode: 10
+      - time: 0.16666667
+        value: 1.81
+        inSlope: 1.3799998
+        outSlope: 1.3799998
+        tangentMode: 10
+      - time: 0.33333334
+        value: 1.91
+        inSlope: 0.12300001
+        outSlope: 0.12300001
+        tangentMode: 10
+      - time: 0.5
+        value: 1.851
+        inSlope: -1.3799996
+        outSlope: -1.3799996
+        tangentMode: 10
+      - time: 0.6666667
+        value: 1.45
+        inSlope: -2.4059992
+        outSlope: -2.4059992
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: Animales
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 5.54
+        inSlope: -1.6799984
+        outSlope: -1.6799984
+        tangentMode: 10
+      - time: 0.16666667
+        value: 5.26
+        inSlope: -0.21000051
+        outSlope: -0.21000051
+        tangentMode: 10
+      - time: 0.33333334
+        value: 5.47
+        inSlope: -0.08100134
+        outSlope: -0.08100134
+        tangentMode: 10
+      - time: 0.5
+        value: 5.233
+        inSlope: 0.21000034
+        outSlope: 0.21000034
+        tangentMode: 10
+      - time: 0.6666667
+        value: 5.54
+        inSlope: 1.8420007
+        outSlope: 1.8420007
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: Animales
     classID: 4
     script: {fileID: 0}
   m_EulerEditorCurves:

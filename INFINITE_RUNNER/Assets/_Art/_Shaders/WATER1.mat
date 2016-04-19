@@ -45,20 +45,6 @@ Material:
           m_Offset: {x: 0, y: 0}
       data:
         first:
-          name: _Diffuse
-        second:
-          m_Texture: {fileID: 2800000, guid: 767a9a1252fbbc64bbf6ac9a00da4928, type: 3}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
-          name: _Normal
-        second:
-          m_Texture: {fileID: 2800000, guid: b490466cfb07cde4297fe28d4dedf424, type: 3}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
           name: _ParallaxMap
         second:
           m_Texture: {fileID: 0}
@@ -101,16 +87,30 @@ Material:
           m_Offset: {x: 0, y: 0}
       data:
         first:
+          name: _Diffuse
+        second:
+          m_Texture: {fileID: 2800000, guid: 767a9a1252fbbc64bbf6ac9a00da4928, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
           name: _node_5888
         second:
           m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Normal
+        second:
+          m_Texture: {fileID: 2800000, guid: b490466cfb07cde4297fe28d4dedf424, type: 3}
+          m_Scale: {x: 6, y: 2}
+          m_Offset: {x: 0, y: 0}
     m_Floats:
       data:
         first:
           name: _Scale
-        second: 0.6
+        second: 0.66
       data:
         first:
           name: _SrcBlend
@@ -127,54 +127,6 @@ Material:
         first:
           name: _Metallic
         second: 0
-      data:
-        first:
-          name: _Gloss
-        second: 0.679
-      data:
-        first:
-          name: _ReflectionFresnel
-        second: 3
-      data:
-        first:
-          name: _ReflectionIntensity
-        second: 0.33
-      data:
-        first:
-          name: _NormalIntensity
-        second: 0.18
-      data:
-        first:
-          name: _Specular
-        second: 1
-      data:
-        first:
-          name: _EdgeBlending
-        second: 2
-      data:
-        first:
-          name: _WaterDepth
-        second: 9.04
-      data:
-        first:
-          name: _WaveSpeed
-        second: 0.91
-      data:
-        first:
-          name: _FoamBlend
-        second: 2.84
-      data:
-        first:
-          name: _BorderContrast
-        second: 0.549
-      data:
-        first:
-          name: _Refraction
-        second: 0.177
-      data:
-        first:
-          name: _UseCubemap
-        second: 1
       data:
         first:
           name: _Parallax
@@ -209,12 +161,60 @@ Material:
         second: 0
       data:
         first:
+          name: _Gloss
+        second: 0.679
+      data:
+        first:
           name: _SpecularPower
         second: 0.5
       data:
         first:
           name: _LightPower
         second: 0.109
+      data:
+        first:
+          name: _EdgeBlending
+        second: 2
+      data:
+        first:
+          name: _WaterDepth
+        second: 9.04
+      data:
+        first:
+          name: _WaveSpeed
+        second: 0.66
+      data:
+        first:
+          name: _NormalIntensity
+        second: 0.18
+      data:
+        first:
+          name: _ReflectionIntensity
+        second: 0.33
+      data:
+        first:
+          name: _Specular
+        second: 1
+      data:
+        first:
+          name: _ReflectionFresnel
+        second: 3
+      data:
+        first:
+          name: _FoamBlend
+        second: 2.84
+      data:
+        first:
+          name: _BorderContrast
+        second: 0.549
+      data:
+        first:
+          name: _Refraction
+        second: 0.177
+      data:
+        first:
+          name: _UseCubemap
+        second: 1
       data:
         first:
           name: _node_1791
@@ -230,36 +230,12 @@ Material:
         second: {r: 1, g: 1, b: 1, a: 1}
       data:
         first:
-          name: _ReflectionColor
-        second: {r: 0.5143815, g: 0.7514617, b: 0.9852941, a: 1}
-      data:
-        first:
-          name: _WaterColor
-        second: {r: 0, g: 0.29158205, b: 0.36764705, a: 1}
-      data:
-        first:
-          name: _ShallowColor
-        second: {r: 0.6911765, g: 0.89776874, b: 1, a: 1}
-      data:
-        first:
-          name: _DepthColor
-        second: {r: 0.10602294, g: 0.3075357, b: 0.3897059, a: 1}
+          name: _LightDirection
+        second: {r: -0.59, g: 0.5, b: 0.78, a: 0}
       data:
         first:
           name: _Tint
         second: {r: 1, g: 1, b: 1, a: 1}
-      data:
-        first:
-          name: _FoamColor
-        second: {r: 0, g: 0.23504058, b: 0.33088237, a: 1}
-      data:
-        first:
-          name: _LightTint
-        second: {r: 1, g: 0.90436107, b: 0.6985294, a: 1}
-      data:
-        first:
-          name: _LightDirection
-        second: {r: -0.59, g: 0.5, b: 0.78, a: 0}
       data:
         first:
           name: _SpecularTint
@@ -272,3 +248,27 @@ Material:
         first:
           name: _SunTint
         second: {r: 1, g: 0.9764706, b: 0.9411765, a: 1}
+      data:
+        first:
+          name: _ShallowColor
+        second: {r: 0.6911765, g: 0.89776874, b: 1, a: 1}
+      data:
+        first:
+          name: _DepthColor
+        second: {r: 0.10602294, g: 0.3075357, b: 0.3897059, a: 1}
+      data:
+        first:
+          name: _ReflectionColor
+        second: {r: 0.5143815, g: 0.7514617, b: 0.9852941, a: 1}
+      data:
+        first:
+          name: _WaterColor
+        second: {r: 0, g: 0.29158205, b: 0.36764705, a: 1}
+      data:
+        first:
+          name: _FoamColor
+        second: {r: 0, g: 0.23504058, b: 0.33088237, a: 1}
+      data:
+        first:
+          name: _LightTint
+        second: {r: 1, g: 0.90436107, b: 0.6985294, a: 1}

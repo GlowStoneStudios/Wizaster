@@ -17,6 +17,9 @@ TagManager:
   - Burn
   - Carreta
   - Lava
+  - Goat
+  - Chicken
+  - AnchorPoint
   layers:
   - Default
   - TransparentFX

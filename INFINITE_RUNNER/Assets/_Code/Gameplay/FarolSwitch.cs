@@ -13,11 +13,11 @@ public class FarolSwitch : MonoBehaviour {
     void doSwitching(){
         if (GameController.instance.curHour > 8f && GameController.instance.curHour < 20f)
         {
-            lights.SetActive(true);
+            lights.SetActive(false);
         }
         else
         {
-            lights.SetActive(false);
+            lights.SetActive(true);
         }
     }
 }

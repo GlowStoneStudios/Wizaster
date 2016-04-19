@@ -1,0 +1,283 @@
+fileFormatVersion: 2
+guid: 97e5e2efab664b843927c4a30965d54f
+timeCreated: 1461001183
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Brazo_L
+    100004: Brazo_R
+    100006: Cabeza
+    100008: //RootNode
+    100010: Cadera
+    100012: Cola_1
+    100014: Cola_2
+    100016: Cube
+    100018: Cube.001
+    100020: Cuello
+    100022: Hombro_L
+    100024: Hombro_R
+    100026: Mano_L
+    100028: Mano_R
+    100030: Muslo_L
+    100032: Muslo_R
+    100034: Nuca
+    100036: Pata_L
+    100038: Pata_R
+    100040: Pierna_L
+    100042: Pierna_R
+    100044: Rigg_TODO
+    100046: Torso
+    400000: Armature
+    400002: Brazo_L
+    400004: Brazo_R
+    400006: Cabeza
+    400008: //RootNode
+    400010: Cadera
+    400012: Cola_1
+    400014: Cola_2
+    400016: Cube
+    400018: Cube.001
+    400020: Cuello
+    400022: Hombro_L
+    400024: Hombro_R
+    400026: Mano_L
+    400028: Mano_R
+    400030: Muslo_L
+    400032: Muslo_R
+    400034: Nuca
+    400036: Pata_L
+    400038: Pata_R
+    400040: Pierna_L
+    400042: Pierna_R
+    400044: Rigg_TODO
+    400046: Torso
+    2300000: Cube.001
+    2300002: Rigg_TODO
+    3300000: Cube.001
+    3300002: Rigg_TODO
+    4300000: Rigg_TODO
+    4300002: Cube
+    4300004: Cube.001
+    7400000: cabra_run
+    7400002: Armature|cabra_run
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Cube
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: cabra_run
+      takeName: cabra_run
+      firstFrame: 0
+      lastFrame: 7
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Cube.001
+        weight: 1
+      - path: Rigg_TODO
+        weight: 1
+      - path: Rigg_TODO/Armature
+        weight: 1
+      - path: Rigg_TODO/Armature/Cadera
+        weight: 1
+      - path: Rigg_TODO/Armature/Cadera/Cola_1
+        weight: 1
+      - path: Rigg_TODO/Armature/Cadera/Cola_1/Cola_2
+        weight: 1
+      - path: Rigg_TODO/Armature/Cadera/Torso
+        weight: 1
+      - path: Rigg_TODO/Armature/Cadera/Torso/Cuello
+        weight: 1
+      - path: Rigg_TODO/Armature/Cadera/Torso/Cuello/Nuca
+        weight: 1
+      - path: Rigg_TODO/Armature/Cadera/Torso/Cuello/Nuca/Cabeza
+        weight: 1
+      - path: Rigg_TODO/Armature/Cadera/Torso/Hombro_L
+        weight: 1
+      - path: Rigg_TODO/Armature/Cadera/Torso/Hombro_L/Brazo_L
+        weight: 1
+      - path: Rigg_TODO/Armature/Cadera/Torso/Hombro_L/Brazo_L/Mano_L
+        weight: 1
+      - path: Rigg_TODO/Armature/Cadera/Torso/Hombro_R
+        weight: 1
+      - path: Rigg_TODO/Armature/Cadera/Torso/Hombro_R/Brazo_R
+        weight: 1
+      - path: Rigg_TODO/Armature/Cadera/Torso/Hombro_R/Brazo_R/Mano_R
+        weight: 1
+      - path: Rigg_TODO/Armature/Muslo_L
+        weight: 1
+      - path: Rigg_TODO/Armature/Muslo_L/Pierna_L
+        weight: 1
+      - path: Rigg_TODO/Armature/Muslo_L/Pierna_L/Pata_L
+        weight: 1
+      - path: Rigg_TODO/Armature/Muslo_R
+        weight: 1
+      - path: Rigg_TODO/Armature/Muslo_R/Pierna_R
+        weight: 1
+      - path: Rigg_TODO/Armature/Muslo_R/Pierna_R/Pata_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|cabra_run
+      takeName: Armature|cabra_run
+      firstFrame: 0
+      lastFrame: 7
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Cube.001
+        weight: 1
+      - path: Rigg_TODO
+        weight: 1
+      - path: Rigg_TODO/Armature
+        weight: 1
+      - path: Rigg_TODO/Armature/Cadera
+        weight: 1
+      - path: Rigg_TODO/Armature/Cadera/Cola_1
+        weight: 1
+      - path: Rigg_TODO/Armature/Cadera/Cola_1/Cola_2
+        weight: 1
+      - path: Rigg_TODO/Armature/Cadera/Torso
+        weight: 1
+      - path: Rigg_TODO/Armature/Cadera/Torso/Cuello
+        weight: 1
+      - path: Rigg_TODO/Armature/Cadera/Torso/Cuello/Nuca
+        weight: 1
+      - path: Rigg_TODO/Armature/Cadera/Torso/Cuello/Nuca/Cabeza
+        weight: 1
+      - path: Rigg_TODO/Armature/Cadera/Torso/Hombro_L
+        weight: 1
+      - path: Rigg_TODO/Armature/Cadera/Torso/Hombro_L/Brazo_L
+        weight: 1
+      - path: Rigg_TODO/Armature/Cadera/Torso/Hombro_L/Brazo_L/Mano_L
+        weight: 1
+      - path: Rigg_TODO/Armature/Cadera/Torso/Hombro_R
+        weight: 1
+      - path: Rigg_TODO/Armature/Cadera/Torso/Hombro_R/Brazo_R
+        weight: 1
+      - path: Rigg_TODO/Armature/Cadera/Torso/Hombro_R/Brazo_R/Mano_R
+        weight: 1
+      - path: Rigg_TODO/Armature/Muslo_L
+        weight: 1
+      - path: Rigg_TODO/Armature/Muslo_L/Pierna_L
+        weight: 1
+      - path: Rigg_TODO/Armature/Muslo_L/Pierna_L/Pata_L
+        weight: 1
+      - path: Rigg_TODO/Armature/Muslo_R
+        weight: 1
+      - path: Rigg_TODO/Armature/Muslo_R/Pierna_R
+        weight: 1
+      - path: Rigg_TODO/Armature/Muslo_R/Pierna_R/Pata_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.33
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

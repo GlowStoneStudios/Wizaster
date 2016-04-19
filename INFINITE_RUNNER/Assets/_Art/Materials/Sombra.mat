@@ -130,7 +130,7 @@ Material:
       data:
         first:
           name: _InvFade
-        second: 0.5
+        second: 1.33
     m_Colors:
       data:
         first:
