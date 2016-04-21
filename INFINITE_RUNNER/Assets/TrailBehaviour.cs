@@ -4,39 +4,23 @@ using System.Collections;
 public class TrailBehaviour : MonoBehaviour
 {
 	/* Atributos */
-	[Tooltip ("Trail Type va del 1 al 5.")]
-	public float trailType;
-
-	Animator trailAnim;
+	SpriteRenderer sprtRend;
+	bool grounded;
 	Transform selfTrans;
 
-	/* Aplicacion al motor */
-	void Awake () {
-		// Mem cache
-		trailAnim = GetComponent<Animator> ();
+
+	/* Applicacion al motor */
+	void Start () {
 		selfTrans = this.transform;
+		sprtRend = GetComponent<SpriteRenderer> ();
 	}
 
-	void Start () {
-		// Prevension
-		if (trailType > 4 || trailType < 0) {
-			trailType = Random.Range (1, 5);
-			trailType = (int) trailType;
-		}
-
-		// Trail type setup.
-		trailAnim.SetFloat ("trails", trailType);
-
-		// Sprite align
-		if (trailType == 2.0f || trailType == 3.0f) {
-			selfTrans.position = new Vector3 (-0.082f, -0.2f, -0.776f);
-			selfTrans.rotation = Quaternion.Euler (new Vector3 (90, 260, 0));
+	void FixedUpdate () {
+		RaycastHit hit;
+		if (Physics.Raycast (selfTrans.position, Vector3.down, out hit, 0.25f)) {
+			sprtRend.enabled = true;
 		} else {
-			selfTrans.position = new Vector3 (0f, -0.2f, -0.7f);
-			selfTrans.rotation = Quaternion.Euler (new Vector3 (90, 290, 0));
+			sprtRend.enabled = false;
 		}
-
-		// Trail type setup.
-		trailAnim.SetFloat ("trails", trailType);
 	}
 }

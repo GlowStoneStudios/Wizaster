@@ -30,6 +30,7 @@ public class PlayerBehaviour : MonoBehaviour
 	public float stamina = 100f;
 	public bool damaged;
 
+	public string curPowerUp = "";
 
 	[Header ("Score by distance")]
 	public int scoreFreq;
@@ -182,6 +183,7 @@ public class PlayerBehaviour : MonoBehaviour
 		if (o.tag == "Coin")
 		{
 			GameController.instance.AddScore (GameController.instance.coinValue, o.transform.position);
+
 			o.gameObject.SetActive(false);
 		}
 
@@ -221,7 +223,7 @@ public class PlayerBehaviour : MonoBehaviour
 		}
 
 		if (o.tag == "Burn") {
-			DoBurn (o.gameObject.transform.GetChild(0).gameObject);
+			DoBurn ();
 		}
 	}
 
@@ -245,6 +247,7 @@ public class PlayerBehaviour : MonoBehaviour
 	{
         if (o.tag == "Platform")
         {
+
 			GameController.instance.AddScore (50, selfTrans.position);
         }
 	}
@@ -267,13 +270,14 @@ public class PlayerBehaviour : MonoBehaviour
 		AudioManager.instance.PlayAudio (0,1f);
 		//spawn Smoke
 	}
-	void DoBurn(GameObject smoke)
+	void DoBurn()
 	{
 		selfRb.AddForce (jumpPower);	
 		//AudioManager.instance.PlayAudio (1,1f);
-		smoke.SetActive (true);
-		StartCoroutine(cancelSmoke(smoke));
+	//	smoke.SetActive (true);
+	//	StartCoroutine(cancelSmoke(smoke));
 		stamina -= 5f;
+		AudioManager.instance.PlayAudio (0,1f);
 		GameController.instance.AddScore (50, selfTrans.position);
 	}
 	IEnumerator damageReset(){

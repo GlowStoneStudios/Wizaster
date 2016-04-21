@@ -46,6 +46,12 @@ public class GameController : MonoBehaviour
 	public Gradient transition;
     public float curHour;
 
+	[Header ("PowerUps")]
+	public GameObject doubleMoney;
+	public GameObject doubleMana;
+	public GameObject Magnet;
+	[Space]
+	public GameObject particles;
 	/* Aplicacion al motor */
 	void Awake ()
 	{
@@ -148,44 +154,44 @@ public class GameController : MonoBehaviour
                 break;
 
             case "SLOW":
-                if (powerTime) {
+                
                     Time.timeScale = 0.25f;
-                } else {
+					yield return new WaitForSeconds (time);
                     Time.timeScale = 1.0f;
-                }
+                
                 break;
 
             case "COINBOOST":
-                if (powerTime) {
+               
                     curCoinValue = coinValue * 2;
-                } else{
+					yield return new WaitForSeconds (time);
                     curCoinValue = coinValue;
-                }
+              
                 break;
 
 
             case "MANA":
-                if (powerTime) {
+               
                     manaAdvantage = 25;
-                } else {
+					yield return new WaitForSeconds (time);
                     manaAdvantage = 0;
-                }
+                
                 break;
 
             case "IMAN":
-                if (powerTime) {
+                
                     magnet = true;
-                } else {
+					yield return new WaitForSeconds (time);
                     magnet = false;
-                }
+                
                 break;
 
             case "TELEPORT":
-                if (powerTime) {
+               
                     canTele = true;
-                } else {
+					yield return new WaitForSeconds (time);
                     canTele = false;
-                }
+                
                 break;
 
             case "RUSH":
