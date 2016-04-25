@@ -52,6 +52,12 @@ public class GameController : MonoBehaviour
 	public GameObject Magnet;
 	[Space]
 	public GameObject particles;
+
+	// HIDERS TARGETS
+
+	[Header ("Visibility Anchors")]
+	public Transform anchorPosZ;
+	public Transform anchorNegZ;
 	/* Aplicacion al motor */
 	void Awake ()
 	{

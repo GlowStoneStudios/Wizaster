@@ -54,7 +54,7 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &104388
 GameObject:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
@@ -127,6 +127,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 425824}
+  - 114: {fileID: 11433196}
   m_Layer: 0
   m_Name: Interactive_chunks_11
   m_TagString: Untagged
@@ -136,7 +137,7 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &108568
 GameObject:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
@@ -459,6 +460,21 @@ GameObject:
   - 54: {fileID: 5442372}
   m_Layer: 0
   m_Name: Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &139208
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 403298}
+  m_Layer: 0
+  m_Name: MODULE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1022,7 +1038,7 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &181244
 GameObject:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
@@ -1143,7 +1159,7 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &190170
 GameObject:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
@@ -1231,7 +1247,7 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &193196
 GameObject:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
@@ -1262,7 +1278,7 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &199204
 GameObject:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
@@ -1292,6 +1308,24 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!4 &403298
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 139208}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 405458}
+  - {fileID: 481906}
+  - {fileID: 486836}
+  - {fileID: 451422}
+  - {fileID: 442176}
+  - {fileID: 412030}
+  m_Father: {fileID: 425824}
+  m_RootOrder: 0
 --- !u!4 &404744
 Transform:
   m_ObjectHideFlags: 1
@@ -1315,7 +1349,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 417266}
-  m_Father: {fileID: 425824}
+  m_Father: {fileID: 403298}
   m_RootOrder: 0
 --- !u!4 &405634
 Transform:
@@ -1400,7 +1434,7 @@ Transform:
   - {fileID: 474410}
   - {fileID: 428098}
   - {fileID: 494386}
-  m_Father: {fileID: 425824}
+  m_Father: {fileID: 403298}
   m_RootOrder: 5
 --- !u!4 &412182
 Transform:
@@ -1507,15 +1541,10 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 108402}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 330}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 405458}
-  - {fileID: 481906}
-  - {fileID: 486836}
-  - {fileID: 451422}
-  - {fileID: 442176}
-  - {fileID: 412030}
+  - {fileID: 403298}
   m_Father: {fileID: 0}
   m_RootOrder: 0
 --- !u!4 &426258
@@ -1647,10 +1676,10 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 199204}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -7.05, z: 14.2}
+  m_LocalPosition: {x: 0, y: -7.05, z: 14.200012}
   m_LocalScale: {x: 35.056118, y: 2.0833757, z: 24.206741}
   m_Children: []
-  m_Father: {fileID: 425824}
+  m_Father: {fileID: 403298}
   m_RootOrder: 4
 --- !u!4 &445650
 Transform:
@@ -1721,7 +1750,7 @@ Transform:
   - {fileID: 426258}
   - {fileID: 485648}
   - {fileID: 453302}
-  m_Father: {fileID: 425824}
+  m_Father: {fileID: 403298}
   m_RootOrder: 3
 --- !u!4 &451534
 Transform:
@@ -2060,7 +2089,7 @@ Transform:
   - {fileID: 404744}
   - {fileID: 423590}
   - {fileID: 414086}
-  m_Father: {fileID: 425824}
+  m_Father: {fileID: 403298}
   m_RootOrder: 1
 --- !u!4 &482214
 Transform:
@@ -2128,7 +2157,7 @@ Transform:
   - {fileID: 484554}
   - {fileID: 464488}
   - {fileID: 455270}
-  m_Father: {fileID: 425824}
+  m_Father: {fileID: 403298}
   m_RootOrder: 2
 --- !u!4 &488568
 Transform:
@@ -4642,8 +4671,8 @@ MonoBehaviour:
   Type: 2
   displacementTarget: {x: 0, y: 0, z: 0}
   SaveCurrentPos: 0
-  minVec: {x: -2, y: 0.5, z: 0.2}
-  maxVec: {x: -4, y: 4, z: 2}
+  minVec: {x: -2, y: 0.5, z: -3}
+  maxVec: {x: -4, y: 4, z: 0}
   Multiplier: 6
 --- !u!114 &11428284
 MonoBehaviour:
@@ -4659,9 +4688,21 @@ MonoBehaviour:
   Type: 2
   displacementTarget: {x: 0, y: 0, z: 0}
   SaveCurrentPos: 0
-  minVec: {x: -2, y: 0.5, z: 0.2}
-  maxVec: {x: -4, y: 4, z: 2}
+  minVec: {x: -2, y: 0.5, z: -3}
+  maxVec: {x: -4, y: 4, z: 0}
   Multiplier: 6
+--- !u!114 &11433196
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 108402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 960cf6eba2eac9d41b0b9b3765c7fd66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 139208}
 --- !u!114 &11447638
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4676,8 +4717,8 @@ MonoBehaviour:
   Type: 2
   displacementTarget: {x: 0, y: 0, z: 0}
   SaveCurrentPos: 0
-  minVec: {x: 2, y: 0.5, z: 0.2}
-  maxVec: {x: 4, y: 6, z: 2}
+  minVec: {x: 2, y: 0.5, z: -3}
+  maxVec: {x: 4, y: 6, z: 0}
   Multiplier: 6
 --- !u!114 &11452614
 MonoBehaviour:
@@ -4706,8 +4747,8 @@ MonoBehaviour:
   Type: 2
   displacementTarget: {x: 0, y: 0, z: 0}
   SaveCurrentPos: 0
-  minVec: {x: 2, y: 2, z: 0.2}
-  maxVec: {x: 4, y: 8, z: 2}
+  minVec: {x: 2, y: 2, z: -3}
+  maxVec: {x: 4, y: 8, z: 0}
   Multiplier: 6
 --- !u!114 &11481856
 MonoBehaviour:
@@ -4723,8 +4764,8 @@ MonoBehaviour:
   Type: 2
   displacementTarget: {x: 0, y: 0, z: 0}
   SaveCurrentPos: 0
-  minVec: {x: 2, y: 2, z: 0.2}
-  maxVec: {x: 4, y: 6, z: 4}
+  minVec: {x: 2, y: 2, z: -3}
+  maxVec: {x: 4, y: 6, z: 0}
   Multiplier: 1
 --- !u!114 &11483212
 MonoBehaviour:
@@ -4740,8 +4781,8 @@ MonoBehaviour:
   Type: 2
   displacementTarget: {x: 0, y: 0, z: 0}
   SaveCurrentPos: 0
-  minVec: {x: -2, y: 0.5, z: 0.2}
-  maxVec: {x: -4, y: 4, z: 2}
+  minVec: {x: -2, y: 0.5, z: -3}
+  maxVec: {x: -4, y: 4, z: 0}
   Multiplier: 6
 --- !u!114 &11490928
 MonoBehaviour:
@@ -4757,8 +4798,8 @@ MonoBehaviour:
   Type: 2
   displacementTarget: {x: 0, y: 0, z: 0}
   SaveCurrentPos: 0
-  minVec: {x: -4, y: 4, z: 0.2}
-  maxVec: {x: 4, y: 9, z: 2}
+  minVec: {x: -4, y: 4, z: -3}
+  maxVec: {x: 4, y: 9, z: 0}
   Multiplier: 6
 --- !u!136 &13614934
 CapsuleCollider:
