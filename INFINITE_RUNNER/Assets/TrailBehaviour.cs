@@ -17,7 +17,7 @@ public class TrailBehaviour : MonoBehaviour
 
 	void FixedUpdate () {
 		RaycastHit hit;
-		if (Physics.Raycast (selfTrans.position, Vector3.down, out hit, 0.25f)) {
+		if (Physics.Raycast (selfTrans.position, Vector3.down, out hit, 1f)) {
 			sprtRend.enabled = true;
 		} else {
 			sprtRend.enabled = false;

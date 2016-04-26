@@ -104,6 +104,10 @@ Material:
         second: 0
       data:
         first:
+          name: _SpecularPower
+        second: 5.846154
+      data:
+        first:
           name: _Parallax
         second: 0.02
       data:
@@ -135,6 +139,10 @@ Material:
           name: _Mode
         second: 0
     m_Colors:
+      data:
+        first:
+          name: _LightDir
+        second: {r: 0.7, g: 1, b: -0.5, a: 0}
       data:
         first:
           name: _EmissionColor

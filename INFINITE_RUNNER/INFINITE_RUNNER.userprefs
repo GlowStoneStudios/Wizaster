@@ -1,15 +1,16 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_Art\_Shaders\OpaqueShine.shader">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_Code\PlaySound.cs">
     <Files>
-      <File FileName="Assets\TrailBehaviour.cs" Line="39" Column="3" />
-      <File FileName="Assets\_Code\Gameplay\PlayerBehaviour.cs" Line="226" Column="12" />
+      <File FileName="Assets\TrailBehaviour.cs" Line="18" Column="23" />
+      <File FileName="Assets\_Code\Gameplay\PlayerBehaviour.cs" Line="1" Column="1" />
       <File FileName="Assets\_Code\Gameplay\GameController.cs" Line="1" Column="1" />
       <File FileName="Assets\_Code\Gameplay\Pollito.cs" Line="1" Column="1" />
       <File FileName="Assets\_Code\Gameplay\FarolSwitch.cs" Line="1" Column="1" />
       <File FileName="Assets\_Code\Gameplay\Gallina.cs" Line="1" Column="1" />
       <File FileName="Assets\_Code\Gameplay\AudioManager.cs" Line="1" Column="1" />
       <File FileName="Assets\_Art\_Shaders\OpaqueShine.shader" Line="1" Column="1" />
+      <File FileName="Assets\_Code\PlaySound.cs" Line="10" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

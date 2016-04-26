@@ -122,6 +122,10 @@ Material:
         second: 0
       data:
         first:
+          name: _SpecularPower
+        second: 0.5
+      data:
+        first:
           name: _ReflectionIntensity
         second: 0.533
       data:
@@ -136,6 +140,10 @@ Material:
         first:
           name: _ReflectionDesaturate
         second: 0.76
+      data:
+        first:
+          name: _Specular
+        second: 1
       data:
         first:
           name: _Parallax
@@ -170,10 +178,6 @@ Material:
         second: 0
       data:
         first:
-          name: _SpecularPower
-        second: 0.5
-      data:
-        first:
           name: _LightPower
         second: 0.109
     m_Colors:
@@ -187,16 +191,16 @@ Material:
         second: {r: 1, g: 1, b: 1, a: 1}
       data:
         first:
-          name: _Tint
-        second: {r: 1, g: 1, b: 1, a: 1}
-      data:
-        first:
           name: _LightDirection
         second: {r: 0.5, g: 1, b: -0.5, a: 0}
       data:
         first:
+          name: _Tint
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
           name: _SpecularTint
-        second: {r: 0.7058823, g: 0.7058823, b: 0.7058823, a: 1}
+        second: {r: 1, g: 1, b: 1, a: 1}
       data:
         first:
           name: _AmbientTint

@@ -142,6 +142,10 @@ Material:
         second: 0.76
       data:
         first:
+          name: _Specular
+        second: 1
+      data:
+        first:
           name: _Parallax
         second: 0.02
       data:
@@ -196,7 +200,7 @@ Material:
       data:
         first:
           name: _SpecularTint
-        second: {r: 0.7058823, g: 0.7058823, b: 0.7058823, a: 1}
+        second: {r: 1, g: 1, b: 1, a: 1}
       data:
         first:
           name: _AmbientTint
