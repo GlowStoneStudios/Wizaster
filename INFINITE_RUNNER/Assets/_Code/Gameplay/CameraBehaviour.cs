@@ -22,6 +22,8 @@ public class CameraBehaviour : MonoBehaviour
 	public static CameraBehaviour instance;
 
 	/* Aplicacion al motor */
+
+
 	void Awake ()
 	{
 		// Mem Cache
@@ -44,6 +46,10 @@ public class CameraBehaviour : MonoBehaviour
 
 	void Update()
 	{
+
+		if (followSpeed < 6f) {
+			followSpeed += Time.deltaTime;
+		}
 		// Shake
 		if (CameraShake) {
 			if (shaker.localPosition.x > maxX) {

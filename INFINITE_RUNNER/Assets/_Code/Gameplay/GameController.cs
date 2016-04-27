@@ -103,6 +103,7 @@ public class GameController : MonoBehaviour
 	void Start () 
 	{
 		// Prevension
+		levelStarted =true;
 		startClock = true;
         mainScore = 0;
         curCoinValue = coinValue;
