@@ -20,7 +20,6 @@ public class PlayerBehaviour : MonoBehaviour
 	public runningMode runMode;
 
 	public Vector3 jumpPower = new Vector3 (0, 100.0f, 10.0f);
-	public float playerGravity;										// Sacar la gravedad para usar el motor de fisicas
 	public Transform selfTrans { get; private set; }
 
 	[Header ("Role stuff")]
@@ -48,6 +47,10 @@ public class PlayerBehaviour : MonoBehaviour
 	[Header ("Animations")]
 	public Animator animPlayer;
 
+	[Header ("VFX")]
+	public GameObject staffGlow;
+	public GameObject runTrail;
+
 	/* Aplicacion al motor */
 	void Awake ()
 	{
@@ -62,14 +65,10 @@ public class PlayerBehaviour : MonoBehaviour
 		selfRb = GetComponent<Rigidbody> ();
 
 		// Prevension
-
-		if (playerGravity == 0.0f) playerGravity = 9.8f; 
-		actualPlayerGravity = playerGravity;
 		actualSpeed = normalSpeed;
 		if (scoreFreq == 0) scoreFreq = 1;
 
 		grounded = true;
-		//Debug.Log ("Velocidad = " + actualSpeed + "\nGravedad = " + actualPlayerGravity);
 	}
 	
 	void Update ()
@@ -88,7 +87,6 @@ public class PlayerBehaviour : MonoBehaviour
 			case runningMode.Rush:
 				actualSpeed = rushSpeed;
 				break;
-
 		}
 
 		rushSpeed = normalSpeed * rushRate;
@@ -106,6 +104,15 @@ public class PlayerBehaviour : MonoBehaviour
 		// Cuando el personaje se pueda mover
 		if (isAlive && GameController.instance.levelStarted) {
 			canMove = true;
+
+			// Anim casteo
+			if (Input.GetButtonDown ("Fire1") || Input.touchCount > 0) {
+				animPlayer.SetBool ("usingMagic", true);
+				// print (animPlayer.GetBool ("usingMagic"));
+			} else {
+				animPlayer.SetBool ("usingMagic", false);
+			}
+
 		} else {
 			canMove = false;
 		}
@@ -113,14 +120,10 @@ public class PlayerBehaviour : MonoBehaviour
 		if (canMove)
 		{
 			/* Condiciones de movimiento */
-
-			// Gravedad
-
 			normalSpeed += 0.033f * Time.deltaTime; 
 			if (stamina > 0.1f) {
 				stamina -= Time.deltaTime * 0.75f * staminaConsumeRate;
 			}
-
 
 			// Se desplaza en Z hacia adelante, y leemos la gravedad (para saltos o caidas que vayan a haber)
 			//selfTrans.Translate (0, actualPlayerGravity, actualSpeed * Time.deltaTime);
@@ -166,7 +169,9 @@ public class PlayerBehaviour : MonoBehaviour
 
 	void OnMouseDown () {
 		if (canMove) {
+			// Aplica velocidad y llama al VFX Dash
 			addSpeedForce ();
+			TrailBehaviour.instance.DoDash ();
 		}
 	}
 
@@ -174,7 +179,6 @@ public class PlayerBehaviour : MonoBehaviour
 		if (stamina > 10.0f) {
 			selfRb.AddForce (dashForce, ForceMode.Force);
 			stamina -= staminaConsumeRate;
-			//EFECTO AKI
 		}
 	}
 	/* Triggers */
@@ -218,6 +222,8 @@ public class PlayerBehaviour : MonoBehaviour
 				canMove = false;
 				selfRb.isKinematic = true;
 				animPlayer.SetTrigger ("dies");
+				staffGlow.SetActive (false);
+				runTrail.SetActive (false);
 				AudioManager.instance.PlayAudio (0, 1.0f);
 			}
 		}
