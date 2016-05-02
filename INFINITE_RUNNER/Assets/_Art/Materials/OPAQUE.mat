@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: OPAQUE
-  m_Shader: {fileID: 4800000, guid: 14607077f1d24fe4d8c89f461b63f46e, type: 3}
+  m_Shader: {fileID: 4800000, guid: 542906ea615143643864016dc9483f24, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
   m_CustomRenderQueue: 2000
@@ -15,6 +15,13 @@ Material:
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
+      data:
+        first:
+          name: _Reflection
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
       data:
         first:
           name: _MainTex
@@ -119,6 +126,10 @@ Material:
         second: 1
       data:
         first:
+          name: _ReflectionIntensity
+        second: 0
+      data:
+        first:
           name: _Specular
         second: 0.2
       data:
@@ -165,6 +176,18 @@ Material:
         first:
           name: _LightDirSpeed
         second: 0.1
+      data:
+        first:
+          name: _InteractionSpeedAdd
+        second: 111
+      data:
+        first:
+          name: _InteractiveIntensity
+        second: 0
+      data:
+        first:
+          name: _VertexOffset
+        second: 2
     m_Colors:
       data:
         first:
@@ -206,3 +229,11 @@ Material:
         first:
           name: _LightDir2
         second: {r: 0.06, g: 0.02, b: 0.05, a: 0}
+      data:
+        first:
+          name: _InteractionColor
+        second: {r: 0, g: 0.7103448, b: 1, a: 1}
+      data:
+        first:
+          name: _DeadColor
+        second: {r: 1, g: 0.84969574, b: 0.71323526, a: 1}

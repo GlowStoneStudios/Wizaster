@@ -2097,7 +2097,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: e62f40d4bb8fa924db11e53f2086cea2, type: 2}
+  - {fileID: 0}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -2253,7 +2253,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: e62f40d4bb8fa924db11e53f2086cea2, type: 2}
+  - {fileID: 0}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -2565,7 +2565,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: d912e9c91717403438a987f14207434d, type: 2}
+  - {fileID: 2100000, guid: 89999286e49c6604682063695a5d0d74, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -2773,7 +2773,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 6a923a4943e394247bd2364bb9fabc5b, type: 2}
+  - {fileID: 0}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -3241,7 +3241,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: d912e9c91717403438a987f14207434d, type: 2}
+  - {fileID: 2100000, guid: 89999286e49c6604682063695a5d0d74, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -3293,7 +3293,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: e62f40d4bb8fa924db11e53f2086cea2, type: 2}
+  - {fileID: 0}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -3371,7 +3371,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: e62f40d4bb8fa924db11e53f2086cea2, type: 2}
+  - {fileID: 0}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -4059,10 +4059,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RotationAxis: {x: 0, y: 0, z: 1}
-  curSpeed: 6
-  TapRate: 1
+  curSpeed: 2
+  TapRate: 0.5
   LimitValue: 0
-  SpeedGainRate: 1
+  SpeedGainRate: 0.33
 --- !u!114 &11428138
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -2207,9 +2207,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isTouching: 0
   direction: -1
-  speed: 2
-  limits: {x: -12, y: 3}
-  SpeedGainRate: 0.66
+  speed: 0.66
+  limits: {x: -4, y: 1}
+  SpeedGainRate: 0.2
 --- !u!114 &11409956
 MonoBehaviour:
   m_ObjectHideFlags: 1

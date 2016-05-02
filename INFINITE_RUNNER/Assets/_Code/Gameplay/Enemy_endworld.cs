@@ -6,6 +6,9 @@ public class Enemy_endworld : MonoBehaviour {
 	Transform cached;
 	public float speed = 1f, speedRate = 0.5f;
 	public float shakeRange = 6f;
+
+	bool shadercalc;
+
 	// Use this for initialization
 	void Awake () {
 		cached = this.transform;
@@ -20,6 +23,7 @@ public class Enemy_endworld : MonoBehaviour {
 			cached.Translate (Vector3.forward * Time.deltaTime * speed);
 			speed += Time.deltaTime * speedRate;
 		}
+
 	}
 	void LateUpdate()
 	{
@@ -32,6 +36,17 @@ public class Enemy_endworld : MonoBehaviour {
 		} else {
 			CameraBehaviour.instance.CameraShake = false;
 		}
+
+		if (!shadercalc) {
+			shadercalc = true;
+			Shader.SetGlobalFloat ("_KillerZ",cached.position.z);
+			StartCoroutine (staphCalc ());
+		}
+	}
+
+	IEnumerator staphCalc(){
+		yield return new WaitForSeconds (0.05f);
+		shadercalc = false;
 	}
 
 	void OnTriggerEnter(Collider o){

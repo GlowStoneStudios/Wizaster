@@ -1,6 +1,8 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
+Project("{8228B5BB-AFEC-9F03-14E9-7150799533AE}") = "INFINITE_RUNNER", "Assembly-CSharp-firstpass.csproj", "{C56F6C19-D6E0-E04B-94D9-867F46730E44}"
+EndProject
 Project("{8228B5BB-AFEC-9F03-14E9-7150799533AE}") = "INFINITE_RUNNER", "Assembly-CSharp.csproj", "{80DF12FA-1EC2-DF20-D4C9-A1DCFFA6146F}"
 EndProject
 Project("{8228B5BB-AFEC-9F03-14E9-7150799533AE}") = "INFINITE_RUNNER", "Assembly-CSharp-Editor.csproj", "{4A6E1807-4837-9F84-FD8F-0CAAF9F4F84B}"
@@ -11,6 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C56F6C19-D6E0-E04B-94D9-867F46730E44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C56F6C19-D6E0-E04B-94D9-867F46730E44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C56F6C19-D6E0-E04B-94D9-867F46730E44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C56F6C19-D6E0-E04B-94D9-867F46730E44}.Release|Any CPU.Build.0 = Release|Any CPU
 		{80DF12FA-1EC2-DF20-D4C9-A1DCFFA6146F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{80DF12FA-1EC2-DF20-D4C9-A1DCFFA6146F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80DF12FA-1EC2-DF20-D4C9-A1DCFFA6146F}.Release|Any CPU.ActiveCfg = Release|Any CPU

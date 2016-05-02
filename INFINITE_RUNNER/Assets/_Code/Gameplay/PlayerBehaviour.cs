@@ -49,7 +49,7 @@ public class PlayerBehaviour : MonoBehaviour
 
 	[Header ("VFX")]
 	public GameObject staffGlow;
-	public GameObject runTrail;
+	public GameObject runTrail, trailCaldero;
 
 	/* Aplicacion al motor */
 	void Awake ()
@@ -280,8 +280,8 @@ public class PlayerBehaviour : MonoBehaviour
 	{
 		selfRb.AddForce (jumpPower);	
 		//AudioManager.instance.PlayAudio (1,1f);
-	//	smoke.SetActive (true);
-	//	StartCoroutine(cancelSmoke(smoke));
+		trailCaldero.SetActive (true);
+		StartCoroutine(cancelSmoke(trailCaldero));
 		stamina -= 5f;
 		AudioManager.instance.PlayAudio (0,1f);
 		GameController.instance.AddScore (50, selfTrans.position);
@@ -291,7 +291,7 @@ public class PlayerBehaviour : MonoBehaviour
 		damaged = false;
 	}
 	IEnumerator cancelSmoke(GameObject smoke){
-		yield return new WaitForSeconds (1);
+		yield return new WaitForSeconds (1.5f);
 		smoke.SetActive (false);
 	}
 } 
