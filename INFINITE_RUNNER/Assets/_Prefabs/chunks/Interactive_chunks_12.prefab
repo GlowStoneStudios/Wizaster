@@ -4268,7 +4268,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5282c0ab32862f4a917d84af9d84282, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: []
+  item:
+  - {fileID: 193778, guid: 8dd85b229d72ab047a0a6cb3b398eaeb, type: 2}
+  - {fileID: 193778, guid: 8dd85b229d72ab047a0a6cb3b398eaeb, type: 2}
+  - {fileID: 101502, guid: 5e044ebf2ecbcba45818d4edd7294a50, type: 2}
+  - {fileID: 135314, guid: d571eeed597f672499cba68e637ddfa2, type: 2}
+  - {fileID: 135314, guid: d571eeed597f672499cba68e637ddfa2, type: 2}
+  - {fileID: 135314, guid: d571eeed597f672499cba68e637ddfa2, type: 2}
   spawnRate: 1
 --- !u!114 &11478466
 MonoBehaviour:

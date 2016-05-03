@@ -52,6 +52,27 @@ Material:
           m_Offset: {x: 0, y: 0}
       data:
         first:
+          name: _Diffuse
+        second:
+          m_Texture: {fileID: 2800000, guid: ea509859e7e3aed4a9efb69aca3f053d, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Normal
+        second:
+          m_Texture: {fileID: 2800000, guid: 175fd560c0bb53948a5c970b3e1022aa, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Mask
+        second:
+          m_Texture: {fileID: 2800000, guid: 309c4ca5bb98ca2419264de3fe40df40, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
           name: _OcclusionMap
         second:
           m_Texture: {fileID: 0}
@@ -87,37 +108,16 @@ Material:
           m_Offset: {x: 0, y: 0}
       data:
         first:
-          name: _Diffuse
-        second:
-          m_Texture: {fileID: 2800000, guid: ea509859e7e3aed4a9efb69aca3f053d, type: 3}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
           name: _node_5888
         second:
           m_Texture: {fileID: 0}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
-          name: _Normal
-        second:
-          m_Texture: {fileID: 2800000, guid: c4b386386bc8c194ca231bd10a6a73ee, type: 3}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
-          name: _Mask
-        second:
-          m_Texture: {fileID: 2800000, guid: 309c4ca5bb98ca2419264de3fe40df40, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
     m_Floats:
       data:
         first:
           name: _Scale
-        second: 1
+        second: 0.06
       data:
         first:
           name: _SrcBlend
@@ -136,8 +136,40 @@ Material:
         second: 0
       data:
         first:
+          name: _Gloss
+        second: 0.28
+      data:
+        first:
           name: _Parallax
         second: 0.02
+      data:
+        first:
+          name: _SpecularPower
+        second: 1
+      data:
+        first:
+          name: _ReflectionIntensity
+        second: 0
+      data:
+        first:
+          name: _Speed
+        second: 0.666
+      data:
+        first:
+          name: _Distortionpower
+        second: 0.6
+      data:
+        first:
+          name: _Specular
+        second: 0.2
+      data:
+        first:
+          name: _InteractiveIntensity
+        second: 0
+      data:
+        first:
+          name: _InteractionSpeedAdd
+        second: 111
       data:
         first:
           name: _ZWrite
@@ -172,11 +204,7 @@ Material:
         second: 2.12
       data:
         first:
-          name: _Gloss
-        second: 0.28
-      data:
-        first:
-          name: _SpecularPower
+          name: _SpecPower
         second: 1
       data:
         first:
@@ -184,39 +212,11 @@ Material:
         second: 0.109
       data:
         first:
-          name: _SpecPower
-        second: 1
-      data:
-        first:
-          name: _ReflectionIntensity
-        second: 0
-      data:
-        first:
-          name: _Specular
-        second: 0.2
-      data:
-        first:
           name: _LightDirSpeed
         second: 0.1
       data:
         first:
-          name: _InteractionSpeedAdd
-        second: 111
-      data:
-        first:
-          name: _InteractiveIntensity
-        second: 0
-      data:
-        first:
           name: _VertexOffset
-        second: 2
-      data:
-        first:
-          name: _Speed
-        second: 0.203
-      data:
-        first:
-          name: _Distortionpower
         second: 2
     m_Colors:
       data:
@@ -245,6 +245,14 @@ Material:
         second: {r: 0.5, g: 1, b: -0.5, a: 0}
       data:
         first:
+          name: _InteractionColor
+        second: {r: 0, g: 0.7103448, b: 1, a: 1}
+      data:
+        first:
+          name: _DeadColor
+        second: {r: 1, g: 0.84969574, b: 0.71323526, a: 1}
+      data:
+        first:
           name: _Tint
         second: {r: 1, g: 1, b: 1, a: 1}
       data:
@@ -263,11 +271,3 @@ Material:
         first:
           name: _LightDir2
         second: {r: 0.06, g: 0.02, b: 0.05, a: 0}
-      data:
-        first:
-          name: _InteractionColor
-        second: {r: 0, g: 0.7103448, b: 1, a: 1}
-      data:
-        first:
-          name: _DeadColor
-        second: {r: 1, g: 0.84969574, b: 0.71323526, a: 1}

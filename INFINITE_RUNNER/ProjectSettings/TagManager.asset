@@ -20,6 +20,9 @@ TagManager:
   - Goat
   - Chicken
   - AnchorPoint
+  - Coin
+  - Bottle
+  - BigCoin
   layers:
   - Default
   - TransparentFX

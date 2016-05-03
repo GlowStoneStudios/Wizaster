@@ -9,6 +9,8 @@ public class PillarMovementTest : MonoBehaviour
 	Vector3 starterPos;
 	Animator selfAnim;
 
+	bool clicking;
+
 	/* Aplicacion al motor */
 	void Start () {
 		selfTrans = this.transform;
@@ -17,11 +19,21 @@ public class PillarMovementTest : MonoBehaviour
 
 	void OnMouseDown () {
 		starterPos = selfTrans.position;
+		clicking = true;
 	}
 
 	void OnMouseUp () {
 		if (selfTrans.position.y >= starterPos.y) {
 			selfAnim.SetTrigger (triggerName);
 		}
+	}
+	void OnMouseExit () {
+		if (clicking) {
+			if (selfTrans.position.y >= starterPos.y) {
+				selfAnim.SetTrigger (triggerName);
+			}
+		}
+
+		clicking = false;
 	}
 }

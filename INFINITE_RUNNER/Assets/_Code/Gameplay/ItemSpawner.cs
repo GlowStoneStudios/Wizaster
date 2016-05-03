@@ -4,7 +4,7 @@ using System.Collections;
 public class ItemSpawner : MonoBehaviour {
 
 	public GameObject[] item;
-	public float spawnRate = 1f;
+	 float spawnRate = 33f;
 
 	Transform[] spawners;
 
@@ -17,7 +17,11 @@ public class ItemSpawner : MonoBehaviour {
 			spawners [i] = transform.GetChild (i);
 			spawners[i].GetComponent<MeshRenderer> ().enabled = false;
 
-			SpawnItem (i);
+			float rnd = Random.value * 100f;
+
+			if (rnd < spawnRate) {
+				SpawnItem (i);
+			}
 		}
 
 	//	print (spawners.Length);
@@ -27,6 +31,9 @@ public class ItemSpawner : MonoBehaviour {
 	void SpawnItem (int i) 
 	{
 		//spawn here
+		GameObject objToSpawn =	Instantiate(item[Random.Range(0, item.Length)], spawners [i].transform.position,Quaternion.identity) as GameObject;
+		objToSpawn.transform.SetParent (spawners [i].transform);
+		//objToSpawn.transform.position = Vector3.zero;
 	}
 
 }
