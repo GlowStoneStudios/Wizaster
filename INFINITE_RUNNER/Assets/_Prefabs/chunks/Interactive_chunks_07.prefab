@@ -2030,7 +2030,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 144018}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 240}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 497968}
@@ -2357,7 +2357,7 @@ MeshRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_Materials:
-  - {fileID: 2100000, guid: ebdb90b4cd494ff41ae30416da5a5fd8, type: 2}
+  - {fileID: 2100000, guid: e7738a7cdf0c1b842a0878f13a4531f0, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -2617,7 +2617,7 @@ MeshRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_Materials:
-  - {fileID: 2100000, guid: ebdb90b4cd494ff41ae30416da5a5fd8, type: 2}
+  - {fileID: 2100000, guid: e7738a7cdf0c1b842a0878f13a4531f0, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -2643,7 +2643,7 @@ MeshRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_Materials:
-  - {fileID: 2100000, guid: ebdb90b4cd494ff41ae30416da5a5fd8, type: 2}
+  - {fileID: 2100000, guid: e7738a7cdf0c1b842a0878f13a4531f0, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -2981,7 +2981,7 @@ MeshRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_Materials:
-  - {fileID: 2100000, guid: ebdb90b4cd494ff41ae30416da5a5fd8, type: 2}
+  - {fileID: 2100000, guid: e7738a7cdf0c1b842a0878f13a4531f0, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -3111,7 +3111,7 @@ MeshRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_Materials:
-  - {fileID: 2100000, guid: ebdb90b4cd494ff41ae30416da5a5fd8, type: 2}
+  - {fileID: 2100000, guid: e7738a7cdf0c1b842a0878f13a4531f0, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -3189,7 +3189,7 @@ MeshRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_Materials:
-  - {fileID: 2100000, guid: ebdb90b4cd494ff41ae30416da5a5fd8, type: 2}
+  - {fileID: 2100000, guid: e7738a7cdf0c1b842a0878f13a4531f0, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -3215,7 +3215,7 @@ MeshRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_Materials:
-  - {fileID: 2100000, guid: ebdb90b4cd494ff41ae30416da5a5fd8, type: 2}
+  - {fileID: 2100000, guid: e7738a7cdf0c1b842a0878f13a4531f0, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -3319,7 +3319,7 @@ MeshRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_Materials:
-  - {fileID: 2100000, guid: ebdb90b4cd494ff41ae30416da5a5fd8, type: 2}
+  - {fileID: 2100000, guid: e7738a7cdf0c1b842a0878f13a4531f0, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -3345,7 +3345,7 @@ MeshRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_Materials:
-  - {fileID: 2100000, guid: ebdb90b4cd494ff41ae30416da5a5fd8, type: 2}
+  - {fileID: 2100000, guid: e7738a7cdf0c1b842a0878f13a4531f0, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -3397,7 +3397,7 @@ MeshRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_Materials:
-  - {fileID: 2100000, guid: ebdb90b4cd494ff41ae30416da5a5fd8, type: 2}
+  - {fileID: 2100000, guid: e7738a7cdf0c1b842a0878f13a4531f0, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -3423,7 +3423,7 @@ MeshRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_Materials:
-  - {fileID: 2100000, guid: ebdb90b4cd494ff41ae30416da5a5fd8, type: 2}
+  - {fileID: 2100000, guid: e7738a7cdf0c1b842a0878f13a4531f0, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -3449,7 +3449,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: ebdb90b4cd494ff41ae30416da5a5fd8, type: 2}
+  - {fileID: 2100000, guid: e7738a7cdf0c1b842a0878f13a4531f0, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -4059,10 +4059,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RotationAxis: {x: 0, y: 0, z: 1}
-  curSpeed: 2
-  TapRate: 0.5
+  curSpeed: 140
+  TapRate: 20
   LimitValue: 0
-  SpeedGainRate: 0.33
+  SpeedGainRate: 5
 --- !u!114 &11428138
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4081,7 +4081,6 @@ MonoBehaviour:
   - {fileID: 135314, guid: d571eeed597f672499cba68e637ddfa2, type: 2}
   - {fileID: 135314, guid: d571eeed597f672499cba68e637ddfa2, type: 2}
   - {fileID: 135314, guid: d571eeed597f672499cba68e637ddfa2, type: 2}
-  spawnRate: 1
 --- !u!114 &11458494
 MonoBehaviour:
   m_ObjectHideFlags: 1

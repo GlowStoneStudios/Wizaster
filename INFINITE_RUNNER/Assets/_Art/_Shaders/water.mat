@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: LAVA1
+  m_Name: water
   m_Shader: {fileID: 4800000, guid: 46b60057eda3d6241bd2e175a3dbc589, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -19,7 +19,7 @@ Material:
         first:
           name: _Reflection
         second:
-          m_Texture: {fileID: 8900000, guid: 35080828b66cd0a4891b39d93488c011, type: 2}
+          m_Texture: {fileID: 8900000, guid: 9a9686487f02b6f4480e1522c4a7d98f, type: 2}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -96,7 +96,7 @@ Material:
         first:
           name: _Diffuse
         second:
-          m_Texture: {fileID: 2800000, guid: c29bc505b2eb8fc46916f1fd22c7f0ec, type: 3}
+          m_Texture: {fileID: 2800000, guid: 7b5cc5407f6d36b4884ccc94150265e4, type: 3}
           m_Scale: {x: 6, y: 3}
           m_Offset: {x: 0, y: 0}
       data:
@@ -356,7 +356,7 @@ Material:
       data:
         first:
           name: _ReflectionIntensity
-        second: 0
+        second: 0.255
       data:
         first:
           name: _FlowPower
@@ -560,7 +560,7 @@ Material:
       data:
         first:
           name: _SceneIntensity
-        second: 0.078
+        second: 0.501
       data:
         first:
           name: _TextureIntensity
@@ -568,11 +568,11 @@ Material:
       data:
         first:
           name: _EmissionIntensity
-        second: 0
+        second: 1
       data:
         first:
           name: _Refractionintensity
-        second: 0.053
+        second: 0.047
       data:
         first:
           name: _RefractionSpeed
@@ -581,7 +581,7 @@ Material:
       data:
         first:
           name: _EmissionColor
-        second: {r: 0, g: 0, b: 0, a: 1}
+        second: {r: 1, g: 1, b: 1, a: 1}
       data:
         first:
           name: _Color
@@ -620,8 +620,12 @@ Material:
         second: {r: 0.22794116, g: 0.10846855, b: 0, a: 1}
       data:
         first:
+          name: _DeadColor
+        second: {r: 0.9411765, g: 0.6495643, b: 0.4913495, a: 1}
+      data:
+        first:
           name: _Tint
-        second: {r: 1, g: 1, b: 1, a: 1}
+        second: {r: 0, g: 0.43149102, b: 0.49264705, a: 1}
       data:
         first:
           name: _ColorA

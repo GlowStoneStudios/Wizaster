@@ -48,7 +48,7 @@ public class CameraBehaviour : MonoBehaviour
 	{
 
 		if (followSpeed < 6f) {
-			followSpeed += Time.deltaTime;
+			followSpeed += Time.deltaTime * 0.333f;
 		}
 		// Shake
 		if (CameraShake) {

@@ -7,6 +7,11 @@ public class Enemy_endworld : MonoBehaviour {
 	public float speed = 1f, speedRate = 0.5f;
 	public float shakeRange = 6f;
 
+
+	bool checkDist;
+
+	public GameObject gonzalo;
+	public bool Hide;
 	bool shadercalc;
 
 	// Use this for initialization
@@ -42,6 +47,13 @@ public class Enemy_endworld : MonoBehaviour {
 			Shader.SetGlobalFloat ("_KillerZ",cached.position.z);
 			StartCoroutine (staphCalc ());
 		}
+
+		if (Hide) {
+			if (!checkDist) {
+				checkDist = true;
+				StartCoroutine (checkdistance ());
+			}
+		}
 	}
 
 	IEnumerator staphCalc(){
@@ -54,5 +66,19 @@ public class Enemy_endworld : MonoBehaviour {
 		{
 			PlayerBehaviour.instance.isAlive = false;
 		}
+	}
+
+	IEnumerator checkdistance(){
+		yield return new WaitForSeconds (0.5f);
+
+		float dist = PlayerBehaviour.instance.selfTrans.position.z - cached.position.z;
+
+		if (dist > 40f) {
+			gonzalo.SetActive (false);
+		} else {
+			gonzalo.SetActive (true);
+		}
+
+		checkDist = false;
 	}
 }

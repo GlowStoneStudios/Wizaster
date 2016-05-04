@@ -14,17 +14,26 @@ public class Spiral : MonoBehaviour {
 	float startSpeed;
 	// Use this for initialization
 
+	bool canRotate;
 
 	void Awake () {
 		cached = this.transform;
 		startSpeed = speed;
+		canRotate = true;
 	
 	}
 	void Update(){
-		cached.Rotate ((Vector3.forward * direction * speed));
+		if (canRotate) {
+			cached.Rotate ((Vector3.forward * direction * speed * Time.deltaTime));
 
-		if (speed < startSpeed) {
-			speed += Time.deltaTime * SpeedGainRate;
+			if (speed < startSpeed) {
+				speed += Time.deltaTime * SpeedGainRate;
+			}
+		}
+	}
+	void OnTriggerEnter(Collider col){
+		if (col.tag == "Endworld") {
+			canRotate = false;
 		}
 	}
 	void OnMouseDrag(){

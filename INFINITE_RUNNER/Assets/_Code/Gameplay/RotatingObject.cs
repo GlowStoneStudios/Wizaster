@@ -8,17 +8,26 @@ public class RotatingObject : MonoBehaviour {
 	public float SpeedGainRate = 1f;
 	Transform cached;
 	float startSpeed;
+	bool canRotate;
 	// Use this for initialization
 	void Awake () {
 		cached = this.transform;
 		startSpeed = curSpeed;
 		RotationAxis = RotationAxis.normalized;
+		canRotate = true;
 	}
 	void Update(){
-		cached.Rotate ((RotationAxis * curSpeed));
+		if (canRotate) {
+			cached.Rotate ((RotationAxis * curSpeed * Time.deltaTime));
 
-		if (curSpeed < startSpeed) {
-			curSpeed += Time.deltaTime * SpeedGainRate;
+			if (curSpeed < startSpeed) {
+				curSpeed += Time.deltaTime * SpeedGainRate;
+			}
+		}
+	}
+	void OnTriggerEnter(Collider col){
+		if (col.tag == "Endworld") {
+			canRotate = false;
 		}
 	}
 	// Update is called once per frame

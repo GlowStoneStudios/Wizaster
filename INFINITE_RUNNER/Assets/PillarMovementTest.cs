@@ -9,6 +9,7 @@ public class PillarMovementTest : MonoBehaviour
 	Vector3 starterPos;
 	Animator selfAnim;
 
+
 	bool clicking;
 
 	/* Aplicacion al motor */
