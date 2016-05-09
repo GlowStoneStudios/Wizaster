@@ -13,6 +13,7 @@ public class CreditsPlayer : MonoBehaviour
 	Rigidbody selfRb;
 
 	public float rayDist;
+	public Animator wizAnim;
 
 
 	/* Aplicacion al motor */
@@ -37,10 +38,6 @@ public class CreditsPlayer : MonoBehaviour
 		}
 	}
 
-	void Update () {
-		// CAMBIAR POS EN Y POR LERP!
-	}
-
 	void FixedUpdate ()
 	{
 		RaycastHit hit;
@@ -56,6 +53,7 @@ public class CreditsPlayer : MonoBehaviour
 		if (Physics.Raycast (selfTrans.position, Vector3.down, out hit, 0.1f)) {
 			if (hit.transform.tag == "Ground") {
 				canJump = true;
+				wizAnim.SetBool ("onAir", false);
 				//Debug.Log (canJump);
 			}
 		}
@@ -65,6 +63,7 @@ public class CreditsPlayer : MonoBehaviour
 	public void DoJump () {
 		if (canJump) {
 			canJump = false;
+			wizAnim.SetBool ("onAir", true);
 			selfRb.AddForce ( Vector3.up * jumpForce, ForceMode.Force);
 		}
 	}

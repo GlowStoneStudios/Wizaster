@@ -1,0 +1,227 @@
+fileFormatVersion: 2
+guid: bef32f5ef81238341ac87fd9061d2bcf
+timeCreated: 1462803672
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Head
+    100002: Head_end
+    100004: Hips
+    100006: Leg.L
+    100008: Leg.L_end
+    100010: Leg.R
+    100012: Leg.R_end
+    100014: Musle.L
+    100016: Musle.R
+    100018: MusleDown.L
+    100020: MusleDown.L_end
+    100022: MusleDown.R
+    100024: MusleDown.R_end
+    100026: Neck
+    100028: Pelvis.L
+    100030: Pelvis.R
+    100032: Rig Waldo
+    100034: Root
+    100036: Shoulder.L
+    100038: Shoulder.R
+    100040: SpineMed
+    100042: SpineRoot
+    100044: SpineShoulders
+    100046: Tail01
+    100048: Tail02
+    100050: Tail03
+    100052: Tail03_end
+    100054: UMusle.L
+    100056: UMusle.R
+    100058: Waldo
+    100060: //RootNode
+    400000: Head
+    400002: Head_end
+    400004: Hips
+    400006: Leg.L
+    400008: Leg.L_end
+    400010: Leg.R
+    400012: Leg.R_end
+    400014: Musle.L
+    400016: Musle.R
+    400018: MusleDown.L
+    400020: MusleDown.L_end
+    400022: MusleDown.R
+    400024: MusleDown.R_end
+    400026: Neck
+    400028: Pelvis.L
+    400030: Pelvis.R
+    400032: Rig Waldo
+    400034: Root
+    400036: Shoulder.L
+    400038: Shoulder.R
+    400040: SpineMed
+    400042: SpineRoot
+    400044: SpineShoulders
+    400046: Tail01
+    400048: Tail02
+    400050: Tail03
+    400052: Tail03_end
+    400054: UMusle.L
+    400056: UMusle.R
+    400058: Waldo
+    400060: //RootNode
+    4300000: Waldo
+    7400000: Rig Waldo|TailWave
+    9500000: //RootNode
+    13700000: Waldo
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Rig Waldo|TailWave
+      takeName: Rig Waldo|TailWave
+      firstFrame: 0
+      lastFrame: 18
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rig Waldo
+        weight: 1
+      - path: Rig Waldo/Root
+        weight: 1
+      - path: Rig Waldo/Root/Hips
+        weight: 1
+      - path: Rig Waldo/Root/Hips/Pelvis.L
+        weight: 1
+      - path: Rig Waldo/Root/Hips/Pelvis.L/Musle.L
+        weight: 1
+      - path: Rig Waldo/Root/Hips/Pelvis.L/Musle.L/MusleDown.L
+        weight: 1
+      - path: Rig Waldo/Root/Hips/Pelvis.L/Musle.L/MusleDown.L/MusleDown.L_end
+        weight: 1
+      - path: Rig Waldo/Root/Hips/Pelvis.R
+        weight: 1
+      - path: Rig Waldo/Root/Hips/Pelvis.R/Musle.R
+        weight: 1
+      - path: Rig Waldo/Root/Hips/Pelvis.R/Musle.R/MusleDown.R
+        weight: 1
+      - path: Rig Waldo/Root/Hips/Pelvis.R/Musle.R/MusleDown.R/MusleDown.R_end
+        weight: 1
+      - path: Rig Waldo/Root/Hips/Tail01
+        weight: 1
+      - path: Rig Waldo/Root/Hips/Tail01/Tail02
+        weight: 1
+      - path: Rig Waldo/Root/Hips/Tail01/Tail02/Tail03
+        weight: 1
+      - path: Rig Waldo/Root/Hips/Tail01/Tail02/Tail03/Tail03_end
+        weight: 1
+      - path: Rig Waldo/Root/SpineRoot
+        weight: 1
+      - path: Rig Waldo/Root/SpineRoot/SpineMed
+        weight: 1
+      - path: Rig Waldo/Root/SpineRoot/SpineMed/Shoulder.L
+        weight: 1
+      - path: Rig Waldo/Root/SpineRoot/SpineMed/Shoulder.L/UMusle.L
+        weight: 1
+      - path: Rig Waldo/Root/SpineRoot/SpineMed/Shoulder.L/UMusle.L/Leg.L
+        weight: 1
+      - path: Rig Waldo/Root/SpineRoot/SpineMed/Shoulder.L/UMusle.L/Leg.L/Leg.L_end
+        weight: 1
+      - path: Rig Waldo/Root/SpineRoot/SpineMed/Shoulder.R
+        weight: 1
+      - path: Rig Waldo/Root/SpineRoot/SpineMed/Shoulder.R/UMusle.R
+        weight: 1
+      - path: Rig Waldo/Root/SpineRoot/SpineMed/Shoulder.R/UMusle.R/Leg.R
+        weight: 1
+      - path: Rig Waldo/Root/SpineRoot/SpineMed/Shoulder.R/UMusle.R/Leg.R/Leg.R_end
+        weight: 1
+      - path: Rig Waldo/Root/SpineRoot/SpineMed/SpineShoulders
+        weight: 1
+      - path: Rig Waldo/Root/SpineRoot/SpineMed/SpineShoulders/Neck
+        weight: 1
+      - path: Rig Waldo/Root/SpineRoot/SpineMed/SpineShoulders/Neck/Head
+        weight: 1
+      - path: Rig Waldo/Root/SpineRoot/SpineMed/SpineShoulders/Neck/Head/Head_end
+        weight: 1
+      - path: Waldo
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

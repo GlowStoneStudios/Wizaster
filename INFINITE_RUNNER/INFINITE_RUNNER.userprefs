@@ -1,17 +1,18 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_Code\Gameplay\Coin.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\ShadowToGround.cs">
     <Files>
-      <File FileName="Assets\_Code\Gameplay\Spiral.cs" Line="34" Column="1" />
+      <File FileName="Assets\_Code\Gameplay\CameraBehaviour.cs" Line="86" Column="171" />
+      <File FileName="Assets\_Code\Gameplay\Spiral.cs" Line="1" Column="1" />
       <File FileName="Assets\_Code\BloomLerper.cs" Line="1" Column="1" />
-      <File FileName="Assets\_Code\Gameplay\Enemy_endworld.cs" Line="76" Column="15" />
+      <File FileName="Assets\_Code\Gameplay\Enemy_endworld.cs" Line="1" Column="1" />
       <File FileName="Assets\_Code\Gameplay\PlayerBehaviour.cs" Line="1" Column="1" />
-      <File FileName="Assets\_Code\Gameplay\KillerZUpdater.cs" Line="17" Column="29" />
+      <File FileName="Assets\_Code\Gameplay\KillerZUpdater.cs" Line="1" Column="1" />
       <File FileName="Assets\_Art\_Shaders\MasterShader.shader" Line="1" Column="1" />
       <File FileName="Assets\PillarMovementTest.cs" Line="1" Column="1" />
-      <File FileName="Assets\_Code\Gameplay\RotatingObject.cs" Line="26" Column="4" />
-      <File FileName="Assets\_Code\Gameplay\CameraBehaviour.cs" Line="51" Column="41" />
-      <File FileName="Assets\_Code\Gameplay\Coin.cs" Line="29" Column="21" />
+      <File FileName="Assets\_Code\Gameplay\RotatingObject.cs" Line="1" Column="1" />
+      <File FileName="Assets\_Code\Gameplay\Coin.cs" Line="1" Column="1" />
+      <File FileName="Assets\ShadowToGround.cs" Line="16" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -100,12 +100,8 @@ public class CameraBehaviour : MonoBehaviour
 
 	public void ProximityShake(float farRange, float curPos, float maxShakeIntensity)
 	{
-		
 		float speedForce = ExtensionMethods.Remap (curPos,0f,farRange,0f,maxShakeIntensity);
-
 		ShakeSpeed = (maxShakeIntensity - speedForce);
 		//print (ShakeSpeed);
 	}
-
-
 }
