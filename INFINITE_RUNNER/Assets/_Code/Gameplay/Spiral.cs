@@ -23,6 +23,8 @@ public class Spiral : MonoBehaviour {
 	
 	}
 	void Update(){
+
+
 		if (canRotate) {
 			cached.Rotate ((Vector3.forward * direction * speed * Time.deltaTime));
 
